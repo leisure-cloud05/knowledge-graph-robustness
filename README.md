@@ -370,7 +370,26 @@ The comparison script generates structural statistics for the original graph, fi
 
 The original candidate export also preserves ConceptNet relation categories and edge weights. The topology-only graph comparison does not by itself reproduce the complete four-column frozen `edges.csv`; faithful full-CSV reconstruction requires the corresponding export procedure and the Part A edge-cleaning rules.
 
-### 8.3 Robustness comparison
+### 8.3 Full Greedy Graph Reproduction
+
+The final Greedy graph can be reproduced from the original ConceptNet 5.7.0 assertions dataset using:
+
+```bash
+python -m scripts.export_greedy --raw data/raw/conceptnet-assertions-5.7.0.csv.gz
+```
+
+The reproduction uses a candidate pool of 5,000 nodes, random seed 2026, and a fixed graph size of 1,000 nodes.
+
+**Reproduction verification: PASSED**
+
+- Nodes: 1,000
+- Edges: 3,417
+- `nodes.csv` SHA-256: `a5f54f9700969335b98e9fc8566aaa03a2487a99402e06cad4e5c87f1a197e27`
+- `edges.csv` SHA-256: `941b353e004522b8e7ea156b27b24878012dcd31b79911d5993e0ade3980e483`
+
+Both SHA-256 hashes matched the authoritative frozen graph exactly, confirming byte-for-byte reproducibility, including edge relation and weight attributes. The verification was performed on Windows using the original ConceptNet assertions dataset.
+
+### 8.4 Robustness comparison
 
 The preliminary robustness experiment is implemented in:
 
