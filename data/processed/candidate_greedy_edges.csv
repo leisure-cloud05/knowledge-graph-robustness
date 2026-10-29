@@ -1,0 +1,3418 @@
+source,target,relation,weight
+/c/en/32mo,/c/en/book,"[""/r/RelatedTo""]",1.0
+/c/en/32mo,/c/en/paper,"[""/r/HasContext""]",1.0
+/c/en/a,/c/en/amphibian,"[""/r/RelatedTo""]",1.0
+/c/en/a,/c/en/any,"[""/r/RelatedTo""]",1.0
+/c/en/a,/c/en/apprentice,"[""/r/RelatedTo""]",2.0
+/c/en/a,/c/en/aqua,"[""/r/RelatedTo""]",1.0
+/c/en/a,/c/en/arterial,"[""/r/RelatedTo""]",1.0
+/c/en/a,/c/en/asian,"[""/r/RelatedTo""]",1.0
+/c/en/a,/c/en/before,"[""/r/RelatedTo""]",0.284
+/c/en/a,/c/en/buffet,"[""/r/AtLocation""]",1.0
+/c/en/a,/c/en/carbon,"[""/r/RelatedTo""]",1.0
+/c/en/a,/c/en/cat,"[""/r/HasProperty""]",1.0
+/c/en/a,/c/en/first,"[""/r/RelatedTo""]",0.653
+/c/en/a,/c/en/fork,"[""/r/AtLocation""]",1.0
+/c/en/a,/c/en/four,"[""/r/RelatedTo""]",0.127
+/c/en/a,/c/en/lemur,"[""/r/AtLocation""]",1.0
+/c/en/a,/c/en/lines,"[""/r/RelatedTo""]",0.127
+/c/en/a,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/a,/c/en/mouse,"[""/r/AtLocation""]",1.0
+/c/en/a,/c/en/ragamuffin,"[""/r/DerivedFrom"", ""/r/EtymologicallyRelatedTo""]",1.0
+/c/en/academic_organization,/c/en/educational_organization,"[""/r/IsA""]",1.0
+/c/en/academic_organization,/c/en/elementary_school,"[""/r/IsA""]",1.0
+/c/en/academic_organization,/c/en/school,"[""/r/IsA""]",1.0
+/c/en/accidence,/c/en/book,"[""/r/RelatedTo""]",1.0
+/c/en/accidence,/c/en/subject,"[""/r/RelatedTo""]",1.0
+/c/en/accipiter,/c/en/bird,"[""/r/IsA""]",0.5
+/c/en/accipiter,/c/en/brown_goshawk,"[""/r/dbpedia/genus""]",0.5
+/c/en/accipiter,/c/en/eurasian_sparrowhawk,"[""/r/dbpedia/genus""]",0.5
+/c/en/accipiter,/c/en/ornithology,"[""/r/HasContext""]",1.0
+/c/en/adelphophagy,/c/en/amphibian,"[""/r/RelatedTo""]",1.0
+/c/en/adelphophagy,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/adelphophagy,/c/en/shark,"[""/r/RelatedTo""]",1.0
+/c/en/adipocere,/c/en/animal,"[""/r/RelatedTo""]",1.0
+/c/en/adipocere,/c/en/fatty_acid,"[""/r/RelatedTo""]",1.0
+/c/en/adipocere,/c/en/substance,"[""/r/RelatedTo""]",1.0
+/c/en/adventurer,/c/en/adventurous,"[""/r/RelatedTo""]",1.0
+/c/en/adventurer,/c/en/dangerous,"[""/r/RelatedTo""]",1.0
+/c/en/adventurer,/c/en/person,"[""/r/RelatedTo""]",0.505
+/c/en/adventurous,/c/en/person,"[""/r/HasContext""]",1.0
+/c/en/adventurous,/c/en/safe,"[""/r/Antonym""]",1.0
+/c/en/advertisement,/c/en/booklet,"[""/r/RelatedTo""]",1.0
+/c/en/advertisement,/c/en/go_see_play,"[""/r/CausesDesire""]",1.0
+/c/en/advertisement,/c/en/magazine,"[""/r/AtLocation""]",2.828
+/c/en/advertisement,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/advertisement,/c/en/sell,"[""/r/UsedFor""]",1.0
+/c/en/aidi,/c/en/breed,"[""/r/RelatedTo""]",1.0
+/c/en/aidi,/c/en/dog,"[""/r/RelatedTo""]",1.0
+/c/en/aidi,/c/en/goat,"[""/r/RelatedTo""]",1.0
+/c/en/aidi,/c/en/herd,"[""/r/RelatedTo""]",1.0
+/c/en/air_conditioner,/c/en/car,"[""/r/AtLocation""]",1.0
+/c/en/air_conditioner,/c/en/control,"[""/r/RelatedTo""]",1.0
+/c/en/air_conditioner,/c/en/house,"[""/r/AtLocation""]",2.0
+/c/en/air_pollution,/c/en/going_for_drive,"[""/r/Causes""]",1.0
+/c/en/air_pollution,/c/en/person,"[""/r/NotDesires""]",2.0
+/c/en/airhouse,/c/en/house,"[""/r/DerivedFrom""]",1.0
+/c/en/airhouse,/c/en/mobile,"[""/r/RelatedTo""]",1.0
+/c/en/albumin,/c/en/eggs,"[""/r/RelatedTo""]",0.109
+/c/en/albumin,/c/en/fatty_acid,"[""/r/RelatedTo""]",1.0
+/c/en/albumin,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/alcoholic,/c/en/bar,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.0
+/c/en/alcoholic,/c/en/bug_juice,"[""/r/RelatedTo""]",1.0
+/c/en/alcoholic,/c/en/catlap,"[""/r/RelatedTo""]",1.0
+/c/en/alcoholic,/c/en/drinker,"[""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/alcoholic,/c/en/drinking,"[""/r/RelatedTo""]",1.0
+/c/en/alcoholic,/c/en/medicine,"[""/r/RelatedTo""]",1.0
+/c/en/alcoholic,/c/en/pasteur's_fluid,"[""/r/RelatedTo""]",1.0
+/c/en/alcoholic,/c/en/person,"[""/r/IsA"", ""/r/NotDesires""]",2.0
+/c/en/alcoholic,/c/en/vodka,"[""/r/RelatedTo""]",1.0
+/c/en/algebra,/c/en/algebraist,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/algebra,/c/en/degree,"[""/r/HasContext""]",1.0
+/c/en/algebra,/c/en/high,"[""/r/RelatedTo""]",0.265
+/c/en/algebra,/c/en/high_school,"[""/r/RelatedTo""]",0.265
+/c/en/algebra,/c/en/mathematics,"[""/r/HasContext"", ""/r/RelatedTo""]",1.0
+/c/en/algebra,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/algebra,/c/en/school,"[""/r/RelatedTo""]",0.438
+/c/en/algebra,/c/en/subject,"[""/r/RelatedTo""]",0.167
+/c/en/algebraist,/c/en/book,"[""/r/IsA""]",0.5
+/c/en/algebraist,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/allergies,/c/en/person,"[""/r/NotDesires""]",2.0
+/c/en/allergies,/c/en/sneeze,"[""/r/RelatedTo""]",1.051
+/c/en/alluminor,/c/en/book,"[""/r/RelatedTo""]",1.0
+/c/en/alluminor,/c/en/manuscript,"[""/r/RelatedTo""]",1.0
+/c/en/almshouse,/c/en/armshouse,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/almshouse,/c/en/hospital,"[""/r/RelatedTo""]",1.0
+/c/en/almshouse,/c/en/house,"[""/r/DerivedFrom""]",1.0
+/c/en/amberfish,/c/en/amberjack,"[""/r/RelatedTo""]",1.0
+/c/en/amberfish,/c/en/fish,"[""/r/DerivedFrom""]",1.0
+/c/en/amberjack,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/amberjack,/c/en/jack,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/ambient_food,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/ambient_food,/c/en/process,"[""/r/RelatedTo""]",1.0
+/c/en/american_cocker_spaniel,/c/en/breed,"[""/r/RelatedTo""]",1.0
+/c/en/american_cocker_spaniel,/c/en/dog,"[""/r/RelatedTo""]",1.0
+/c/en/amount_to,/c/en/anyone,"[""/r/CapableOf""]",1.0
+/c/en/amount_to,/c/en/person,"[""/r/CapableOf""]",2.828
+/c/en/amphibian,/c/en/animal,"[""/r/IsA""]",1.0
+/c/en/amphibian,/c/en/cold_blooded_animal,"[""/r/IsA""]",1.0
+/c/en/amphibian,/c/en/fish,"[""/r/RelatedTo""]",0.671
+/c/en/amphibian,/c/en/melanophore,"[""/r/RelatedTo""]",1.0
+/c/en/anadrom,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/anadrom,/c/en/river,"[""/r/RelatedTo""]",1.0
+/c/en/andiron,/c/en/dog,"[""/r/Synonym""]",1.0
+/c/en/andiron,/c/en/fireplace,"[""/r/RelatedTo""]",1.0
+/c/en/ang_moh,/c/en/foreigner,"[""/r/RelatedTo""]",1.0
+/c/en/ang_moh,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/anhinga,/c/en/any,"[""/r/RelatedTo""]",1.0
+/c/en/anhinga,/c/en/bird,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/anhinga,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/anhinga,/c/en/north_america,"[""/r/RelatedTo""]",1.0
+/c/en/anhinga,/c/en/snakebird,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/anhydrobiont,/c/en/biology,"[""/r/HasContext""]",1.0
+/c/en/anhydrobiont,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/animal_kingdom,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/animus,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/any,"[""/r/RelatedTo""]",0.212
+/c/en/animal,/c/en/back,"[""/r/RelatedTo""]",0.104
+/c/en/animal,/c/en/backtag,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/baiting,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/basket_star,"[""/r/IsA""]",0.5
+/c/en/animal,/c/en/bee_eater,"[""/r/IsA""]",1.0
+/c/en/animal,/c/en/bird,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/IsA"", ""/r/RelatedTo""]",8.332
+/c/en/animal,/c/en/boron_deficiency,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/box_jellyfish,"[""/r/IsA""]",0.5
+/c/en/animal,/c/en/breed,"[""/r/RelatedTo""]",0.102
+/c/en/animal,/c/en/brittle_star,"[""/r/IsA""]",0.5
+/c/en/animal,/c/en/burned,"[""/r/NotDesires""]",1.0
+/c/en/animal,/c/en/burro,"[""/r/RelatedTo""]",0.102
+/c/en/animal,/c/en/burrow,"[""/r/RelatedTo""]",0.335
+/c/en/animal,/c/en/caproic_acid,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/cat,"[""/r/IsA"", ""/r/RelatedTo""]",5.881
+/c/en/animal,/c/en/chest,"[""/r/AtLocation""]",1.0
+/c/en/animal,/c/en/child,"[""/r/IsA""]",1.0
+/c/en/animal,/c/en/choanoflagellate,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/chylaqueous,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/circus,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/claw,"[""/r/RelatedTo""]",0.506
+/c/en/animal,/c/en/cold_blooded_animal,"[""/r/IsA""]",1.0
+/c/en/animal,/c/en/colony,"[""/r/RelatedTo""]",0.169
+/c/en/animal,/c/en/companionship,"[""/r/UsedFor""]",1.0
+/c/en/animal,/c/en/coon,"[""/r/IsA""]",1.0
+/c/en/animal,/c/en/coypu,"[""/r/IsA""]",1.0
+/c/en/animal,/c/en/cross,"[""/r/RelatedTo""]",0.214
+/c/en/animal,/c/en/crow,"[""/r/IsA""]",1.0
+/c/en/animal,/c/en/dam,"[""/r/IsA""]",1.0
+/c/en/animal,/c/en/discovery,"[""/r/RelatedTo""]",0.101
+/c/en/animal,/c/en/dog,"[""/r/RelatedTo""]",9.41
+/c/en/animal,/c/en/domesticate,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/donkra,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/drinker,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/dwarf,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/dysteleology,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/earthly_branch,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/eel,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/equid,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/ethology,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/eyestripe,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/farms,"[""/r/RelatedTo""]",0.151
+/c/en/animal,/c/en/fatty_acid,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/feral,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/field_of_vision,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/firefly,"[""/r/IsA""]",1.0
+/c/en/animal,/c/en/fish,"[""/r/IsA"", ""/r/RelatedTo""]",8.938
+/c/en/animal,/c/en/food,"[""/r/UsedFor""]",2.0
+/c/en/animal,/c/en/fossil,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/four,"[""/r/RelatedTo""]",1.146
+/c/en/animal,/c/en/fur,"[""/r/RelatedTo"", ""/r/UsedFor""]",1.0
+/c/en/animal,/c/en/goat,"[""/r/RelatedTo""]",1.204
+/c/en/animal,/c/en/grass,"[""/r/RelatedTo""]",0.128
+/c/en/animal,/c/en/hare,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/haymaker,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/heart,"[""/r/AtLocation""]",2.0
+/c/en/animal,/c/en/heartbeat,"[""/r/RelatedTo""]",0.346
+/c/en/animal,/c/en/herd,"[""/r/RelatedTo""]",1.023
+/c/en/animal,/c/en/heterogangliate,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/housebreak,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/hunt,"[""/r/RelatedTo""]",0.671
+/c/en/animal,/c/en/husband,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/indicator,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/invertebrate,"[""/r/IsA"", ""/r/RelatedTo""]",2.0
+/c/en/animal,/c/en/kittiwake,"[""/r/IsA""]",1.0
+/c/en/animal,/c/en/leather,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/legs,"[""/r/RelatedTo""]",1.498
+/c/en/animal,/c/en/lemur,"[""/r/IsA""]",1.0
+/c/en/animal,/c/en/lobster,"[""/r/RelatedTo""]",0.175
+/c/en/animal,/c/en/marmoset,"[""/r/IsA""]",1.0
+/c/en/animal,/c/en/maverick,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/mechanical,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/milkfish,"[""/r/IsA""]",0.5
+/c/en/animal,/c/en/mobbing,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/mole,"[""/r/IsA"", ""/r/RelatedTo""]",6.68
+/c/en/animal,/c/en/mouse,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/mule,"[""/r/IsA"", ""/r/RelatedTo""]",1.034
+/c/en/animal,/c/en/muscle,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.0
+/c/en/animal,/c/en/mussel,"[""/r/RelatedTo""]",0.159
+/c/en/animal,/c/en/north_america,"[""/r/AtLocation""]",1.0
+/c/en/animal,/c/en/organ,"[""/r/AtLocation""]",1.0
+/c/en/animal,/c/en/orphan,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/paleobiology,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/person,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/RelatedTo""]",0.502
+/c/en/animal,/c/en/pet,"[""/r/Antonym"", ""/r/IsA"", ""/r/RelatedTo"", ""/r/UsedFor""]",4.069
+/c/en/animal,/c/en/plants,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/RelatedTo""]",0.283
+/c/en/animal,/c/en/pony,"[""/r/RelatedTo""]",0.209
+/c/en/animal,/c/en/predator,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/rabbit,"[""/r/IsA"", ""/r/RelatedTo""]",7.674
+/c/en/animal,/c/en/rattlesnake,"[""/r/RelatedTo""]",0.217
+/c/en/animal,/c/en/rogue,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/seal,"[""/r/RelatedTo""]",0.824
+/c/en/animal,/c/en/shark,"[""/r/RelatedTo""]",0.35
+/c/en/animal,/c/en/skinner_box,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/social_group,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/song,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/spider,"[""/r/IsA""]",1.0
+/c/en/animal,/c/en/sponge,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/starve,"[""/r/NotDesires""]",1.0
+/c/en/animal,/c/en/stomach,"[""/r/AtLocation""]",1.0
+/c/en/animal,/c/en/submarine,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/surcharge,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/tales,"[""/r/RelatedTo""]",0.119
+/c/en/animal,/c/en/tiger,"[""/r/IsA"", ""/r/RelatedTo""]",2.0
+/c/en/animal,/c/en/warm,"[""/r/RelatedTo""]",0.209
+/c/en/animal,/c/en/whale_shark,"[""/r/IsA""]",1.0
+/c/en/animal,/c/en/wife,"[""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/wolf,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/animal,/c/en/zoopraxinoscope,"[""/r/RelatedTo""]",1.0
+/c/en/animal_companion,/c/en/dog,"[""/r/RelatedTo""]",0.114
+/c/en/animal_companion,/c/en/pet,"[""/r/RelatedTo""]",0.341
+/c/en/animal_kingdom,/c/en/dog,"[""/r/PartOf""]",1.0
+/c/en/animus,/c/en/personality,"[""/r/RelatedTo""]",1.0
+/c/en/anointing_of_sick,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/anointing_of_sick,/c/en/priest,"[""/r/RelatedTo""]",1.0
+/c/en/ant,/c/en/antpecker,"[""/r/DerivedFrom""]",1.0
+/c/en/ant,/c/en/bike,"[""/r/RelatedTo""]",1.0
+/c/en/ant,/c/en/colony,"[""/r/RelatedTo""]",3.748
+/c/en/ant,/c/en/feathers,"[""/r/RelatedTo""]",1.0
+/c/en/ant,/c/en/food,"[""/r/RelatedTo""]",0.131
+/c/en/ant,/c/en/legs,"[""/r/RelatedTo""]",0.329
+/c/en/ant,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/ant,/c/en/ornithology,"[""/r/HasContext""]",1.0
+/c/en/ant,/c/en/small,"[""/r/RelatedTo""]",0.219
+/c/en/antisocial_behaviour_order,/c/en/british,"[""/r/HasContext""]",1.0
+/c/en/antisocial_behaviour_order,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/antpecker,/c/en/bird,"[""/r/IsA""]",0.5
+/c/en/anxiety,/c/en/fever,"[""/r/RelatedTo""]",1.0
+/c/en/anxiety,/c/en/person,"[""/r/NotDesires""]",2.828
+/c/en/anxiety,/c/en/worried,"[""/r/RelatedTo""]",0.164
+/c/en/any,/c/en/anyone,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/any,/c/en/before,"[""/r/RelatedTo""]",0.102
+/c/en/any,/c/en/book,"[""/r/RelatedTo""]",0.121
+/c/en/any,/c/en/capitol,"[""/r/RelatedTo""]",2.0
+/c/en/any,/c/en/crane,"[""/r/RelatedTo""]",1.0
+/c/en/any,/c/en/each,"[""/r/Synonym""]",1.0
+/c/en/any,/c/en/floor,"[""/r/RelatedTo""]",0.251
+/c/en/any,/c/en/noise,"[""/r/RelatedTo""]",0.144
+/c/en/any,/c/en/person,"[""/r/RelatedTo""]",0.278
+/c/en/any,/c/en/snakebird,"[""/r/RelatedTo""]",1.0
+/c/en/any,/c/en/toy,"[""/r/RelatedTo""]",0.177
+/c/en/any,/c/en/vessel,"[""/r/RelatedTo""]",0.219
+/c/en/anyone,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/anyone,/c/en/politician,"[""/r/RelatedTo""]",0.125
+/c/en/anyone,/c/en/think,"[""/r/CapableOf""]",1.0
+/c/en/appear_suddenly,/c/en/car,"[""/r/CapableOf""]",1.0
+/c/en/appear_suddenly,/c/en/rabbit,"[""/r/CapableOf""]",1.0
+/c/en/apple,/c/en/beauty,"[""/r/RelatedTo""]",0.122
+/c/en/apple,/c/en/computer,"[""/r/RelatedTo""]",4.164
+/c/en/apple,/c/en/dessert,"[""/r/UsedFor""]",1.0
+/c/en/apple,/c/en/fall_from_tree,"[""/r/CapableOf""]",5.292
+/c/en/apple,/c/en/food,"[""/r/RelatedTo""]",2.319
+/c/en/apple,/c/en/house,"[""/r/AtLocation""]",1.0
+/c/en/apple,/c/en/pet,"[""/r/RelatedTo""]",0.262
+/c/en/apple,/c/en/phone,"[""/r/RelatedTo""]",0.206
+/c/en/apple,/c/en/sate_hunger,"[""/r/UsedFor""]",2.0
+/c/en/apple,/c/en/type,"[""/r/RelatedTo""]",0.286
+/c/en/apprentice,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/apprentice,/c/en/servant,"[""/r/RelatedTo""]",0.144
+/c/en/apricot,/c/en/dog,"[""/r/RelatedTo""]",1.0
+/c/en/apricot,/c/en/fuzzy,"[""/r/RelatedTo""]",1.0
+/c/en/apricot,/c/en/small,"[""/r/RelatedTo""]",0.499
+/c/en/aqua,/c/en/aquacise,"[""/r/DerivedFrom""]",1.0
+/c/en/aqua,/c/en/aquaholic,"[""/r/DerivedFrom""]",1.0
+/c/en/aqua,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/aquacise,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/aquaehaustus,/c/en/river,"[""/r/RelatedTo""]",1.0
+/c/en/aquaehaustus,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/aquaholic,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/aquiparous,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/aquiparous,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/areas,/c/en/ferry,"[""/r/RelatedTo""]",0.125
+/c/en/areas,/c/en/house,"[""/r/RelatedTo""]",0.387
+/c/en/arista,/c/en/biology,"[""/r/HasContext""]",1.0
+/c/en/arista,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/armshouse,/c/en/house,"[""/r/DerivedFrom""]",1.0
+/c/en/aroo,/c/en/dog,"[""/r/RelatedTo""]",1.0
+/c/en/aroo,/c/en/wolf,"[""/r/RelatedTo""]",1.0
+/c/en/arterial,/c/en/road,"[""/r/RelatedTo""]",1.0
+/c/en/asian,/c/en/breed,"[""/r/RelatedTo""]",1.0
+/c/en/asian,/c/en/chinese,"[""/r/IsA""]",1.0
+/c/en/asian,/c/en/dotted_gizzard_shad,"[""/r/RelatedTo""]",1.0
+/c/en/asian,/c/en/dunnock,"[""/r/RelatedTo""]",1.0
+/c/en/asian,/c/en/jordanian_person,"[""/r/IsA""]",1.0
+/c/en/asian,/c/en/lebanese_person,"[""/r/IsA""]",1.0
+/c/en/asian,/c/en/nepalese,"[""/r/IsA""]",1.0
+/c/en/asian,/c/en/person,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/asian,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/asian,/c/en/sesame,"[""/r/RelatedTo""]",1.0
+/c/en/asian,/c/en/sikkim_person,"[""/r/IsA""]",1.0
+/c/en/asian,/c/en/taiwanese,"[""/r/IsA""]",1.0
+/c/en/asian,/c/en/turkmen,"[""/r/IsA""]",1.0
+/c/en/asian,/c/en/volcano_islands_person,"[""/r/IsA""]",1.0
+/c/en/asphalt,/c/en/asphalt_concrete,"[""/r/RelatedTo""]",1.0
+/c/en/asphalt,/c/en/floor,"[""/r/RelatedTo""]",0.167
+/c/en/asphalt,/c/en/road,"[""/r/RelatedTo""]",1.583
+/c/en/asphalt,/c/en/street,"[""/r/RelatedTo""]",0.662
+/c/en/asphalt_concrete,/c/en/road,"[""/r/RelatedTo""]",1.0
+/c/en/athlete,/c/en/diver,"[""/r/IsA""]",1.0
+/c/en/athlete,/c/en/jog,"[""/r/CapableOf""]",1.0
+/c/en/athlete,/c/en/person,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/athlete,/c/en/rookie,"[""/r/RelatedTo""]",1.0
+/c/en/athlete,/c/en/runner,"[""/r/IsA""]",1.0
+/c/en/athlete,/c/en/type,"[""/r/RelatedTo""]",0.106
+/c/en/atopy,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/atopy,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/attending_class,/c/en/school,"[""/r/HasPrerequisite""]",1.0
+/c/en/attending_class,/c/en/think,"[""/r/HasSubevent""]",1.0
+/c/en/authority,/c/en/charter,"[""/r/RelatedTo""]",1.0
+/c/en/authority,/c/en/control,"[""/r/RelatedTo""]",0.108
+/c/en/authority,/c/en/deed,"[""/r/RelatedTo""]",0.105
+/c/en/authority,/c/en/ethos,"[""/r/RelatedTo""]",1.0
+/c/en/authority,/c/en/executor_de_son_tort,"[""/r/RelatedTo""]",1.0
+/c/en/authority,/c/en/guard,"[""/r/RelatedTo""]",0.101
+/c/en/authority,/c/en/judge,"[""/r/RelatedTo""]",0.951
+/c/en/authority,/c/en/manor,"[""/r/RelatedTo""]",1.0
+/c/en/authority,/c/en/officer,"[""/r/RelatedTo""]",1.0
+/c/en/authority,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/authority,/c/en/rule,"[""/r/RelatedTo""]",0.466
+/c/en/autonomy,/c/en/church,"[""/r/RelatedTo""]",1.0
+/c/en/autonomy,/c/en/liberalism,"[""/r/RelatedTo""]",1.0
+/c/en/autonomy,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/azure_jay,/c/en/bird,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/azure_jay,/c/en/crow,"[""/r/RelatedTo""]",1.0
+/c/en/b_road,/c/en/british,"[""/r/HasContext""]",1.0
+/c/en/b_road,/c/en/road,"[""/r/RelatedTo""]",1.0
+/c/en/bab,/c/en/bundle,"[""/r/RelatedTo""]",1.0
+/c/en/bab,/c/en/eel,"[""/r/RelatedTo""]",1.0
+/c/en/bab,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/babbling,/c/en/child,"[""/r/RelatedTo""]",1.0
+/c/en/babbling,/c/en/language,"[""/r/RelatedTo""]",1.0
+/c/en/baby_killer,/c/en/british,"[""/r/HasContext""]",1.0
+/c/en/baby_killer,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/baby_of_family,/c/en/child,"[""/r/RelatedTo""]",1.0
+/c/en/baby_of_family,/c/en/family,"[""/r/DerivedFrom""]",1.0
+/c/en/back,/c/en/backache,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/back,/c/en/backtag,"[""/r/DerivedFrom""]",1.0
+/c/en/back,/c/en/backwash,"[""/r/DerivedFrom""]",1.0
+/c/en/back,/c/en/backwashing,"[""/r/DerivedFrom""]",1.0
+/c/en/back,/c/en/bacover,"[""/r/DerivedFrom""]",1.0
+/c/en/back,/c/en/blueback,"[""/r/DerivedFrom""]",1.0
+/c/en/back,/c/en/book,"[""/r/RelatedTo""]",0.132
+/c/en/back,/c/en/bumper,"[""/r/RelatedTo""]",1.0
+/c/en/back,/c/en/canvasback,"[""/r/DerivedFrom""]",1.0
+/c/en/back,/c/en/chest,"[""/r/RelatedTo""]",0.141
+/c/en/back,/c/en/debt,"[""/r/RelatedTo""]",0.146
+/c/en/back,/c/en/door,"[""/r/RelatedTo""]",0.295
+/c/en/back,/c/en/fork,"[""/r/AtLocation""]",1.0
+/c/en/back,/c/en/half_binding,"[""/r/RelatedTo""]",1.0
+/c/en/back,/c/en/mantle,"[""/r/RelatedTo""]",1.0
+/c/en/back,/c/en/queue,"[""/r/RelatedTo""]",1.0
+/c/en/back,/c/en/reward,"[""/r/RelatedTo""]",0.128
+/c/en/back,/c/en/small,"[""/r/RelatedTo""]",1.0
+/c/en/back,/c/en/softback,"[""/r/DerivedFrom""]",1.0
+/c/en/back,/c/en/tales,"[""/r/RelatedTo""]",0.119
+/c/en/back,/c/en/two,"[""/r/RelatedTo""]",0.108
+/c/en/back,/c/en/windshield,"[""/r/RelatedTo""]",1.0
+/c/en/back_garden,/c/en/front_garden,"[""/r/RelatedTo""]",1.0
+/c/en/back_garden,/c/en/house,"[""/r/AtLocation""]",2.0
+/c/en/back_garden,/c/en/plants,"[""/r/HasA""]",1.0
+/c/en/back_garden,/c/en/property,"[""/r/RelatedTo""]",1.0
+/c/en/backache,/c/en/person,"[""/r/NotDesires""]",2.0
+/c/en/backhouse,/c/en/house,"[""/r/IsA""]",1.0
+/c/en/backhouse,/c/en/main,"[""/r/RelatedTo""]",1.0
+/c/en/backwash,/c/en/backwashing,"[""/r/RelatedTo""]",1.0
+/c/en/backwash,/c/en/engine,"[""/r/RelatedTo""]",1.0
+/c/en/backwash,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/backwash,/c/en/oar,"[""/r/RelatedTo""]",1.0
+/c/en/backwash,/c/en/wash,"[""/r/DerivedFrom""]",1.0
+/c/en/backwash,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/backwashing,/c/en/filter,"[""/r/RelatedTo""]",1.0
+/c/en/backwashing,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/bacover,/c/en/book,"[""/r/RelatedTo""]",1.0
+/c/en/bacover,/c/en/magazine,"[""/r/RelatedTo""]",1.0
+/c/en/bacover,/c/en/medium,"[""/r/RelatedTo""]",1.0
+/c/en/bacterivore,/c/en/biology,"[""/r/HasContext""]",1.0
+/c/en/bacterivore,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/bad_actor,/c/en/criminal,"[""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/bad_actor,/c/en/law,"[""/r/HasContext""]",1.0
+/c/en/bad_actor,/c/en/mean,"[""/r/RelatedTo""]",1.0
+/c/en/bad_actor,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/bad_music,/c/en/noise,"[""/r/RelatedTo""]",0.171
+/c/en/bad_music,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/bag,/c/en/boil_in_bag,"[""/r/RelatedTo""]",1.0
+/c/en/bag,/c/en/budget,"[""/r/RelatedTo""]",1.0
+/c/en/bag,/c/en/carry_shopping,"[""/r/RelatedTo""]",0.102
+/c/en/bag,/c/en/cat,"[""/r/AtLocation""]",3.464
+/c/en/bag,/c/en/dog,"[""/r/Synonym""]",1.0
+/c/en/bag,/c/en/fishing,"[""/r/RelatedTo""]",1.0
+/c/en/bag,/c/en/fluid,"[""/r/RelatedTo""]",1.0
+/c/en/bag,/c/en/glad,"[""/r/RelatedTo""]",0.73
+/c/en/bag,/c/en/holder,"[""/r/RelatedTo""]",0.582
+/c/en/bag,/c/en/hunt,"[""/r/RelatedTo""]",1.0
+/c/en/bag,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/bag,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/bag,/c/en/paper,"[""/r/RelatedTo""]",1.0
+/c/en/bag,/c/en/school,"[""/r/RelatedTo""]",0.11
+/c/en/bag,/c/en/shelf,"[""/r/AtLocation""]",1.0
+/c/en/bag,/c/en/street,"[""/r/RelatedTo""]",1.0
+/c/en/bag,/c/en/wad,"[""/r/Synonym""]",1.0
+/c/en/bahá_u'lláh,/c/en/jesus,"[""/r/SimilarTo""]",1.0
+/c/en/bahá_u'lláh,/c/en/person,"[""/r/IsA""]",0.5
+/c/en/bait_ball,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/bait_ball,/c/en/school,"[""/r/RelatedTo""]",1.0
+/c/en/bait_hook,/c/en/fish,"[""/r/HasFirstSubevent"", ""/r/HasPrerequisite"", ""/r/HasSubevent""]",2.0
+/c/en/bait_hook,/c/en/fishing,"[""/r/HasSubevent""]",4.472
+/c/en/baiting,/c/en/dog,"[""/r/RelatedTo""]",1.0
+/c/en/baklava,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/baklava,/c/en/pastry,"[""/r/RelatedTo""]",1.0
+/c/en/balloon,/c/en/child,"[""/r/Desires""]",1.0
+/c/en/balloon,/c/en/circus,"[""/r/AtLocation""]",1.0
+/c/en/balloon,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/balloon,/c/en/toy,"[""/r/RelatedTo""]",1.0
+/c/en/balloon,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/banbury_cake,/c/en/cake,"[""/r/RelatedTo""]",1.0
+/c/en/banbury_cake,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/banbury_cake,/c/en/pastry,"[""/r/RelatedTo""]",1.0
+/c/en/band,/c/en/bandog,"[""/r/DerivedFrom""]",1.0
+/c/en/band,/c/en/cranberry,"[""/r/RelatedTo""]",0.134
+/c/en/band,/c/en/cut,"[""/r/RelatedTo""]",0.153
+/c/en/band,/c/en/doors,"[""/r/IsA""]",0.5
+/c/en/band,/c/en/four,"[""/r/RelatedTo""]",0.226
+/c/en/band,/c/en/ground,"[""/r/RelatedTo""]",0.162
+/c/en/band,/c/en/high,"[""/r/RelatedTo""]",0.268
+/c/en/band,/c/en/high_school,"[""/r/RelatedTo""]",0.268
+/c/en/band,/c/en/house,"[""/r/IsA""]",0.5
+/c/en/band,/c/en/miss,"[""/r/IsA""]",0.5
+/c/en/band,/c/en/organ,"[""/r/IsA""]",0.5
+/c/en/band,/c/en/parade,"[""/r/RelatedTo""]",0.132
+/c/en/band,/c/en/rare_bird,"[""/r/IsA""]",0.5
+/c/en/band,/c/en/roll,"[""/r/RelatedTo""]",0.352
+/c/en/band,/c/en/school,"[""/r/RelatedTo""]",0.571
+/c/en/band,/c/en/singing,"[""/r/RelatedTo""]",0.193
+/c/en/band,/c/en/small,"[""/r/RelatedTo""]",0.346
+/c/en/band,/c/en/striped,"[""/r/RelatedTo""]",1.0
+/c/en/band,/c/en/theater,"[""/r/AtLocation""]",1.0
+/c/en/band,/c/en/type,"[""/r/RelatedTo""]",0.139
+/c/en/band,/c/en/web,"[""/r/RelatedTo""]",1.0
+/c/en/bandog,/c/en/dog,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/bandog,/c/en/mastiff,"[""/r/RelatedTo""]",1.0
+/c/en/bankhar,/c/en/breed,"[""/r/RelatedTo""]",1.0
+/c/en/bankhar,/c/en/dog,"[""/r/RelatedTo""]",1.0
+/c/en/baptism,/c/en/chrisom,"[""/r/RelatedTo""]",1.0
+/c/en/baptism,/c/en/church,"[""/r/RelatedTo""]",1.0
+/c/en/baptism,/c/en/immersion,"[""/r/RelatedTo""]",1.0
+/c/en/baptism,/c/en/water,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/bar,/c/en/barperson,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/bar,/c/en/car,"[""/r/RelatedTo""]",0.115
+/c/en/bar,/c/en/cheater,"[""/r/RelatedTo""]",1.0
+/c/en/bar,/c/en/church,"[""/r/Antonym""]",0.276
+/c/en/bar,/c/en/cross,"[""/r/RelatedTo""]",1.0
+/c/en/bar,/c/en/customer,"[""/r/AtLocation""]",2.0
+/c/en/bar,/c/en/drinking,"[""/r/RelatedTo"", ""/r/UsedFor""]",7.935
+/c/en/bar,/c/en/food,"[""/r/RelatedTo""]",0.183
+/c/en/bar,/c/en/for_drinking,"[""/r/RelatedTo""]",0.398
+/c/en/bar,/c/en/fun,"[""/r/RelatedTo""]",0.592
+/c/en/bar,/c/en/furniture,"[""/r/RelatedTo""]",0.305
+/c/en/bar,/c/en/hall,"[""/r/RelatedTo""]",0.195
+/c/en/bar,/c/en/house,"[""/r/RelatedTo""]",0.514
+/c/en/bar,/c/en/inn,"[""/r/RelatedTo""]",0.496
+/c/en/bar,/c/en/law,"[""/r/RelatedTo""]",0.162
+/c/en/bar,/c/en/steel,"[""/r/RelatedTo""]",0.104
+/c/en/bar,/c/en/stick,"[""/r/RelatedTo""]",0.33
+/c/en/bar,/c/en/street,"[""/r/AtLocation""]",1.0
+/c/en/bar,/c/en/venue,"[""/r/RelatedTo""]",0.19
+/c/en/bar,/c/en/vodka,"[""/r/AtLocation""]",3.464
+/c/en/barbadian,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/barbadian,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/barn_swallow,/c/en/bird,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/barn_swallow,/c/en/swallow,"[""/r/RelatedTo""]",1.0
+/c/en/barperson,/c/en/person,"[""/r/DerivedFrom""]",1.0
+/c/en/barrel_roll,/c/en/car,"[""/r/RelatedTo""]",1.0
+/c/en/barrel_roll,/c/en/roll,"[""/r/RelatedTo""]",1.0
+/c/en/base_court,/c/en/castle,"[""/r/RelatedTo""]",1.0
+/c/en/base_court,/c/en/house,"[""/r/RelatedTo""]",1.0
+/c/en/basket,/c/en/basket_house,"[""/r/DerivedFrom""]",1.0
+/c/en/basket,/c/en/basket_star,"[""/r/DerivedFrom""]",1.0
+/c/en/basket,/c/en/breadbasket,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/basket,/c/en/church,"[""/r/AtLocation""]",1.0
+/c/en/basket,/c/en/eggs,"[""/r/RelatedTo""]",0.244
+/c/en/basket,/c/en/flasket,"[""/r/RelatedTo""]",1.0
+/c/en/basket,/c/en/food,"[""/r/RelatedTo""]",0.143
+/c/en/basket,/c/en/guard,"[""/r/RelatedTo""]",1.0
+/c/en/basket,/c/en/kitchen,"[""/r/AtLocation""]",1.0
+/c/en/basket,/c/en/roll,"[""/r/RelatedTo""]",0.37
+/c/en/basket_house,/c/en/house,"[""/r/IsA""]",1.0
+/c/en/basket_star,/c/en/brittle_star,"[""/r/RelatedTo""]",1.0
+/c/en/basking_shark,/c/en/fish,"[""/r/IsA""]",0.5
+/c/en/basking_shark,/c/en/plankton,"[""/r/RelatedTo""]",1.0
+/c/en/basking_shark,/c/en/shark,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/beach,/c/en/bungalow,"[""/r/AtLocation""]",1.0
+/c/en/beach,/c/en/coast,"[""/r/DistinctFrom"", ""/r/RelatedTo""]",7.207
+/c/en/beach,/c/en/ocean,"[""/r/AtLocation"", ""/r/RelatedTo""]",3.464
+/c/en/beach,/c/en/overwash,"[""/r/RelatedTo""]",1.0
+/c/en/beach,/c/en/shoreline,"[""/r/IsA""]",1.0
+/c/en/beach,/c/en/summer,"[""/r/RelatedTo""]",0.452
+/c/en/beach,/c/en/warm,"[""/r/RelatedTo""]",0.163
+/c/en/beach,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/beagle,/c/en/dog,"[""/r/IsA"", ""/r/RelatedTo""]",3.464
+/c/en/beagle,/c/en/hare,"[""/r/RelatedTo""]",1.0
+/c/en/beagle,/c/en/hunt,"[""/r/RelatedTo""]",1.0
+/c/en/beagle,/c/en/pet,"[""/r/RelatedTo""]",1.0
+/c/en/beam,/c/en/camber,"[""/r/RelatedTo""]",1.0
+/c/en/beam,/c/en/cross,"[""/r/RelatedTo""]",1.0
+/c/en/beam,/c/en/equipment,"[""/r/RelatedTo""]",0.106
+/c/en/beam,/c/en/handle,"[""/r/RelatedTo""]",1.0
+/c/en/beam,/c/en/high,"[""/r/RelatedTo""]",0.102
+/c/en/beam,/c/en/house,"[""/r/AtLocation""]",3.464
+/c/en/beam,/c/en/post,"[""/r/RelatedTo""]",0.102
+/c/en/beam,/c/en/railway,"[""/r/HasContext""]",1.0
+/c/en/beam,/c/en/sister,"[""/r/RelatedTo""]",1.0
+/c/en/beam,/c/en/steel,"[""/r/RelatedTo""]",1.0
+/c/en/beam,/c/en/straight,"[""/r/RelatedTo""]",0.309
+/c/en/beam,/c/en/turnpike,"[""/r/RelatedTo""]",1.0
+/c/en/beam,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/bean,/c/en/british,"[""/r/HasContext""]",1.0
+/c/en/bean,/c/en/calavance,"[""/r/RelatedTo""]",1.0
+/c/en/bean,/c/en/cassoulet,"[""/r/RelatedTo""]",1.0
+/c/en/bean,/c/en/fabada_asturiana,"[""/r/RelatedTo""]",1.0
+/c/en/bean,/c/en/food,"[""/r/RelatedTo""]",0.564
+/c/en/bean,/c/en/frijol,"[""/r/RelatedTo""]",1.0
+/c/en/bean,/c/en/jack,"[""/r/RelatedTo""]",0.217
+/c/en/bean,/c/en/runner,"[""/r/RelatedTo""]",0.144
+/c/en/bean,/c/en/specifically,"[""/r/HasContext""]",1.0
+/c/en/beauty,/c/en/born,"[""/r/RelatedTo""]",0.128
+/c/en/beauty,/c/en/cartoon,"[""/r/RelatedTo""]",0.204
+/c/en/beauty,/c/en/female,"[""/r/RelatedTo""]",0.238
+/c/en/beauty,/c/en/fine,"[""/r/RelatedTo""]",1.0
+/c/en/beauty,/c/en/freyja,"[""/r/RelatedTo""]",1.0
+/c/en/beauty,/c/en/good_looking,"[""/r/RelatedTo""]",0.488
+/c/en/beauty,/c/en/mole,"[""/r/Antonym"", ""/r/RelatedTo""]",1.45
+/c/en/beauty,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/beauty,/c/en/polish,"[""/r/RelatedTo""]",0.145
+/c/en/beauty,/c/en/property,"[""/r/RelatedTo""]",0.412
+/c/en/beauty,/c/en/temple,"[""/r/UsedFor""]",1.0
+/c/en/beauty,/c/en/truth,"[""/r/RelatedTo""]",0.16
+/c/en/beauty,/c/en/wash,"[""/r/RelatedTo""]",1.0
+/c/en/bee_eater,/c/en/bird,"[""/r/IsA""]",1.0
+/c/en/beehive_shelf,/c/en/equipment,"[""/r/RelatedTo""]",1.0
+/c/en/beehive_shelf,/c/en/gas,"[""/r/RelatedTo""]",1.0
+/c/en/beehive_shelf,/c/en/school,"[""/r/RelatedTo""]",1.0
+/c/en/beehive_shelf,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/before,/c/en/burn,"[""/r/RelatedTo""]",0.14
+/c/en/before,/c/en/carbon,"[""/r/RelatedTo""]",0.294
+/c/en/before,/c/en/colony,"[""/r/RelatedTo""]",0.525
+/c/en/before,/c/en/first,"[""/r/RelatedTo""]",2.924
+/c/en/before,/c/en/foreigner,"[""/r/RelatedTo""]",0.108
+/c/en/before,/c/en/post,"[""/r/Antonym""]",0.265
+/c/en/before,/c/en/psalm,"[""/r/RelatedTo""]",0.101
+/c/en/before,/c/en/school,"[""/r/RelatedTo""]",0.267
+/c/en/before,/c/en/spring,"[""/r/RelatedTo""]",0.205
+/c/en/before,/c/en/stick,"[""/r/RelatedTo""]",0.125
+/c/en/before,/c/en/street,"[""/r/RelatedTo""]",0.191
+/c/en/before,/c/en/supper,"[""/r/RelatedTo""]",0.207
+/c/en/before,/c/en/wash,"[""/r/RelatedTo""]",1.134
+/c/en/bell_curve,/c/en/book,"[""/r/IsA""]",0.5
+/c/en/bell_curve,/c/en/mathematics,"[""/r/RelatedTo""]",1.0
+/c/en/benami,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/benami,/c/en/property,"[""/r/RelatedTo""]",1.0
+/c/en/bengal,/c/en/breed,"[""/r/RelatedTo""]",1.0
+/c/en/bengal,/c/en/cat,"[""/r/RelatedTo""]",1.0
+/c/en/benzenesulfonic_acid,/c/en/solid,"[""/r/RelatedTo""]",1.0
+/c/en/benzenesulfonic_acid,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/bib,/c/en/chest,"[""/r/RelatedTo""]",0.436
+/c/en/bib,/c/en/food,"[""/r/RelatedTo""]",0.287
+/c/en/bib,/c/en/lobster,"[""/r/RelatedTo""]",0.104
+/c/en/bib,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/biffeche_person,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/biffeche_person,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/bike,/c/en/car,"[""/r/Antonym"", ""/r/DistinctFrom""]",0.421
+/c/en/bike,/c/en/handle,"[""/r/RelatedTo""]",0.217
+/c/en/bike,/c/en/street,"[""/r/AtLocation""]",2.0
+/c/en/binary_tree,/c/en/child,"[""/r/RelatedTo""]",1.0
+/c/en/binary_tree,/c/en/full_binary_tree,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/binary_tree,/c/en/hextree,"[""/r/RelatedTo""]",1.0
+/c/en/binary_tree,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/binary_tree,/c/en/octree,"[""/r/RelatedTo""]",1.0
+/c/en/binge,/c/en/buster,"[""/r/RelatedTo""]",1.0
+/c/en/binge,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/binge,/c/en/period,"[""/r/RelatedTo""]",1.0
+/c/en/biology,/c/en/bundle,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/choanoflagellate,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/cross,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/hydrostat,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/limnobiology,"[""/r/RelatedTo""]",1.0
+/c/en/biology,/c/en/melanophore,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/mobbing,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/mobile,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/paleobiology,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/biology,/c/en/person,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/primitive,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/restriction,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/school,"[""/r/RelatedTo""]",0.168
+/c/en/biology,/c/en/siren,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/stimulation,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/subject,"[""/r/RelatedTo""]",0.168
+/c/en/biology,/c/en/transmission,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/type,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/vessel,"[""/r/HasContext""]",1.0
+/c/en/biology,/c/en/washout,"[""/r/HasContext""]",1.0
+/c/en/bird,/c/en/birdeye,"[""/r/DerivedFrom""]",1.0
+/c/en/bird,/c/en/birdfeed,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/brown_goshawk,"[""/r/IsA""]",0.5
+/c/en/bird,/c/en/canvasback,"[""/r/IsA""]",0.5
+/c/en/bird,/c/en/cardinal,"[""/r/IsA"", ""/r/RelatedTo""]",2.828
+/c/en/bird,/c/en/colony,"[""/r/RelatedTo""]",0.102
+/c/en/bird,/c/en/crane,"[""/r/IsA"", ""/r/RelatedTo""]",1.235
+/c/en/bird,/c/en/crow,"[""/r/IsA"", ""/r/RelatedTo""]",4.472
+/c/en/bird,/c/en/cuckoo,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/cuckoo_dove,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/cuculid,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/dunnock,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/eggs,"[""/r/RelatedTo""]",0.548
+/c/en/bird,/c/en/elf_owl,"[""/r/IsA""]",0.5
+/c/en/bird,/c/en/emberizidae,"[""/r/IsA""]",0.5
+/c/en/bird,/c/en/eurasian_sparrowhawk,"[""/r/IsA""]",0.5
+/c/en/bird,/c/en/eyestripe,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/feathers,"[""/r/HasA"", ""/r/RelatedTo""]",3.743
+/c/en/bird,/c/en/fish,"[""/r/Antonym""]",0.179
+/c/en/bird,/c/en/flight_feather,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/flutter,"[""/r/RelatedTo""]",0.102
+/c/en/bird,/c/en/flying,"[""/r/RelatedTo""]",6.637
+/c/en/bird,/c/en/giblets,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/gigerium,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/glaucous_gull,"[""/r/IsA""]",0.5
+/c/en/bird,/c/en/goes,"[""/r/RelatedTo""]",0.124
+/c/en/bird,/c/en/golden_pheasant,"[""/r/IsA""]",0.5
+/c/en/bird,/c/en/grassquit,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/grasswren,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/gull,"[""/r/IsA""]",3.464
+/c/en/bird,/c/en/hautein,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/high,"[""/r/RelatedTo""]",0.256
+/c/en/bird,/c/en/kittiwake,"[""/r/IsA""]",1.0
+/c/en/bird,/c/en/loon,"[""/r/IsA"", ""/r/RelatedTo""]",1.133
+/c/en/bird,/c/en/mantle,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/ornithology,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/ovenbird,"[""/r/DerivedFrom"", ""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/parcel,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/passenger,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/pectoral_sandpiper,"[""/r/IsA""]",0.5
+/c/en/bird,/c/en/pet,"[""/r/CapableOf"", ""/r/RelatedTo""]",2.828
+/c/en/bird,/c/en/rare_bird,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/bird,/c/en/redbird,"[""/r/DerivedFrom""]",1.0
+/c/en/bird,/c/en/sandhill_crane,"[""/r/IsA""]",0.5
+/c/en/bird,/c/en/singing,"[""/r/RelatedTo""]",0.196
+/c/en/bird,/c/en/small,"[""/r/RelatedTo""]",0.344
+/c/en/bird,/c/en/snakebird,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/song,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/spinetail,"[""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/statue,"[""/r/RelatedTo""]",0.198
+/c/en/bird,/c/en/street,"[""/r/RelatedTo""]",0.122
+/c/en/bird,/c/en/swallow,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/bird,/c/en/two,"[""/r/RelatedTo""]",0.174
+/c/en/bird,/c/en/type,"[""/r/RelatedTo""]",0.371
+/c/en/birdeye,/c/en/small,"[""/r/RelatedTo""]",1.0
+/c/en/birdfeed,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/birth,/c/en/born,"[""/r/RelatedTo""]",4.071
+/c/en/birth,/c/en/cake,"[""/r/RelatedTo""]",0.285
+/c/en/birth,/c/en/child,"[""/r/CreatedBy""]",1.0
+/c/en/birth,/c/en/hospital,"[""/r/RelatedTo""]",0.307
+/c/en/birth,/c/en/labor,"[""/r/RelatedTo""]",0.169
+/c/en/birth,/c/en/mole,"[""/r/RelatedTo""]",0.244
+/c/en/blacken,/c/en/dirty,"[""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/blacken,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/blancmange,/c/en/dessert,"[""/r/InstanceOf"", ""/r/RelatedTo""]",1.0
+/c/en/blancmange,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/blancmange,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/blue_light_bandit,/c/en/criminal,"[""/r/RelatedTo""]",1.0
+/c/en/blue_light_bandit,/c/en/road,"[""/r/RelatedTo""]",1.0
+/c/en/blueback,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/boarhound,/c/en/breed,"[""/r/RelatedTo""]",1.0
+/c/en/boarhound,/c/en/dog,"[""/r/RelatedTo""]",1.0
+/c/en/boat,/c/en/boat_person,"[""/r/RelatedTo""]",1.0
+/c/en/boat,/c/en/car,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/RelatedTo""]",0.921
+/c/en/boat,/c/en/cruiser,"[""/r/RelatedTo""]",0.289
+/c/en/boat,/c/en/dock,"[""/r/RelatedTo""]",0.902
+/c/en/boat,/c/en/engine,"[""/r/RelatedTo""]",0.731
+/c/en/boat,/c/en/ferry,"[""/r/RelatedTo""]",3.828
+/c/en/boat,/c/en/fish,"[""/r/AtLocation""]",2.828
+/c/en/boat,/c/en/fishboat,"[""/r/DerivedFrom""]",1.0
+/c/en/boat,/c/en/fishing,"[""/r/RelatedTo"", ""/r/UsedFor""]",4.472
+/c/en/boat,/c/en/food,"[""/r/AtLocation""]",1.0
+/c/en/boat,/c/en/gas,"[""/r/AtLocation""]",1.0
+/c/en/boat,/c/en/goat,"[""/r/RelatedTo""]",0.179
+/c/en/boat,/c/en/leak,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/boat,/c/en/oar,"[""/r/RelatedTo""]",1.0
+/c/en/boat,/c/en/ocean,"[""/r/AtLocation"", ""/r/RelatedTo""]",3.464
+/c/en/boat,/c/en/river,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.828
+/c/en/boat,/c/en/sink,"[""/r/NotDesires""]",1.0
+/c/en/boat,/c/en/small,"[""/r/RelatedTo""]",3.888
+/c/en/boat,/c/en/submarine,"[""/r/IsA"", ""/r/RelatedTo""]",6.0
+/c/en/boat,/c/en/type,"[""/r/RelatedTo""]",0.17
+/c/en/boat,/c/en/vessel,"[""/r/IsA"", ""/r/RelatedTo""]",6.261
+/c/en/boat,/c/en/water,"[""/r/AtLocation"", ""/r/RelatedTo""]",8.246
+/c/en/boat_person,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/body_of_water,/c/en/estuary,"[""/r/IsA""]",1.0
+/c/en/body_of_water,/c/en/fish,"[""/r/AtLocation""]",1.0
+/c/en/body_of_water,/c/en/gulf_of_thailand,"[""/r/IsA""]",0.5
+/c/en/body_of_water,/c/en/ocean,"[""/r/IsA""]",4.0
+/c/en/body_of_water,/c/en/river,"[""/r/IsA""]",1.0
+/c/en/body_of_water,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/boil_in_bag,/c/en/drain,"[""/r/RelatedTo""]",1.0
+/c/en/boil_in_bag,/c/en/en_vessie,"[""/r/RelatedTo""]",1.0
+/c/en/boil_in_bag,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/boil_in_bag,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/boil_order,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/boil_order,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/bookbinding,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",2.0
+/c/en/book,/c/en/bookend,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/booklet,"[""/r/DerivedFrom"", ""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/bookmaker,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/bookmark,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/bookstop,"[""/r/DerivedFrom""]",1.0
+/c/en/book,/c/en/broker,"[""/r/IsA""]",0.5
+/c/en/book,/c/en/bundle,"[""/r/RelatedTo""]",0.227
+/c/en/book,/c/en/by_book,"[""/r/DerivedFrom""]",1.0
+/c/en/book,/c/en/chequebook,"[""/r/DerivedFrom""]",1.0
+/c/en/book,/c/en/codex,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/comic_book,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/companionship,"[""/r/UsedFor""]",1.0
+/c/en/book,/c/en/contains,"[""/r/RelatedTo""]",0.495
+/c/en/book,/c/en/cookbook,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/copy,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/corrections,"[""/r/IsA""]",0.5
+/c/en/book,/c/en/dog_ear,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/dogear,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/doorstop,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/flexi_disc,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/floor,"[""/r/AtLocation""]",1.0
+/c/en/book,/c/en/folio,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/half_binding,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/having_fun,"[""/r/UsedFor""]",1.0
+/c/en/book,/c/en/holder,"[""/r/RelatedTo""]",0.364
+/c/en/book,/c/en/house,"[""/r/AtLocation""]",2.0
+/c/en/book,/c/en/jellyfish,"[""/r/AtLocation""]",1.0
+/c/en/book,/c/en/journal,"[""/r/RelatedTo""]",0.204
+/c/en/book,/c/en/lemur,"[""/r/AtLocation""]",1.0
+/c/en/book,/c/en/magazine,"[""/r/Antonym"", ""/r/IsA"", ""/r/RelatedTo""]",2.0
+/c/en/book,/c/en/manuscript,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/marmoset,"[""/r/AtLocation""]",1.0
+/c/en/book,/c/en/newsbook,"[""/r/DerivedFrom""]",1.0
+/c/en/book,/c/en/newspaper,"[""/r/RelatedTo""]",0.115
+/c/en/book,/c/en/notebook,"[""/r/DerivedFrom"", ""/r/IsA""]",1.0
+/c/en/book,/c/en/paper,"[""/r/MadeOf"", ""/r/RelatedTo""]",4.718
+/c/en/book,/c/en/papers,"[""/r/MadeOf"", ""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/plot,"[""/r/RelatedTo""]",0.103
+/c/en/book,/c/en/plough,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/print,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/psalm,"[""/r/RelatedTo""]",0.282
+/c/en/book,/c/en/read,"[""/r/RelatedTo""]",4.104
+/c/en/book,/c/en/referee,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/resource,"[""/r/UsedFor""]",1.0
+/c/en/book,/c/en/school,"[""/r/RelatedTo"", ""/r/UsedFor""]",1.0
+/c/en/book,/c/en/shelf,"[""/r/AtLocation"", ""/r/RelatedTo""]",5.292
+/c/en/book,/c/en/softback,"[""/r/RelatedTo""]",1.0
+/c/en/book,/c/en/subject,"[""/r/RelatedTo""]",0.106
+/c/en/book,/c/en/two,"[""/r/RelatedTo""]",0.17
+/c/en/book,/c/en/type,"[""/r/RelatedTo""]",0.106
+/c/en/book,/c/en/typing,"[""/r/Causes""]",1.0
+/c/en/book,/c/en/writer,"[""/r/CreatedBy""]",6.928
+/c/en/bookbinding,/c/en/bookmaker,"[""/r/RelatedTo""]",1.0
+/c/en/bookbinding,/c/en/plough,"[""/r/HasContext""]",1.0
+/c/en/bookend,/c/en/bookstop,"[""/r/RelatedTo""]",1.0
+/c/en/bookend,/c/en/shelf,"[""/r/AtLocation""]",1.0
+/c/en/booklet,/c/en/chequebook,"[""/r/RelatedTo""]",1.0
+/c/en/bookmaker,/c/en/print,"[""/r/RelatedTo""]",1.0
+/c/en/bookmark,/c/en/dog_ear,"[""/r/RelatedTo""]",1.0
+/c/en/born,/c/en/burn,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/born,/c/en/child,"[""/r/RelatedTo""]",0.173
+/c/en/born,/c/en/cry,"[""/r/HasFirstSubevent""]",2.828
+/c/en/born,/c/en/first,"[""/r/RelatedTo""]",0.302
+/c/en/born,/c/en/hospital,"[""/r/RelatedTo""]",0.236
+/c/en/born,/c/en/person,"[""/r/RelatedTo""]",0.247
+/c/en/boron_deficiency,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/boulevard,/c/en/road,"[""/r/RelatedTo""]",0.567
+/c/en/boulevard,/c/en/street,"[""/r/IsA"", ""/r/RelatedTo""]",2.828
+/c/en/boulevard,/c/en/traffic,"[""/r/UsedFor""]",1.0
+/c/en/box_jellyfish,/c/en/jellyfish,"[""/r/RelatedTo""]",1.0
+/c/en/brazilian,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/brazilian,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/bread_pudding,/c/en/dessert,"[""/r/RelatedTo""]",1.0
+/c/en/bread_pudding,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/bread_pudding,/c/en/tiramisu,"[""/r/SimilarTo""]",1.0
+/c/en/bread_pudding,/c/en/trifle,"[""/r/SimilarTo""]",1.0
+/c/en/bread_roll,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/bread_roll,/c/en/kaiser_roll,"[""/r/InstanceOf""]",0.5
+/c/en/bread_roll,/c/en/ploughman's_lunch,"[""/r/RelatedTo""]",1.0
+/c/en/bread_roll,/c/en/roll,"[""/r/RelatedTo""]",1.0
+/c/en/breadbasket,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/break,/c/en/breakfast,"[""/r/DerivedFrom""]",1.0
+/c/en/break,/c/en/brick,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/break,/c/en/broke,"[""/r/EtymologicallyRelatedTo"", ""/r/FormOf"", ""/r/RelatedTo""]",1.0
+/c/en/break,/c/en/buster,"[""/r/RelatedTo""]",1.0
+/c/en/break,/c/en/car,"[""/r/RelatedTo""]",0.281
+/c/en/break,/c/en/classes,"[""/r/RelatedTo""]",0.171
+/c/en/break,/c/en/colony,"[""/r/RelatedTo""]",0.217
+/c/en/break,/c/en/cut,"[""/r/RelatedTo""]",0.771
+/c/en/break,/c/en/day_off,"[""/r/Synonym""]",1.0
+/c/en/break,/c/en/discovery,"[""/r/RelatedTo""]",0.224
+/c/en/break,/c/en/escape,"[""/r/RelatedTo""]",3.011
+/c/en/break,/c/en/first,"[""/r/RelatedTo""]",0.115
+/c/en/break,/c/en/housebreak,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/break,/c/en/law,"[""/r/RelatedTo""]",0.282
+/c/en/break,/c/en/leak,"[""/r/RelatedTo""]",0.194
+/c/en/break,/c/en/period,"[""/r/RelatedTo""]",0.658
+/c/en/break,/c/en/rule,"[""/r/RelatedTo""]",0.324
+/c/en/break,/c/en/school,"[""/r/RelatedTo""]",0.137
+/c/en/break,/c/en/spring,"[""/r/RelatedTo""]",0.662
+/c/en/break,/c/en/summer,"[""/r/RelatedTo""]",0.148
+/c/en/break,/c/en/together,"[""/r/Antonym""]",1.029
+/c/en/break,/c/en/two,"[""/r/RelatedTo""]",0.443
+/c/en/breakfast,/c/en/buffet,"[""/r/UsedFor""]",2.0
+/c/en/breakfast,/c/en/cereal,"[""/r/RelatedTo""]",1.357
+/c/en/breakfast,/c/en/croissant,"[""/r/InstanceOf""]",0.5
+/c/en/breakfast,/c/en/dhokla,"[""/r/InstanceOf""]",0.5
+/c/en/breakfast,/c/en/first,"[""/r/RelatedTo""]",0.453
+/c/en/breakfast,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/breakfast,/c/en/idli,"[""/r/InstanceOf""]",0.5
+/c/en/breakfast,/c/en/k_ration,"[""/r/RelatedTo""]",1.0
+/c/en/breakfast,/c/en/necessary,"[""/r/NotHasProperty""]",1.0
+/c/en/breakfast,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/breakfast,/c/en/roll,"[""/r/RelatedTo""]",0.392
+/c/en/breakfast,/c/en/supper,"[""/r/Antonym"", ""/r/DistinctFrom""]",0.377
+/c/en/breed,/c/en/bull_terrier,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/catadromous,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/cavachon,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/cymric,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/eskimo,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/german_spaniel,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/harehound,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/kangal,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/mastiff,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/minskin,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/munchkin,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/ragamuffin,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/read,"[""/r/RelatedTo""]",0.117
+/c/en/breed,/c/en/samoyed,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/spaniel,"[""/r/RelatedTo""]",1.0
+/c/en/breed,/c/en/spitz,"[""/r/RelatedTo""]",1.0
+/c/en/brick,/c/en/brick_building,"[""/r/DerivedFrom""]",1.0
+/c/en/brick,/c/en/calcium_silicate,"[""/r/RelatedTo""]",1.0
+/c/en/brick,/c/en/house,"[""/r/RelatedTo""]",0.62
+/c/en/brick,/c/en/river,"[""/r/RelatedTo""]",1.0
+/c/en/brick_building,/c/en/house,"[""/r/RelatedTo""]",0.102
+/c/en/bringhouse,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/bringhouse,/c/en/house,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/bringing_home_fish,/c/en/cat,"[""/r/UsedFor""]",1.0
+/c/en/bringing_home_fish,/c/en/fish,"[""/r/HasPrerequisite""]",1.0
+/c/en/bringing_home_fish,/c/en/fish_tank,"[""/r/UsedFor""]",1.0
+/c/en/bringing_home_fish,/c/en/supper,"[""/r/UsedFor""]",1.0
+/c/en/bringing_home_fish,/c/en/water,"[""/r/HasPrerequisite""]",1.0
+/c/en/british,/c/en/chinese,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/colony,"[""/r/RelatedTo""]",0.948
+/c/en/british,/c/en/commons,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/cooker,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/cruet,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/dog,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/dogsbody,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/doorstop,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/estate_agent,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/fishmonger,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/flutter,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/flyover,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/fork,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/goods_van,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/great_sark_person,"[""/r/IsA""]",1.0
+/c/en/british,/c/en/guard,"[""/r/RelatedTo""]",0.102
+/c/en/british,/c/en/immersion,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/jethou_person,"[""/r/IsA""]",1.0
+/c/en/british,/c/en/knocknobbler,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/landlord,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/liberal,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/lithou_island_person,"[""/r/IsA""]",1.0
+/c/en/british,/c/en/lord,"[""/r/HasContext"", ""/r/RelatedTo""]",1.0
+/c/en/british,/c/en/muffin,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/ovenbird,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/british,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/british,/c/en/plaster,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/plough,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/ploughman's_lunch,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/post,"[""/r/RelatedTo""]",0.173
+/c/en/british,/c/en/road,"[""/r/HasContext""]",2.0
+/c/en/british,/c/en/rollover,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/rookie,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/run_down,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/sideboard,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/sister,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/sponge,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/starve,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/teacake,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/tiddler,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/underbridge,"[""/r/HasContext""]",1.0
+/c/en/british,/c/en/what,"[""/r/HasContext""]",1.0
+/c/en/broderick_crawford,/c/en/four,"[""/r/RelatedTo""]",1.0
+/c/en/broderick_crawford,/c/en/person,"[""/r/IsA""]",0.5
+/c/en/broke,/c/en/broker,"[""/r/DerivedFrom""]",1.0
+/c/en/broke,/c/en/person,"[""/r/NotDesires""]",2.0
+/c/en/bronze_featherback,/c/en/family,"[""/r/RelatedTo""]",1.0
+/c/en/bronze_featherback,/c/en/fish,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/buddy_bench,/c/en/child,"[""/r/RelatedTo""]",1.0
+/c/en/buddy_bench,/c/en/school,"[""/r/RelatedTo""]",1.0
+/c/en/budget,/c/en/car,"[""/r/RelatedTo""]",0.409
+/c/en/budget,/c/en/cut,"[""/r/ReceivesAction""]",1.0
+/c/en/budget,/c/en/resource,"[""/r/RelatedTo""]",1.0
+/c/en/budget,/c/en/what,"[""/r/RelatedTo""]",0.166
+/c/en/buffet,/c/en/dessert,"[""/r/UsedFor""]",2.0
+/c/en/buffet,/c/en/food,"[""/r/UsedFor""]",2.0
+/c/en/buffet,/c/en/furniture,"[""/r/IsA""]",1.0
+/c/en/buffet,/c/en/sideboard,"[""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/bug_juice,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/bull_terrier,/c/en/cross,"[""/r/RelatedTo""]",1.0
+/c/en/bull_terrier,/c/en/dog,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/bumper,/c/en/car,"[""/r/AtLocation"", ""/r/PartOf""]",3.464
+/c/en/bumper,/c/en/chrome,"[""/r/RelatedTo""]",0.148
+/c/en/bumper,/c/en/principal,"[""/r/RelatedTo""]",1.0
+/c/en/bumper,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/bundle,/c/en/flooring,"[""/r/AtLocation""]",1.0
+/c/en/bundle,/c/en/language,"[""/r/RelatedTo""]",1.0
+/c/en/bundle,/c/en/law,"[""/r/HasContext""]",1.0
+/c/en/bundle,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/bundle,/c/en/muscle,"[""/r/RelatedTo""]",1.0
+/c/en/bundle,/c/en/parcel,"[""/r/Synonym""]",1.0
+/c/en/bundle,/c/en/sell,"[""/r/RelatedTo""]",1.0
+/c/en/bundle,/c/en/sequence,"[""/r/RelatedTo""]",1.0
+/c/en/bundle,/c/en/together,"[""/r/RelatedTo""]",1.0
+/c/en/bundle,/c/en/wad,"[""/r/RelatedTo""]",0.104
+/c/en/bungaloid,/c/en/bungalow,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/bungaloid,/c/en/house,"[""/r/RelatedTo""]",1.0
+/c/en/bungalow,/c/en/house,"[""/r/RelatedTo""]",1.0
+/c/en/burn,/c/en/burn_down,"[""/r/RelatedTo""]",1.0
+/c/en/burn,/c/en/burned,"[""/r/FormOf"", ""/r/RelatedTo""]",1.0
+/c/en/burn,/c/en/burnt,"[""/r/DerivedFrom"", ""/r/FormOf""]",1.0
+/c/en/burn,/c/en/coaster,"[""/r/RelatedTo""]",1.0
+/c/en/burn,/c/en/degree,"[""/r/RelatedTo""]",1.231
+/c/en/burn,/c/en/fire,"[""/r/CapableOf"", ""/r/RelatedTo"", ""/r/Synonym""]",5.83
+/c/en/burn,/c/en/flame,"[""/r/RelatedTo""]",0.679
+/c/en/burn,/c/en/freeze,"[""/r/Antonym""]",0.338
+/c/en/burn,/c/en/grass,"[""/r/CapableOf""]",1.0
+/c/en/burn,/c/en/paper,"[""/r/CapableOf"", ""/r/RelatedTo""]",5.292
+/c/en/burn,/c/en/person,"[""/r/NotDesires""]",4.0
+/c/en/burn,/c/en/put_down,"[""/r/Synonym""]",1.0
+/c/en/burn,/c/en/runnel,"[""/r/Synonym""]",1.0
+/c/en/burn,/c/en/second,"[""/r/RelatedTo""]",0.187
+/c/en/burn,/c/en/warm,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/burn,/c/en/water,"[""/r/Antonym"", ""/r/Synonym""]",1.0
+/c/en/burn_down,/c/en/house,"[""/r/CapableOf""]",2.0
+/c/en/burned,/c/en/burnt,"[""/r/Synonym""]",1.0
+/c/en/burned,/c/en/paper,"[""/r/CapableOf"", ""/r/ReceivesAction""]",2.828
+/c/en/burned,/c/en/person,"[""/r/NotDesires""]",2.828
+/c/en/burnt,/c/en/fire,"[""/r/RelatedTo""]",0.217
+/c/en/burnt,/c/en/paper,"[""/r/ReceivesAction""]",1.0
+/c/en/burnt,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/burro,/c/en/mule,"[""/r/RelatedTo""]",1.0
+/c/en/burrow,/c/en/marmoset,"[""/r/AtLocation""]",2.828
+/c/en/burrow,/c/en/rabbit,"[""/r/RelatedTo""]",1.0
+/c/en/buster,/c/en/drinking,"[""/r/RelatedTo""]",1.0
+/c/en/buster,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/busy,/c/en/flat_out,"[""/r/RelatedTo""]",1.0
+/c/en/busy,/c/en/main,"[""/r/RelatedTo""]",0.179
+/c/en/busy,/c/en/moving,"[""/r/RelatedTo""]",0.148
+/c/en/busy,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/busy,/c/en/phone,"[""/r/RelatedTo""]",0.16
+/c/en/butt_rape,/c/en/north_america,"[""/r/HasContext""]",1.0
+/c/en/butt_rape,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/butter_tea,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/butter_tea,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/butter_toast,/c/en/child,"[""/r/CapableOf""]",2.0
+/c/en/butter_toast,/c/en/eating_breakfast_in_bed,"[""/r/HasSubevent""]",1.0
+/c/en/butter_toast,/c/en/person,"[""/r/CapableOf""]",2.0
+/c/en/butterfly_ray,/c/en/family,"[""/r/RelatedTo""]",1.0
+/c/en/butterfly_ray,/c/en/fish,"[""/r/IsA""]",0.5
+/c/en/by_book,/c/en/notebook,"[""/r/RelatedTo""]",1.0
+/c/en/by_book,/c/en/rule,"[""/r/RelatedTo""]",1.0
+/c/en/cabbit,/c/en/cat,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/cabbit,/c/en/rabbit,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/cable_car,/c/en/car,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/cable_car,/c/en/streetcar,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/cad,/c/en/dog,"[""/r/Synonym""]",1.0
+/c/en/cad,/c/en/mean,"[""/r/RelatedTo""]",1.0
+/c/en/cake,/c/en/cut,"[""/r/ReceivesAction"", ""/r/RelatedTo""]",1.0
+/c/en/cake,/c/en/dangerous,"[""/r/RelatedTo""]",0.179
+/c/en/cake,/c/en/dessert,"[""/r/InstanceOf"", ""/r/IsA"", ""/r/RelatedTo"", ""/r/UsedFor""]",11.551
+/c/en/cake,/c/en/dhokla,"[""/r/RelatedTo""]",1.0
+/c/en/cake,/c/en/dry_out,"[""/r/CapableOf""]",1.0
+/c/en/cake,/c/en/eggs,"[""/r/RelatedTo""]",1.01
+/c/en/cake,/c/en/fluffy,"[""/r/RelatedTo""]",0.774
+/c/en/cake,/c/en/food,"[""/r/IsA"", ""/r/RelatedTo""]",10.666
+/c/en/cake,/c/en/hansel_and_gretel,"[""/r/RelatedTo""]",1.0
+/c/en/cake,/c/en/holder,"[""/r/RelatedTo""]",0.339
+/c/en/cake,/c/en/idli,"[""/r/RelatedTo""]",1.0
+/c/en/cake,/c/en/muffin,"[""/r/RelatedTo""]",0.106
+/c/en/cake,/c/en/pastry,"[""/r/RelatedTo""]",6.438
+/c/en/cake,/c/en/person,"[""/r/Desires""]",2.0
+/c/en/cake,/c/en/pound_cake,"[""/r/EtymologicallyRelatedTo"", ""/r/RelatedTo""]",1.0
+/c/en/cake,/c/en/roll,"[""/r/RelatedTo""]",0.17
+/c/en/cake,/c/en/soft,"[""/r/RelatedTo""]",0.984
+/c/en/cake,/c/en/sponge,"[""/r/RelatedTo""]",2.151
+/c/en/cake,/c/en/streuselkuchen,"[""/r/InstanceOf"", ""/r/RelatedTo""]",1.0
+/c/en/cake,/c/en/teacake,"[""/r/DerivedFrom""]",1.0
+/c/en/cake,/c/en/tiramisu,"[""/r/IsA""]",1.0
+/c/en/cake,/c/en/two,"[""/r/RelatedTo""]",0.138
+/c/en/cake,/c/en/type,"[""/r/RelatedTo""]",0.217
+/c/en/cake,/c/en/what,"[""/r/RelatedTo""]",0.253
+/c/en/cake,/c/en/wheat,"[""/r/RelatedTo"", ""/r/UsedFor""]",1.0
+/c/en/calavance,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/calcium_silicate,/c/en/road,"[""/r/RelatedTo""]",1.0
+/c/en/call_friend,/c/en/miss,"[""/r/MotivatedByGoal""]",1.0
+/c/en/call_friend,/c/en/person,"[""/r/CapableOf""]",1.0
+/c/en/calm_mind,/c/en/dog,"[""/r/CapableOf""]",1.0
+/c/en/calm_mind,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/camber,/c/en/dock,"[""/r/RelatedTo""]",1.0
+/c/en/camber,/c/en/liquid,"[""/r/RelatedTo""]",1.0
+/c/en/camber,/c/en/road,"[""/r/RelatedTo""]",1.0
+/c/en/canicular,/c/en/dog,"[""/r/RelatedTo""]",1.0
+/c/en/canicular,/c/en/summer,"[""/r/RelatedTo""]",1.0
+/c/en/canvasback,/c/en/game_bird,"[""/r/RelatedTo""]",1.0
+/c/en/capitol,/c/en/house,"[""/r/RelatedTo""]",1.0
+/c/en/capitol,/c/en/temple,"[""/r/RelatedTo""]",1.0
+/c/en/caproic_acid,/c/en/fatty_acid,"[""/r/HasContext"", ""/r/RelatedTo""]",1.0
+/c/en/caproic_acid,/c/en/liquid,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/carbarn,"[""/r/DerivedFrom""]",1.0
+/c/en/car,/c/en/carfare,"[""/r/DerivedFrom""]",1.0
+/c/en/car,/c/en/cat,"[""/r/AtLocation""]",1.0
+/c/en/car,/c/en/chariot,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/chrome,"[""/r/RelatedTo""]",0.148
+/c/en/car,/c/en/clown_car,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/clutch,"[""/r/PartOf""]",2.0
+/c/en/car,/c/en/computer,"[""/r/AtLocation""]",1.0
+/c/en/car,/c/en/control,"[""/r/RelatedTo""]",0.17
+/c/en/car,/c/en/crackerbox,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/cruiser,"[""/r/RelatedTo""]",0.164
+/c/en/car,/c/en/dodge_viper,"[""/r/IsA""]",1.0
+/c/en/car,/c/en/dog,"[""/r/Antonym""]",0.122
+/c/en/car,/c/en/door,"[""/r/AtLocation""]",1.0
+/c/en/car,/c/en/doors,"[""/r/RelatedTo""]",0.307
+/c/en/car,/c/en/dutch_reach,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/engine,"[""/r/HasA"", ""/r/PartOf"", ""/r/RelatedTo""]",3.464
+/c/en/car,/c/en/equipment,"[""/r/RelatedTo""]",0.112
+/c/en/car,/c/en/escape,"[""/r/RelatedTo""]",0.145
+/c/en/car,/c/en/family,"[""/r/RelatedTo""]",0.752
+/c/en/car,/c/en/ferry,"[""/r/RelatedTo""]",0.532
+/c/en/car,/c/en/filter,"[""/r/HasA""]",1.0
+/c/en/car,/c/en/fog_light,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/four,"[""/r/RelatedTo""]",2.108
+/c/en/car,/c/en/four_wheel_drive,"[""/r/IsA""]",1.0
+/c/en/car,/c/en/fun,"[""/r/UsedFor""]",2.828
+/c/en/car,/c/en/gas,"[""/r/RelatedTo""]",1.758
+/c/en/car,/c/en/gas_station,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/go_fast,"[""/r/CapableOf""]",6.325
+/c/en/car,/c/en/goat,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/going_for_drive,"[""/r/HasPrerequisite""]",2.0
+/c/en/car,/c/en/goods_van,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/guard,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/handle,"[""/r/RelatedTo""]",0.791
+/c/en/car,/c/en/having_fun,"[""/r/UsedFor""]",1.0
+/c/en/car,/c/en/headlight,"[""/r/AtLocation""]",1.0
+/c/en/car,/c/en/holden,"[""/r/dbpedia/product""]",0.5
+/c/en/car,/c/en/honk,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/interior,"[""/r/RelatedTo""]",0.282
+/c/en/car,/c/en/jack,"[""/r/RelatedTo""]",0.808
+/c/en/car,/c/en/lighter,"[""/r/AtLocation""]",1.0
+/c/en/car,/c/en/mechanical,"[""/r/RelatedTo""]",0.112
+/c/en/car,/c/en/mobile,"[""/r/RelatedTo""]",0.212
+/c/en/car,/c/en/moving,"[""/r/RelatedTo""]",0.585
+/c/en/car,/c/en/parade,"[""/r/AtLocation""]",1.0
+/c/en/car,/c/en/passenger,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/petrol,"[""/r/AtLocation""]",2.0
+/c/en/car,/c/en/petrol_tank,"[""/r/AtLocation""]",1.0
+/c/en/car,/c/en/police_car,"[""/r/IsA""]",1.0
+/c/en/car,/c/en/polish,"[""/r/RelatedTo""]",0.254
+/c/en/car,/c/en/porch,"[""/r/RelatedTo""]",0.17
+/c/en/car,/c/en/property,"[""/r/RelatedTo""]",0.31
+/c/en/car,/c/en/railcar,"[""/r/DerivedFrom""]",1.0
+/c/en/car,/c/en/redbird,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/road,"[""/r/AtLocation"", ""/r/RelatedTo""]",4.472
+/c/en/car,/c/en/siren,"[""/r/RelatedTo""]",0.14
+/c/en/car,/c/en/small,"[""/r/RelatedTo""]",0.104
+/c/en/car,/c/en/steel,"[""/r/RelatedTo""]",0.192
+/c/en/car,/c/en/stickshift,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/street,"[""/r/RelatedTo""]",0.143
+/c/en/car,/c/en/streetcar,"[""/r/DerivedFrom""]",1.0
+/c/en/car,/c/en/taking_car_for_drive,"[""/r/HasPrerequisite""]",1.0
+/c/en/car,/c/en/tow,"[""/r/RelatedTo""]",0.863
+/c/en/car,/c/en/toy,"[""/r/RelatedTo""]",1.019
+/c/en/car,/c/en/traffic,"[""/r/RelatedTo""]",0.205
+/c/en/car,/c/en/transmission,"[""/r/AtLocation""]",1.0
+/c/en/car,/c/en/turret,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/wagon,"[""/r/RelatedTo""]",1.0
+/c/en/car,/c/en/wash,"[""/r/RelatedTo""]",1.111
+/c/en/car,/c/en/windshield,"[""/r/PartOf""]",1.0
+/c/en/carbarn,/c/en/streetcar,"[""/r/RelatedTo""]",1.0
+/c/en/carbon,/c/en/copy,"[""/r/RelatedTo""]",0.383
+/c/en/carbon,/c/en/ester,"[""/r/RelatedTo""]",1.0
+/c/en/carbon,/c/en/fatty_acid,"[""/r/RelatedTo""]",1.0
+/c/en/carbon,/c/en/food,"[""/r/MadeOf""]",1.0
+/c/en/carbon,/c/en/gas,"[""/r/RelatedTo""]",0.169
+/c/en/carbon,/c/en/omega_3_fatty_acid,"[""/r/RelatedTo""]",1.0
+/c/en/carbon,/c/en/steel,"[""/r/RelatedTo""]",1.396
+/c/en/cardinal,/c/en/church,"[""/r/RelatedTo""]",0.138
+/c/en/cardinal,/c/en/first,"[""/r/RelatedTo""]",0.175
+/c/en/cardinal,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/cardinal,/c/en/four,"[""/r/HasContext""]",1.0
+/c/en/cardinal,/c/en/priest,"[""/r/RelatedTo""]",1.0
+/c/en/cardinal,/c/en/redbird,"[""/r/RelatedTo""]",1.0
+/c/en/cardinal,/c/en/two,"[""/r/HasContext"", ""/r/RelatedTo""]",1.0
+/c/en/carfare,/c/en/passenger,"[""/r/RelatedTo""]",1.0
+/c/en/carfare,/c/en/streetcar,"[""/r/RelatedTo""]",1.0
+/c/en/carp,/c/en/fish,"[""/r/IsA"", ""/r/RelatedTo""]",2.372
+/c/en/carp,/c/en/type,"[""/r/RelatedTo""]",0.537
+/c/en/carpet_shark,/c/en/fish,"[""/r/IsA""]",0.5
+/c/en/carpet_shark,/c/en/shark,"[""/r/DerivedFrom"", ""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/carpet_washer,/c/en/wash,"[""/r/RelatedTo""]",1.0
+/c/en/carpet_washer,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/carry_shopping,/c/en/person,"[""/r/CapableOf""]",1.0
+/c/en/cars_on,/c/en/ferry,"[""/r/RelatedTo""]",0.185
+/c/en/cars_on,/c/en/road,"[""/r/RelatedTo""]",0.336
+/c/en/cars_on,/c/en/street,"[""/r/RelatedTo""]",0.31
+/c/en/cartomancy,/c/en/child,"[""/r/HasContext""]",1.0
+/c/en/cartomancy,/c/en/cross,"[""/r/HasContext""]",1.0
+/c/en/cartomancy,/c/en/dog,"[""/r/HasContext""]",1.0
+/c/en/cartomancy,/c/en/heart,"[""/r/HasContext""]",1.0
+/c/en/cartoon,/c/en/cat,"[""/r/AtLocation""]",1.0
+/c/en/cartoon,/c/en/comic_book,"[""/r/RelatedTo""]",1.0
+/c/en/cartoon,/c/en/jellyfish,"[""/r/AtLocation""]",1.0
+/c/en/cartoon,/c/en/lemur,"[""/r/AtLocation""]",1.0
+/c/en/cassoulet,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/cast_shadow,/c/en/cat,"[""/r/CapableOf""]",1.0
+/c/en/cast_shadow,/c/en/computer,"[""/r/CapableOf""]",1.0
+/c/en/cast_shadow,/c/en/go_for_walk,"[""/r/HasSubevent""]",1.0
+/c/en/cast_shadow,/c/en/person,"[""/r/CapableOf""]",1.0
+/c/en/castle,/c/en/cellar,"[""/r/AtLocation""]",1.0
+/c/en/castle,/c/en/create,"[""/r/RelatedTo""]",1.0
+/c/en/castle,/c/en/front_courtyard,"[""/r/AtLocation""]",1.0
+/c/en/castle,/c/en/fun,"[""/r/UsedFor""]",1.0
+/c/en/castle,/c/en/gatehouse,"[""/r/RelatedTo""]",1.0
+/c/en/castle,/c/en/house,"[""/r/RelatedTo""]",3.484
+/c/en/castle,/c/en/large_house,"[""/r/RelatedTo""]",0.162
+/c/en/castle,/c/en/lord,"[""/r/RelatedTo""]",0.128
+/c/en/castle,/c/en/manor,"[""/r/RelatedTo""]",0.217
+/c/en/castle,/c/en/rule,"[""/r/RelatedTo""]",1.0
+/c/en/castle,/c/en/servant,"[""/r/RelatedTo""]",0.178
+/c/en/castle,/c/en/tales,"[""/r/RelatedTo""]",0.205
+/c/en/castle,/c/en/turret,"[""/r/RelatedTo""]",1.0
+/c/en/cat,/c/en/catclaw,"[""/r/DerivedFrom""]",1.0
+/c/en/cat,/c/en/caterwaul,"[""/r/DerivedFrom""]",1.0
+/c/en/cat,/c/en/catlap,"[""/r/DerivedFrom""]",1.0
+/c/en/cat,/c/en/catshark,"[""/r/DerivedFrom""]",1.0
+/c/en/cat,/c/en/chase,"[""/r/RelatedTo""]",0.259
+/c/en/cat,/c/en/common_pet,"[""/r/RelatedTo""]",0.239
+/c/en/cat,/c/en/companionship,"[""/r/UsedFor""]",4.0
+/c/en/cat,/c/en/computed_tomography,"[""/r/Synonym""]",1.0
+/c/en/cat,/c/en/control,"[""/r/Desires""]",1.0
+/c/en/cat,/c/en/copy,"[""/r/RelatedTo""]",0.147
+/c/en/cat,/c/en/cymric,"[""/r/RelatedTo""]",1.0
+/c/en/cat,/c/en/dog,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/RelatedTo""]",4.606
+/c/en/cat,/c/en/domestic_animal,"[""/r/RelatedTo""]",0.746
+/c/en/cat,/c/en/family_room,"[""/r/AtLocation""]",1.0
+/c/en/cat,/c/en/feline_animal,"[""/r/RelatedTo""]",1.282
+/c/en/cat,/c/en/floor,"[""/r/AtLocation""]",4.0
+/c/en/cat,/c/en/food,"[""/r/Desires""]",1.0
+/c/en/cat,/c/en/four,"[""/r/RelatedTo""]",0.5
+/c/en/cat,/c/en/freyja,"[""/r/RelatedTo""]",1.0
+/c/en/cat,/c/en/fur,"[""/r/AtLocation"", ""/r/MadeOf"", ""/r/RelatedTo""]",1.0
+/c/en/cat,/c/en/goes,"[""/r/RelatedTo""]",0.141
+/c/en/cat,/c/en/grass,"[""/r/AtLocation""]",1.0
+/c/en/cat,/c/en/ground,"[""/r/AtLocation""]",1.0
+/c/en/cat,/c/en/hose,"[""/r/AtLocation""]",1.0
+/c/en/cat,/c/en/house,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.828
+/c/en/cat,/c/en/house_animal,"[""/r/RelatedTo""]",0.532
+/c/en/cat,/c/en/household_animal,"[""/r/RelatedTo""]",0.11
+/c/en/cat,/c/en/household_pet,"[""/r/RelatedTo""]",0.57
+/c/en/cat,/c/en/hungry,"[""/r/HasProperty""]",2.828
+/c/en/cat,/c/en/kitchen,"[""/r/AtLocation""]",1.0
+/c/en/cat,/c/en/legs,"[""/r/RelatedTo""]",0.5
+/c/en/cat,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/cat,/c/en/minskin,"[""/r/RelatedTo""]",1.0
+/c/en/cat,/c/en/mole,"[""/r/RelatedTo""]",0.11
+/c/en/cat,/c/en/mouse,"[""/r/AtLocation"", ""/r/Desires"", ""/r/RelatedTo""]",2.0
+/c/en/cat,/c/en/mri,"[""/r/RelatedTo""]",1.0
+/c/en/cat,/c/en/own_home,"[""/r/AtLocation""]",1.0
+/c/en/cat,/c/en/paws,"[""/r/RelatedTo""]",0.339
+/c/en/cat,/c/en/pet,"[""/r/CapableOf"", ""/r/RelatedTo"", ""/r/UsedFor""]",5.108
+/c/en/cat,/c/en/rabbit,"[""/r/RelatedTo""]",0.136
+/c/en/cat,/c/en/rug,"[""/r/AtLocation""]",3.464
+/c/en/cat,/c/en/shelf,"[""/r/AtLocation""]",1.0
+/c/en/cat,/c/en/small,"[""/r/RelatedTo""]",0.899
+/c/en/cat,/c/en/small_animal,"[""/r/RelatedTo""]",0.102
+/c/en/cat,/c/en/soft,"[""/r/RelatedTo""]",0.204
+/c/en/cat,/c/en/tiger,"[""/r/RelatedTo""]",1.032
+/c/en/cat,/c/en/vomit,"[""/r/CapableOf""]",1.0
+/c/en/catadromous,/c/en/vein,"[""/r/RelatedTo""]",1.0
+/c/en/catadromous,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/catch_crab,/c/en/oar,"[""/r/RelatedTo""]",1.0
+/c/en/catch_crab,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/catclaw,/c/en/claw,"[""/r/DerivedFrom""]",1.0
+/c/en/caterwaul,/c/en/cry,"[""/r/RelatedTo""]",1.0
+/c/en/caterwaul,/c/en/noise,"[""/r/RelatedTo""]",1.0
+/c/en/catshark,/c/en/fish,"[""/r/IsA""]",0.5
+/c/en/catshark,/c/en/shark,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/cauf,/c/en/chest,"[""/r/RelatedTo""]",1.0
+/c/en/cauf,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/cavachon,/c/en/cross,"[""/r/RelatedTo""]",1.0
+/c/en/cavachon,/c/en/dog,"[""/r/RelatedTo""]",1.0
+/c/en/cavally,/c/en/coast,"[""/r/RelatedTo""]",1.0
+/c/en/cavally,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/cellar,/c/en/door,"[""/r/RelatedTo""]",0.3
+/c/en/cellar,/c/en/find_downstairs,"[""/r/IsA""]",1.0
+/c/en/cellar,/c/en/ground,"[""/r/RelatedTo""]",0.165
+/c/en/cellar,/c/en/house,"[""/r/RelatedTo""]",0.567
+/c/en/cellar,/c/en/mouse,"[""/r/AtLocation""]",4.472
+/c/en/cellar,/c/en/spider,"[""/r/AtLocation""]",2.0
+/c/en/cereal,/c/en/corn_flakes,"[""/r/IsA""]",1.0
+/c/en/cereal,/c/en/cupboard,"[""/r/AtLocation""]",3.464
+/c/en/cereal,/c/en/food,"[""/r/IsA"", ""/r/RelatedTo""]",1.355
+/c/en/cereal,/c/en/grass,"[""/r/RelatedTo""]",1.0
+/c/en/cereal,/c/en/post,"[""/r/RelatedTo""]",0.103
+/c/en/cereal,/c/en/shelf,"[""/r/AtLocation""]",1.0
+/c/en/cereal,/c/en/wheat,"[""/r/AtLocation"", ""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/certificate,/c/en/debt,"[""/r/RelatedTo""]",1.0
+/c/en/certificate,/c/en/degree,"[""/r/RelatedTo""]",3.811
+/c/en/certificate,/c/en/paper,"[""/r/RelatedTo""]",0.152
+/c/en/certificate,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/chanakya,/c/en/person,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/chanakya,/c/en/politician,"[""/r/RelatedTo""]",1.0
+/c/en/chapter_house,/c/en/church,"[""/r/RelatedTo""]",1.0
+/c/en/chapter_house,/c/en/house,"[""/r/IsA""]",1.0
+/c/en/chariot,/c/en/circus,"[""/r/RelatedTo""]",1.0
+/c/en/chariot,/c/en/pleasure,"[""/r/RelatedTo""]",1.0
+/c/en/charter,/c/en/deed,"[""/r/RelatedTo""]",1.0
+/c/en/charter,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/charter,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/chase,/c/en/dog,"[""/r/Synonym""]",1.0
+/c/en/chase,/c/en/drive_on,"[""/r/Synonym""]",1.0
+/c/en/chase,/c/en/furniture,"[""/r/RelatedTo""]",1.0
+/c/en/chase,/c/en/hunt,"[""/r/RelatedTo""]",0.17
+/c/en/chase,/c/en/santilmo,"[""/r/RelatedTo""]",1.0
+/c/en/chase,/c/en/stick,"[""/r/RelatedTo""]",0.148
+/c/en/cheater,/c/en/fish,"[""/r/RelatedTo""]",0.104
+/c/en/cheater,/c/en/fraud,"[""/r/RelatedTo""]",0.146
+/c/en/cheater,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/chest,/c/en/heart,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/chest,/c/en/house,"[""/r/AtLocation""]",1.0
+/c/en/chest,/c/en/person,"[""/r/PartOf""]",2.0
+/c/en/chest,/c/en/toy,"[""/r/RelatedTo""]",0.127
+/c/en/chew,/c/en/fletcherism,"[""/r/RelatedTo""]",1.0
+/c/en/chew,/c/en/food,"[""/r/RelatedTo""]",0.529
+/c/en/chew,/c/en/sate_hunger,"[""/r/HasSubevent""]",1.0
+/c/en/chew,/c/en/sneeze,"[""/r/RelatedTo""]",1.042
+/c/en/chew,/c/en/statue,"[""/r/RelatedTo""]",0.262
+/c/en/chew,/c/en/swallow,"[""/r/HasPrerequisite"", ""/r/RelatedTo""]",1.0
+/c/en/chew,/c/en/think,"[""/r/RelatedTo""]",1.0
+/c/en/chew,/c/en/tobacco,"[""/r/RelatedTo""]",1.0
+/c/en/chew,/c/en/wad,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/childproof,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/childs,"[""/r/FormOf"", ""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/chrisom,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/clear_table,"[""/r/CapableOf""]",1.0
+/c/en/child,/c/en/cottage_home,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/dangly_bits,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/dead's_part,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/derive,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/eat_spaghetti,"[""/r/CapableOf""]",1.0
+/c/en/child,/c/en/fac_brat,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/families,"[""/r/RelatedTo""]",0.205
+/c/en/child,/c/en/family,"[""/r/AtLocation"", ""/r/PartOf"", ""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/female,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/figurative,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/flk,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/full_binary_tree,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/fun,"[""/r/UsedFor""]",1.0
+/c/en/child,/c/en/get_candy,"[""/r/CapableOf""]",1.0
+/c/en/child,/c/en/go_see_play,"[""/r/CausesDesire""]",1.0
+/c/en/child,/c/en/grown,"[""/r/Antonym""]",0.199
+/c/en/child,/c/en/hextree,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/knocknobbler,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/munchkin,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/octree,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/own_home,"[""/r/AtLocation""]",1.0
+/c/en/child,/c/en/parents,"[""/r/CreatedBy"", ""/r/RelatedTo""]",2.0
+/c/en/child,/c/en/person,"[""/r/IsA"", ""/r/RelatedTo""]",4.758
+/c/en/child,/c/en/process,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/ragamuffin,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/role,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/school,"[""/r/AtLocation"", ""/r/RelatedTo""]",6.633
+/c/en/child,/c/en/schoolchild,"[""/r/DerivedFrom"", ""/r/IsA""]",1.0
+/c/en/child,/c/en/small,"[""/r/RelatedTo""]",3.958
+/c/en/child,/c/en/small_animal,"[""/r/IsA""]",1.0
+/c/en/child,/c/en/specifically,"[""/r/HasContext""]",1.0
+/c/en/child,/c/en/spit_up,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/tiger_mother,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/toy,"[""/r/RelatedTo""]",7.53
+/c/en/child,/c/en/wagon,"[""/r/RelatedTo""]",1.0
+/c/en/child,/c/en/walk_dog,"[""/r/CapableOf""]",1.0
+/c/en/childproof,/c/en/safe,"[""/r/RelatedTo""]",1.0
+/c/en/childs,/c/en/parents,"[""/r/HasA""]",1.0
+/c/en/chilidog,/c/en/dog,"[""/r/DerivedFrom""]",1.0
+/c/en/chilidog,/c/en/hot_dog,"[""/r/RelatedTo""]",1.0
+/c/en/china,/c/en/chinese,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/china,/c/en/communist,"[""/r/RelatedTo""]",0.158
+/c/en/china,/c/en/fine,"[""/r/RelatedTo""]",0.281
+/c/en/china,/c/en/manchu,"[""/r/RelatedTo""]",1.0
+/c/en/china,/c/en/medical_school,"[""/r/RelatedTo""]",0.5
+/c/en/china,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/china,/c/en/principal,"[""/r/RelatedTo""]",1.0
+/c/en/china,/c/en/queue,"[""/r/RelatedTo""]",1.0
+/c/en/china,/c/en/river,"[""/r/RelatedTo""]",1.0
+/c/en/china,/c/en/shih_tzu,"[""/r/RelatedTo""]",1.0
+/c/en/china,/c/en/song,"[""/r/RelatedTo""]",1.0
+/c/en/china,/c/en/temple,"[""/r/AtLocation""]",2.828
+/c/en/chinese,/c/en/chinese_crested,"[""/r/DerivedFrom""]",1.0
+/c/en/chinese,/c/en/chinese_sausage,"[""/r/DerivedFrom""]",1.0
+/c/en/chinese,/c/en/drunken_boxing,"[""/r/RelatedTo""]",1.0
+/c/en/chinese,/c/en/earthly_branch,"[""/r/RelatedTo""]",1.0
+/c/en/chinese,/c/en/fishball,"[""/r/RelatedTo""]",1.0
+/c/en/chinese,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/chinese,/c/en/ginger,"[""/r/RelatedTo""]",0.137
+/c/en/chinese,/c/en/language,"[""/r/IsA""]",3.464
+/c/en/chinese,/c/en/manchu,"[""/r/IsA""]",1.0
+/c/en/chinese,/c/en/north_america,"[""/r/HasContext""]",1.0
+/c/en/chinese,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/chinese,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/chinese_crested,/c/en/dog,"[""/r/IsA""]",1.0
+/c/en/chinese_sausage,/c/en/food,"[""/r/HasContext""]",1.0
+/c/en/chrisom,/c/en/mantle,"[""/r/RelatedTo""]",1.0
+/c/en/christmas_cake,/c/en/christmas_pudding,"[""/r/RelatedTo""]",1.0
+/c/en/christmas_cake,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/christmas_pudding,/c/en/dessert,"[""/r/RelatedTo""]",1.0
+/c/en/christmas_pudding,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/chrome,/c/en/steel,"[""/r/RelatedTo""]",0.141
+/c/en/church,/c/en/cross,"[""/r/RelatedTo""]",3.147
+/c/en/church,/c/en/grave,"[""/r/RelatedTo""]",0.146
+/c/en/church,/c/en/house,"[""/r/RelatedTo""]",2.149
+/c/en/church,/c/en/knocknobbler,"[""/r/RelatedTo""]",1.0
+/c/en/church,/c/en/organ,"[""/r/RelatedTo""]",0.95
+/c/en/church,/c/en/priest,"[""/r/RelatedTo""]",0.512
+/c/en/church,/c/en/psalm,"[""/r/RelatedTo""]",0.217
+/c/en/church,/c/en/statue,"[""/r/AtLocation""]",2.828
+/c/en/church,/c/en/temple,"[""/r/RelatedTo""]",1.7
+/c/en/church,/c/en/usher,"[""/r/RelatedTo""]",1.0
+/c/en/chutney,/c/en/condiment,"[""/r/RelatedTo""]",1.0
+/c/en/chutney,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/chutney,/c/en/spicy,"[""/r/RelatedTo""]",1.0
+/c/en/chylaqueous,/c/en/liquid,"[""/r/RelatedTo""]",1.0
+/c/en/chylaqueous,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/cinnamon_roll,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/cinnamon_roll,/c/en/pastry,"[""/r/RelatedTo""]",1.0
+/c/en/circus,/c/en/clown_car,"[""/r/RelatedTo""]",1.0
+/c/en/circus,/c/en/fun,"[""/r/RelatedTo""]",0.217
+/c/en/classes,/c/en/school,"[""/r/RelatedTo"", ""/r/UsedFor""]",1.59
+/c/en/claw,/c/en/holder,"[""/r/IsA""]",1.0
+/c/en/claw,/c/en/paws,"[""/r/RelatedTo""]",0.11
+/c/en/clean_house,/c/en/dirty,"[""/r/MotivatedByGoal""]",2.0
+/c/en/clean_house,/c/en/interior,"[""/r/RelatedTo""]",1.0
+/c/en/clean_house,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/clear_table,/c/en/person,"[""/r/CapableOf""]",1.0
+/c/en/click,/c/en/clutch,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/click,/c/en/dog,"[""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/click,/c/en/navigate,"[""/r/RelatedTo""]",1.0
+/c/en/click,/c/en/type,"[""/r/HasSubevent""]",1.0
+/c/en/clothing,/c/en/dogwear,"[""/r/RelatedTo""]",1.0
+/c/en/clothing,/c/en/floor,"[""/r/AtLocation""]",1.0
+/c/en/clothing,/c/en/fur,"[""/r/RelatedTo""]",1.0
+/c/en/clothing,/c/en/headlight,"[""/r/RelatedTo""]",1.0
+/c/en/clothing,/c/en/house,"[""/r/AtLocation""]",4.472
+/c/en/clothing,/c/en/leather,"[""/r/RelatedTo""]",1.0
+/c/en/clothing,/c/en/mantle,"[""/r/RelatedTo""]",1.0
+/c/en/clothing,/c/en/person,"[""/r/AtLocation"", ""/r/Desires""]",6.0
+/c/en/clothing,/c/en/seconds,"[""/r/RelatedTo""]",1.0
+/c/en/clothing,/c/en/solid,"[""/r/RelatedTo""]",1.0
+/c/en/clothing,/c/en/wash,"[""/r/RelatedTo""]",0.494
+/c/en/clothing,/c/en/what,"[""/r/RelatedTo""]",0.29
+/c/en/clothing_closet,/c/en/house,"[""/r/AtLocation""]",1.0
+/c/en/clothing_closet,/c/en/own_home,"[""/r/AtLocation""]",1.0
+/c/en/cloud,/c/en/fluffy,"[""/r/RelatedTo""]",6.656
+/c/en/cloud,/c/en/gray,"[""/r/RelatedTo""]",0.136
+/c/en/cloud,/c/en/high,"[""/r/RelatedTo""]",0.76
+/c/en/cloud,/c/en/holder,"[""/r/RelatedTo""]",0.729
+/c/en/cloud,/c/en/rainwater,"[""/r/RelatedTo""]",0.109
+/c/en/cloud,/c/en/sneeze,"[""/r/RelatedTo""]",0.173
+/c/en/cloud,/c/en/soft,"[""/r/RelatedTo""]",0.183
+/c/en/cloud,/c/en/vapour,"[""/r/RelatedTo""]",1.814
+/c/en/cloud,/c/en/water,"[""/r/RelatedTo""]",5.55
+/c/en/coast,/c/en/coaster,"[""/r/RelatedTo""]",1.0
+/c/en/coast,/c/en/engine,"[""/r/RelatedTo""]",1.0
+/c/en/coast,/c/en/fishing,"[""/r/UsedFor""]",2.0
+/c/en/coast,/c/en/guard,"[""/r/RelatedTo""]",0.433
+/c/en/coast,/c/en/interior,"[""/r/RelatedTo""]",1.0
+/c/en/coast,/c/en/moving,"[""/r/RelatedTo""]",0.142
+/c/en/coast,/c/en/ocean,"[""/r/AtLocation"", ""/r/RelatedTo""]",6.229
+/c/en/coast,/c/en/river,"[""/r/RelatedTo""]",0.271
+/c/en/coast,/c/en/shoreline,"[""/r/RelatedTo""]",4.21
+/c/en/coast,/c/en/water,"[""/r/RelatedTo""]",4.105
+/c/en/coaster,/c/en/tray,"[""/r/RelatedTo""]",1.0
+/c/en/coaster,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/coaster,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/coconut_milk,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/coconut_milk,/c/en/liquid,"[""/r/RelatedTo""]",1.0
+/c/en/coconut_milk,/c/en/rundown,"[""/r/RelatedTo""]",1.0
+/c/en/codex,/c/en/manuscript,"[""/r/RelatedTo""]",1.0
+/c/en/codex,/c/en/medicine,"[""/r/RelatedTo""]",1.0
+/c/en/col,/c/en/law,"[""/r/HasContext""]",1.0
+/c/en/col,/c/en/school,"[""/r/RelatedTo""]",0.119
+/c/en/cold,/c/en/cold_sore,"[""/r/DerivedFrom""]",1.0
+/c/en/cold,/c/en/cooling,"[""/r/RelatedTo""]",1.0
+/c/en/cold,/c/en/degree,"[""/r/RelatedTo""]",0.226
+/c/en/cold,/c/en/extra,"[""/r/RelatedTo""]",0.165
+/c/en/cold,/c/en/fever,"[""/r/DistinctFrom"", ""/r/RelatedTo""]",1.0
+/c/en/cold,/c/en/fire,"[""/r/Antonym"", ""/r/RelatedTo""]",0.155
+/c/en/cold,/c/en/fish,"[""/r/RelatedTo""]",0.224
+/c/en/cold,/c/en/fishsicle,"[""/r/RelatedTo""]",1.0
+/c/en/cold,/c/en/freeze,"[""/r/RelatedTo"", ""/r/SimilarTo""]",1.0
+/c/en/cold,/c/en/injection,"[""/r/RelatedTo""]",1.0
+/c/en/cold,/c/en/lord,"[""/r/RelatedTo""]",0.13
+/c/en/cold,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/cold,/c/en/river,"[""/r/HasProperty""]",1.0
+/c/en/cold,/c/en/sneeze,"[""/r/RelatedTo""]",3.389
+/c/en/cold,/c/en/starve,"[""/r/RelatedTo""]",1.0
+/c/en/cold,/c/en/steel,"[""/r/RelatedTo""]",0.247
+/c/en/cold,/c/en/summer,"[""/r/Antonym""]",0.271
+/c/en/cold,/c/en/tarator,"[""/r/RelatedTo""]",1.0
+/c/en/cold,/c/en/warm,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/RelatedTo""]",1.0
+/c/en/cold,/c/en/water,"[""/r/HasProperty""]",1.0
+/c/en/cold_blooded_animal,/c/en/fish,"[""/r/IsA""]",1.0
+/c/en/cold_blooded_animal,/c/en/invertebrate,"[""/r/IsA""]",1.0
+/c/en/cold_sore,/c/en/person,"[""/r/NotDesires""]",2.0
+/c/en/colony,/c/en/family,"[""/r/RelatedTo""]",0.325
+/c/en/colony,/c/en/first,"[""/r/RelatedTo""]",0.203
+/c/en/colony,/c/en/house,"[""/r/RelatedTo""]",0.325
+/c/en/colony,/c/en/kittiwake,"[""/r/RelatedTo""]",1.0
+/c/en/colony,/c/en/rabbit,"[""/r/RelatedTo""]",1.0
+/c/en/colony,/c/en/social_group,"[""/r/RelatedTo""]",0.157
+/c/en/comic_book,/c/en/magazine,"[""/r/RelatedTo""]",1.0
+/c/en/comic_book,/c/en/sequence,"[""/r/RelatedTo""]",1.0
+/c/en/commander,/c/en/officer,"[""/r/RelatedTo""]",0.374
+/c/en/commander,/c/en/organization_member,"[""/r/IsA""]",1.0
+/c/en/commander,/c/en/paving,"[""/r/RelatedTo""]",1.0
+/c/en/commander,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/commingler,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/commingler,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/common_pet,/c/en/dog,"[""/r/RelatedTo""]",0.606
+/c/en/commons,/c/en/food,"[""/r/Synonym""]",1.0
+/c/en/commons,/c/en/resource,"[""/r/IsA""]",1.0
+/c/en/communist,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/companion,/c/en/companionship,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/companion,/c/en/dog,"[""/r/RelatedTo""]",0.114
+/c/en/companion,/c/en/pet,"[""/r/RelatedTo""]",0.341
+/c/en/companion,/c/en/rogue,"[""/r/RelatedTo""]",1.0
+/c/en/companionship,/c/en/dog,"[""/r/RelatedTo"", ""/r/UsedFor""]",6.325
+/c/en/companionship,/c/en/pet,"[""/r/RelatedTo"", ""/r/UsedFor""]",4.899
+/c/en/computed_tomography,/c/en/mri,"[""/r/RelatedTo""]",1.0
+/c/en/computed_tomography,/c/en/pet,"[""/r/RelatedTo""]",1.0
+/c/en/computer,/c/en/computer_to_crash,"[""/r/NotDesires""]",1.0
+/c/en/computer,/c/en/control,"[""/r/RelatedTo""]",0.134
+/c/en/computer,/c/en/copy,"[""/r/RelatedTo""]",0.575
+/c/en/computer,/c/en/create_artificial_intelligence,"[""/r/UsedFor""]",1.0
+/c/en/computer,/c/en/cut,"[""/r/RelatedTo""]",0.185
+/c/en/computer,/c/en/data_centre,"[""/r/RelatedTo""]",1.0
+/c/en/computer,/c/en/dog,"[""/r/Antonym""]",0.112
+/c/en/computer,/c/en/escape,"[""/r/RelatedTo""]",0.103
+/c/en/computer,/c/en/house,"[""/r/AtLocation""]",8.0
+/c/en/computer,/c/en/make_shopping_list,"[""/r/UsedFor""]",1.0
+/c/en/computer,/c/en/mouse,"[""/r/AtLocation"", ""/r/HasA"", ""/r/PartOf""]",4.472
+/c/en/computer,/c/en/notebook,"[""/r/IsA""]",2.0
+/c/en/computer,/c/en/person,"[""/r/Desires"", ""/r/RelatedTo""]",1.0
+/c/en/computer,/c/en/print,"[""/r/RelatedTo""]",3.454
+/c/en/computer,/c/en/printer,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/computer,/c/en/process,"[""/r/RelatedTo""]",1.0
+/c/en/computer,/c/en/school,"[""/r/AtLocation""]",6.633
+/c/en/computer,/c/en/think,"[""/r/CapableOf""]",1.0
+/c/en/computer,/c/en/type,"[""/r/RelatedTo""]",0.14
+/c/en/computer,/c/en/user,"[""/r/RelatedTo""]",1.0
+/c/en/computer,/c/en/web,"[""/r/RelatedTo""]",0.184
+/c/en/computer_to_crash,/c/en/person,"[""/r/NotDesires""]",4.0
+/c/en/condiment,/c/en/cruet,"[""/r/RelatedTo""]",1.0
+/c/en/condiment,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/condiment,/c/en/kitchen,"[""/r/RelatedTo""]",1.0
+/c/en/conduit,/c/en/drain,"[""/r/RelatedTo""]",1.0
+/c/en/conduit,/c/en/finance,"[""/r/HasContext""]",1.0
+/c/en/conduit,/c/en/road,"[""/r/RelatedTo""]",0.109
+/c/en/conduit,/c/en/vein,"[""/r/RelatedTo""]",0.103
+/c/en/conduit,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/cone,/c/en/dessert,"[""/r/RelatedTo""]",0.103
+/c/en/cone,/c/en/dog,"[""/r/RelatedTo""]",1.0
+/c/en/cone,/c/en/double_dip,"[""/r/RelatedTo""]",1.0
+/c/en/cone,/c/en/holder,"[""/r/RelatedTo""]",1.012
+/c/en/cone,/c/en/solid,"[""/r/RelatedTo""]",0.27
+/c/en/cone,/c/en/traffic,"[""/r/RelatedTo""]",0.106
+/c/en/cone,/c/en/two,"[""/r/RelatedTo""]",0.152
+/c/en/congius,/c/en/liquid,"[""/r/RelatedTo""]",1.0
+/c/en/congius,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/congolese,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/congolese,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/congolese,/c/en/togolese,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/contain,/c/en/contains,"[""/r/FormOf"", ""/r/RelatedTo""]",1.0
+/c/en/contain,/c/en/control,"[""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/contain,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/contain,/c/en/stomach,"[""/r/RelatedTo""]",0.141
+/c/en/contain,/c/en/tupperware,"[""/r/RelatedTo""]",0.198
+/c/en/contain,/c/en/water,"[""/r/RelatedTo""]",0.149
+/c/en/contains,/c/en/ground,"[""/r/RelatedTo""]",0.118
+/c/en/control,/c/en/dispatcher,"[""/r/RelatedTo""]",1.0
+/c/en/control,/c/en/executor_de_son_tort,"[""/r/RelatedTo""]",1.0
+/c/en/control,/c/en/handle,"[""/r/RelatedTo""]",0.26
+/c/en/control,/c/en/mechanical,"[""/r/RelatedTo""]",1.0
+/c/en/control,/c/en/navigate,"[""/r/RelatedTo""]",1.0
+/c/en/control,/c/en/obedience,"[""/r/Antonym""]",1.0
+/c/en/control,/c/en/rule,"[""/r/RelatedTo""]",0.564
+/c/en/convent,/c/en/house,"[""/r/RelatedTo""]",0.17
+/c/en/convent,/c/en/judge,"[""/r/RelatedTo""]",1.0
+/c/en/convent,/c/en/school,"[""/r/RelatedTo""]",1.0
+/c/en/cookbook,/c/en/cookery,"[""/r/RelatedTo""]",1.0
+/c/en/cookbook,/c/en/recipe,"[""/r/RelatedTo""]",1.0
+/c/en/cookbook,/c/en/shelf,"[""/r/AtLocation""]",1.0
+/c/en/cooker,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/cookery,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/cooling,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/cooling,/c/en/medicine,"[""/r/RelatedTo""]",1.0
+/c/en/coon,/c/en/cross,"[""/r/RelatedTo""]",1.0
+/c/en/coon,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/coon,/c/en/hunt,"[""/r/RelatedTo""]",1.0
+/c/en/copy,/c/en/create,"[""/r/RelatedTo""]",0.22
+/c/en/copy,/c/en/cut,"[""/r/DistinctFrom"", ""/r/RelatedTo""]",1.0
+/c/en/copy,/c/en/extra,"[""/r/RelatedTo""]",0.22
+/c/en/copy,/c/en/magazine,"[""/r/RelatedTo""]",1.0
+/c/en/copy,/c/en/newspaper,"[""/r/AtLocation""]",1.0
+/c/en/copy,/c/en/paper,"[""/r/RelatedTo""]",1.513
+/c/en/copy,/c/en/print,"[""/r/RelatedTo""]",2.041
+/c/en/copy,/c/en/read,"[""/r/Synonym""]",1.0
+/c/en/copy,/c/en/second,"[""/r/RelatedTo""]",0.222
+/c/en/copy,/c/en/two,"[""/r/RelatedTo""]",0.162
+/c/en/corn_flakes,/c/en/cupboard,"[""/r/AtLocation""]",1.0
+/c/en/corn_flakes,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/corrections,/c/en/guard,"[""/r/RelatedTo""]",0.106
+/c/en/cottage_home,/c/en/family,"[""/r/RelatedTo""]",1.0
+/c/en/cottage_home,/c/en/residential,"[""/r/RelatedTo""]",1.0
+/c/en/coward,/c/en/dog,"[""/r/RelatedTo""]",1.0
+/c/en/coward,/c/en/herd,"[""/r/DerivedFrom""]",1.0
+/c/en/coward,/c/en/invertebrate,"[""/r/RelatedTo""]",1.0
+/c/en/coward,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/coypu,/c/en/north_america,"[""/r/RelatedTo""]",1.0
+/c/en/crackerbox,/c/en/house,"[""/r/RelatedTo""]",1.0
+/c/en/cranberry,/c/en/crane,"[""/r/EtymologicallyRelatedTo"", ""/r/RelatedTo""]",1.0
+/c/en/cranberry,/c/en/ellagic_acid,"[""/r/RelatedTo""]",1.0
+/c/en/cranberry,/c/en/food,"[""/r/RelatedTo""]",0.115
+/c/en/cranberry,/c/en/ocean,"[""/r/RelatedTo""]",0.237
+/c/en/crane,/c/en/equipment,"[""/r/RelatedTo""]",0.275
+/c/en/crane,/c/en/family,"[""/r/RelatedTo""]",1.0
+/c/en/crane,/c/en/high,"[""/r/RelatedTo""]",0.144
+/c/en/crane,/c/en/mechanical,"[""/r/RelatedTo""]",1.0
+/c/en/crane,/c/en/sandhill_crane,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/crazy,/c/en/crazyhouse,"[""/r/DerivedFrom""]",1.0
+/c/en/crazy,/c/en/cuckoo,"[""/r/RelatedTo""]",1.0
+/c/en/crazy,/c/en/loon,"[""/r/RelatedTo""]",0.907
+/c/en/crazy,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/crazyhouse,/c/en/house,"[""/r/DerivedFrom""]",1.0
+/c/en/create,/c/en/derive,"[""/r/RelatedTo""]",1.0
+/c/en/create,/c/en/man_made,"[""/r/RelatedTo""]",1.0
+/c/en/create,/c/en/maverick,"[""/r/RelatedTo""]",1.0
+/c/en/create,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/create,/c/en/roll,"[""/r/RelatedTo""]",1.0
+/c/en/create,/c/en/type,"[""/r/HasSubevent""]",2.0
+/c/en/create_artificial_intelligence,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/criminal,/c/en/cross,"[""/r/RelatedTo""]",1.0
+/c/en/criminal,/c/en/deal_drugs,"[""/r/CapableOf""]",2.0
+/c/en/criminal,/c/en/fraud,"[""/r/RelatedTo""]",0.412
+/c/en/criminal,/c/en/housebreaker,"[""/r/RelatedTo""]",1.0
+/c/en/criminal,/c/en/judge,"[""/r/Antonym""]",0.288
+/c/en/criminal,/c/en/law,"[""/r/RelatedTo""]",1.0
+/c/en/criminal,/c/en/manor,"[""/r/RelatedTo""]",1.0
+/c/en/criminal,/c/en/perpetrator,"[""/r/RelatedTo""]",0.337
+/c/en/criminal,/c/en/person,"[""/r/IsA"", ""/r/NotDesires""]",1.0
+/c/en/criminal,/c/en/reward,"[""/r/RelatedTo""]",0.299
+/c/en/criminal,/c/en/robbery,"[""/r/RelatedTo""]",0.861
+/c/en/cripple,/c/en/door,"[""/r/RelatedTo""]",1.0
+/c/en/cripple,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/critic,/c/en/judge,"[""/r/RelatedTo""]",1.0
+/c/en/critic,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/critic,/c/en/social_being,"[""/r/IsA""]",1.0
+/c/en/croissant,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/croissant,/c/en/pastry,"[""/r/RelatedTo""]",1.0
+/c/en/croissant,/c/en/roll,"[""/r/RelatedTo""]",1.0
+/c/en/cross,/c/en/crossfish,"[""/r/DerivedFrom""]",1.0
+/c/en/cross,/c/en/cut,"[""/r/RelatedTo""]",1.0
+/c/en/cross,/c/en/four,"[""/r/RelatedTo""]",0.133
+/c/en/cross,/c/en/grave,"[""/r/RelatedTo""]",0.131
+/c/en/cross,/c/en/hospital,"[""/r/RelatedTo""]",0.168
+/c/en/cross,/c/en/jesus,"[""/r/RelatedTo""]",5.28
+/c/en/cross,/c/en/lines,"[""/r/RelatedTo""]",2.713
+/c/en/cross,/c/en/minskin,"[""/r/RelatedTo""]",1.0
+/c/en/cross,/c/en/person,"[""/r/RelatedTo""]",0.182
+/c/en/cross,/c/en/post,"[""/r/RelatedTo""]",1.0
+/c/en/cross,/c/en/road,"[""/r/RelatedTo"", ""/r/UsedFor""]",1.0
+/c/en/cross,/c/en/small,"[""/r/RelatedTo""]",0.448
+/c/en/cross,/c/en/street,"[""/r/RelatedTo""]",0.217
+/c/en/cross,/c/en/two,"[""/r/RelatedTo""]",2.981
+/c/en/cross,/c/en/what,"[""/r/RelatedTo""]",0.227
+/c/en/crossfish,/c/en/fish,"[""/r/DerivedFrom""]",1.0
+/c/en/crossroads,/c/en/road,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/crossroads,/c/en/street,"[""/r/RelatedTo""]",0.186
+/c/en/crow,/c/en/crowstone,"[""/r/DerivedFrom""]",1.0
+/c/en/crow,/c/en/feathers,"[""/r/RelatedTo""]",0.277
+/c/en/crowstone,/c/en/house,"[""/r/RelatedTo""]",1.0
+/c/en/cruet,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/cruet,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/cruiser,/c/en/police_car,"[""/r/RelatedTo""]",0.164
+/c/en/cry,/c/en/despair,"[""/r/RelatedTo""]",0.108
+/c/en/cry,/c/en/distraught,"[""/r/MotivatedByGoal""]",1.0
+/c/en/cry,/c/en/fluid,"[""/r/RelatedTo""]",0.411
+/c/en/cry,/c/en/going_see_film,"[""/r/HasSubevent""]",1.0
+/c/en/cry,/c/en/hungry,"[""/r/RelatedTo""]",0.176
+/c/en/cry,/c/en/liquid,"[""/r/RelatedTo""]",0.708
+/c/en/cry,/c/en/my,"[""/r/RelatedTo""]",0.132
+/c/en/cry,/c/en/noise,"[""/r/RelatedTo""]",1.755
+/c/en/cry,/c/en/person,"[""/r/RelatedTo""]",0.106
+/c/en/cry,/c/en/process,"[""/r/RelatedTo""]",0.228
+/c/en/cry,/c/en/tears,"[""/r/RelatedTo""]",8.064
+/c/en/cry,/c/en/water,"[""/r/RelatedTo""]",2.358
+/c/en/cry_cupboard,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/cry_cupboard,/c/en/hunger,"[""/r/RelatedTo""]",1.0
+/c/en/cryofracture,/c/en/freeze,"[""/r/RelatedTo""]",1.0
+/c/en/cryofracture,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/cuban,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/cuban,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/cuckoo,/c/en/cuckoo_dove,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/cuckoo,/c/en/cuculid,"[""/r/RelatedTo""]",1.0
+/c/en/cuculid,/c/en/family,"[""/r/RelatedTo""]",1.0
+/c/en/cumberground,/c/en/ground,"[""/r/DerivedFrom""]",1.0
+/c/en/cumberground,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/cupboard,/c/en/food,"[""/r/AtLocation""]",4.899
+/c/en/cupboard,/c/en/mouse,"[""/r/AtLocation""]",5.292
+/c/en/cupboard,/c/en/muffin,"[""/r/AtLocation""]",1.0
+/c/en/cupboard,/c/en/shelf,"[""/r/AtLocation""]",2.828
+/c/en/cupboard,/c/en/sideboard,"[""/r/Synonym""]",1.0
+/c/en/curriculum,/c/en/extra,"[""/r/RelatedTo""]",1.0
+/c/en/curriculum,/c/en/school,"[""/r/RelatedTo""]",1.0
+/c/en/customer,/c/en/person,"[""/r/RelatedTo""]",1.086
+/c/en/cut,/c/en/cuts,"[""/r/FormOf""]",1.0
+/c/en/cut,/c/en/dog,"[""/r/DistinctFrom""]",0.15
+/c/en/cut,/c/en/dull,"[""/r/RelatedTo""]",1.0
+/c/en/cut,/c/en/escape,"[""/r/RelatedTo""]",0.12
+/c/en/cut,/c/en/fine,"[""/r/RelatedTo""]",1.0
+/c/en/cut,/c/en/food,"[""/r/RelatedTo""]",0.102
+/c/en/cut,/c/en/grass,"[""/r/HasA""]",1.0
+/c/en/cut,/c/en/hanger_steak,"[""/r/RelatedTo""]",1.0
+/c/en/cut,/c/en/muscle,"[""/r/RelatedTo""]",1.0
+/c/en/cut,/c/en/officer,"[""/r/RelatedTo""]",1.0
+/c/en/cut,/c/en/paper,"[""/r/ReceivesAction"", ""/r/RelatedTo""]",1.0
+/c/en/cut,/c/en/queue,"[""/r/RelatedTo""]",1.0
+/c/en/cut,/c/en/seal,"[""/r/Antonym""]",0.15
+/c/en/cut,/c/en/shark,"[""/r/RelatedTo""]",0.173
+/c/en/cut,/c/en/small,"[""/r/RelatedTo""]",1.582
+/c/en/cut,/c/en/song,"[""/r/RelatedTo""]",1.0
+/c/en/cut,/c/en/spurt,"[""/r/RelatedTo""]",1.0
+/c/en/cut,/c/en/straight,"[""/r/RelatedTo""]",0.12
+/c/en/cut,/c/en/together,"[""/r/Antonym"", ""/r/DistinctFrom""]",0.158
+/c/en/cuts,/c/en/school,"[""/r/RelatedTo""]",1.0
+/c/en/cyprinodont,/c/en/family,"[""/r/RelatedTo""]",1.0
+/c/en/cyprinodont,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/cypriot,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/cypriot,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/dam,/c/en/donkra,"[""/r/RelatedTo""]",1.0
+/c/en/dam,/c/en/river,"[""/r/RelatedTo""]",0.19
+/c/en/dam,/c/en/water,"[""/r/AtLocation""]",2.828
+/c/en/dam,/c/en/weir,"[""/r/IsA"", ""/r/RelatedTo"", ""/r/SimilarTo""]",1.0
+/c/en/dangerous,/c/en/fire,"[""/r/RelatedTo""]",0.275
+/c/en/dangerous,/c/en/guard,"[""/r/RelatedTo""]",1.0
+/c/en/dangerous,/c/en/rattlesnake,"[""/r/RelatedTo""]",0.526
+/c/en/dangerous,/c/en/safe,"[""/r/Antonym"", ""/r/DistinctFrom""]",1.155
+/c/en/dangerous,/c/en/shark,"[""/r/RelatedTo""]",0.734
+/c/en/dangerous,/c/en/siren,"[""/r/RelatedTo""]",1.0
+/c/en/dangerous,/c/en/water,"[""/r/HasProperty""]",2.0
+/c/en/dangly_bits,/c/en/genitalia,"[""/r/RelatedTo""]",1.0
+/c/en/dangly_bits,/c/en/small,"[""/r/RelatedTo""]",1.0
+/c/en/data_centre,/c/en/house,"[""/r/RelatedTo""]",1.0
+/c/en/day_off,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/day_off,/c/en/school_day,"[""/r/RelatedTo""]",1.0
+/c/en/dead's_part,/c/en/wife,"[""/r/RelatedTo""]",1.0
+/c/en/deal_drugs,/c/en/jack,"[""/r/CapableOf""]",2.0
+/c/en/deal_drugs,/c/en/person,"[""/r/CapableOf""]",4.472
+/c/en/debt,/c/en/house,"[""/r/RelatedTo""]",0.102
+/c/en/debt,/c/en/what,"[""/r/RelatedTo""]",0.321
+/c/en/deed,/c/en/degree,"[""/r/RelatedTo""]",0.121
+/c/en/deed,/c/en/house,"[""/r/RelatedTo""]",0.66
+/c/en/deed,/c/en/paper,"[""/r/RelatedTo""]",0.163
+/c/en/deed,/c/en/papers,"[""/r/RelatedTo""]",0.105
+/c/en/deed,/c/en/property,"[""/r/RelatedTo""]",1.654
+/c/en/deed,/c/en/reward,"[""/r/RelatedTo""]",0.4
+/c/en/deed,/c/en/truth,"[""/r/Synonym""]",1.0
+/c/en/degree,/c/en/first,"[""/r/RelatedTo""]",0.169
+/c/en/degree,/c/en/genealogy,"[""/r/HasContext""]",1.0
+/c/en/degree,/c/en/graduation,"[""/r/RelatedTo""]",2.475
+/c/en/degree,/c/en/indicator,"[""/r/RelatedTo""]",1.0
+/c/en/degree,/c/en/intellect,"[""/r/RelatedTo""]",1.0
+/c/en/degree,/c/en/law,"[""/r/RelatedTo""]",0.169
+/c/en/degree,/c/en/paper,"[""/r/RelatedTo""]",2.686
+/c/en/degree,/c/en/reward,"[""/r/RelatedTo""]",0.817
+/c/en/degree,/c/en/school,"[""/r/RelatedTo""]",0.438
+/c/en/degree,/c/en/small,"[""/r/RelatedTo""]",0.495
+/c/en/degree,/c/en/stick,"[""/r/RelatedTo""]",0.104
+/c/en/degree,/c/en/think,"[""/r/RelatedTo""]",0.123
+/c/en/degree,/c/en/what,"[""/r/RelatedTo""]",0.177
+/c/en/degree,/c/en/zodiac,"[""/r/RelatedTo""]",1.0
+/c/en/derive,/c/en/type,"[""/r/RelatedTo""]",1.0
+/c/en/despair,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/dessert,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/dessert,/c/en/halva,"[""/r/RelatedTo""]",1.0
+/c/en/dessert,/c/en/pastry,"[""/r/IsA""]",1.0
+/c/en/dessert,/c/en/tiramisu,"[""/r/InstanceOf"", ""/r/RelatedTo""]",1.0
+/c/en/dessert,/c/en/trifle,"[""/r/InstanceOf"", ""/r/RelatedTo""]",1.0
+/c/en/devaporation,/c/en/vapour,"[""/r/RelatedTo""]",1.0
+/c/en/devaporation,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/dhokla,/c/en/food,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/diaclasis,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/diaclasis,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/diarrhea,/c/en/food_poisoning,"[""/r/RelatedTo""]",1.0
+/c/en/diarrhea,/c/en/person,"[""/r/NotDesires""]",2.0
+/c/en/different,/c/en/diversity,"[""/r/RelatedTo""]",1.0
+/c/en/different,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/different,/c/en/person,"[""/r/Desires"", ""/r/NotDesires""]",2.828
+/c/en/dirty,/c/en/floor,"[""/r/HasProperty""]",1.0
+/c/en/dirty,/c/en/ground,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/dirty,/c/en/hospital,"[""/r/HasProperty""]",1.0
+/c/en/dirty,/c/en/kitchen,"[""/r/HasProperty""]",1.0
+/c/en/dirty,/c/en/person,"[""/r/NotDesires""]",2.0
+/c/en/dirty,/c/en/ragamuffin,"[""/r/RelatedTo""]",1.0
+/c/en/dirty,/c/en/wash,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/RelatedTo""]",2.735
+/c/en/dirty,/c/en/wash_dishes,"[""/r/MotivatedByGoal""]",1.0
+/c/en/discovery,/c/en/explore,"[""/r/RelatedTo""]",1.0
+/c/en/dispatcher,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/distraught,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/distraught,/c/en/worried,"[""/r/RelatedTo""]",1.0
+/c/en/disturnpike,/c/en/road,"[""/r/RelatedTo""]",1.0
+/c/en/disturnpike,/c/en/turnpike,"[""/r/RelatedTo""]",1.0
+/c/en/diver,/c/en/diving,"[""/r/RelatedTo""]",1.0
+/c/en/diver,/c/en/loon,"[""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/diver,/c/en/ocean,"[""/r/AtLocation""]",1.0
+/c/en/diver,/c/en/water,"[""/r/AtLocation""]",2.0
+/c/en/diversity,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/diving,/c/en/fun,"[""/r/UsedFor""]",2.0
+/c/en/diving,/c/en/having_fun,"[""/r/UsedFor""]",1.0
+/c/en/diving,/c/en/ocean,"[""/r/UsedFor""]",2.828
+/c/en/diving,/c/en/pleasure,"[""/r/UsedFor""]",1.0
+/c/en/diving,/c/en/water,"[""/r/HasPrerequisite""]",1.0
+/c/en/do_dishes,/c/en/fork,"[""/r/RelatedTo""]",1.0
+/c/en/do_dishes,/c/en/person,"[""/r/HasA""]",2.0
+/c/en/do_dishes,/c/en/spoon,"[""/r/RelatedTo""]",1.0
+/c/en/do_dishes,/c/en/wash,"[""/r/RelatedTo""]",0.187
+/c/en/do_dishes,/c/en/wash_dishes,"[""/r/Synonym""]",1.0
+/c/en/dock,/c/en/water,"[""/r/RelatedTo""]",0.459
+/c/en/dodge_viper,/c/en/street,"[""/r/RelatedTo""]",0.5
+/c/en/dog,/c/en/dogear,"[""/r/DerivedFrom""]",1.0
+/c/en/dog,/c/en/doghole,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/dogwear,"[""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/domestic_animal,"[""/r/IsA"", ""/r/RelatedTo""]",1.504
+/c/en/dog,/c/en/dull,"[""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/eskimo,"[""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/family,"[""/r/RelatedTo""]",1.241
+/c/en/dog,/c/en/feline_animal,"[""/r/RelatedTo""]",0.11
+/c/en/dog,/c/en/find_downstairs,"[""/r/IsA""]",1.0
+/c/en/dog,/c/en/fluffy,"[""/r/RelatedTo""]",0.16
+/c/en/dog,/c/en/food,"[""/r/Desires""]",1.0
+/c/en/dog,/c/en/foreface,"[""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/four,"[""/r/RelatedTo""]",2.852
+/c/en/dog,/c/en/fun,"[""/r/HasProperty"", ""/r/RelatedTo""]",2.828
+/c/en/dog,/c/en/fur,"[""/r/HasA"", ""/r/RelatedTo""]",1.198
+/c/en/dog,/c/en/fuzzy,"[""/r/RelatedTo""]",0.242
+/c/en/dog,/c/en/german_spaniel,"[""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/go_for_walk,"[""/r/CausesDesire"", ""/r/Desires""]",2.0
+/c/en/dog,/c/en/gray,"[""/r/HasProperty""]",1.0
+/c/en/dog,/c/en/ground,"[""/r/AtLocation""]",1.0
+/c/en/dog,/c/en/grown,"[""/r/RelatedTo""]",0.392
+/c/en/dog,/c/en/guard,"[""/r/RelatedTo""]",0.19
+/c/en/dog,/c/en/harehound,"[""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/herd,"[""/r/RelatedTo""]",0.102
+/c/en/dog,/c/en/hot_dog,"[""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/house,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.828
+/c/en/dog,/c/en/house_animal,"[""/r/RelatedTo""]",0.229
+/c/en/dog,/c/en/household_animal,"[""/r/RelatedTo""]",0.408
+/c/en/dog,/c/en/household_pet,"[""/r/RelatedTo""]",1.473
+/c/en/dog,/c/en/jog,"[""/r/CausesDesire""]",1.0
+/c/en/dog,/c/en/kangal,"[""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/knocknobbler,"[""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/legs,"[""/r/PartOf"", ""/r/RelatedTo""]",2.668
+/c/en/dog,/c/en/mastiff,"[""/r/EtymologicallyRelatedTo"", ""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/mean,"[""/r/HasProperty"", ""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/muzzle,"[""/r/RelatedTo""]",0.283
+/c/en/dog,/c/en/obedience,"[""/r/RelatedTo""]",0.504
+/c/en/dog,/c/en/paws,"[""/r/HasA"", ""/r/RelatedTo""]",2.828
+/c/en/dog,/c/en/person,"[""/r/Desires"", ""/r/NotDesires""]",2.0
+/c/en/dog,/c/en/pet,"[""/r/CapableOf"", ""/r/IsA"", ""/r/RelatedTo"", ""/r/UsedFor""]",9.83
+/c/en/dog,/c/en/phone,"[""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/polish,"[""/r/RelatedTo""]",0.155
+/c/en/dog,/c/en/porch,"[""/r/AtLocation""]",3.464
+/c/en/dog,/c/en/relatives_house,"[""/r/AtLocation""]",1.0
+/c/en/dog,/c/en/reward,"[""/r/RelatedTo""]",0.474
+/c/en/dog,/c/en/roll,"[""/r/RelatedTo""]",0.346
+/c/en/dog,/c/en/rug,"[""/r/AtLocation""]",2.828
+/c/en/dog,/c/en/samoyed,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/shih_tzu,"[""/r/IsA""]",1.0
+/c/en/dog,/c/en/small,"[""/r/RelatedTo""]",0.434
+/c/en/dog,/c/en/small_animal,"[""/r/RelatedTo""]",0.104
+/c/en/dog,/c/en/spaniel,"[""/r/IsA""]",4.899
+/c/en/dog,/c/en/spitz,"[""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/starve,"[""/r/NotDesires""]",1.0
+/c/en/dog,/c/en/stick,"[""/r/RelatedTo""]",0.372
+/c/en/dog,/c/en/walk_dog,"[""/r/RelatedTo""]",1.0
+/c/en/dog,/c/en/wash,"[""/r/RelatedTo""]",0.126
+/c/en/dog,/c/en/wolf,"[""/r/RelatedTo""]",3.879
+/c/en/dog_ear,/c/en/magazine,"[""/r/RelatedTo""]",1.0
+/c/en/dog_poo,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/dog_poo,/c/en/rug,"[""/r/AtLocation""]",1.0
+/c/en/doghole,/c/en/mean,"[""/r/RelatedTo""]",1.0
+/c/en/dogsbody,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/dogsbody,/c/en/servant,"[""/r/RelatedTo""]",1.0
+/c/en/domestic_animal,/c/en/pet,"[""/r/RelatedTo""]",0.725
+/c/en/domesticate,/c/en/housebreak,"[""/r/RelatedTo""]",1.0
+/c/en/door,/c/en/doors,"[""/r/FormOf"", ""/r/RelatedTo""]",1.0
+/c/en/door,/c/en/doorstop,"[""/r/DerivedFrom""]",1.0
+/c/en/door,/c/en/dutch_reach,"[""/r/RelatedTo""]",1.0
+/c/en/door,/c/en/escape,"[""/r/RelatedTo""]",0.136
+/c/en/door,/c/en/find_downstairs,"[""/r/IsA""]",1.0
+/c/en/door,/c/en/four,"[""/r/RelatedTo""]",0.184
+/c/en/door,/c/en/furniture,"[""/r/RelatedTo""]",0.75
+/c/en/door,/c/en/hall,"[""/r/RelatedTo""]",0.112
+/c/en/door,/c/en/handle,"[""/r/AtLocation"", ""/r/HasA"", ""/r/PartOf"", ""/r/RelatedTo""]",4.472
+/c/en/door,/c/en/house,"[""/r/HasA"", ""/r/PartOf"", ""/r/RelatedTo""]",7.036
+/c/en/door,/c/en/main,"[""/r/RelatedTo""]",0.179
+/c/en/door,/c/en/moving,"[""/r/RelatedTo""]",0.182
+/c/en/door,/c/en/person,"[""/r/RelatedTo""]",0.685
+/c/en/door,/c/en/porch,"[""/r/RelatedTo""]",0.106
+/c/en/door,/c/en/post,"[""/r/RelatedTo""]",0.224
+/c/en/door,/c/en/road,"[""/r/Antonym""]",0.115
+/c/en/door,/c/en/school,"[""/r/AtLocation""]",1.0
+/c/en/door,/c/en/solid,"[""/r/HasProperty"", ""/r/RelatedTo""]",1.0
+/c/en/door,/c/en/theater,"[""/r/AtLocation""]",2.828
+/c/en/door,/c/en/two,"[""/r/RelatedTo""]",0.141
+/c/en/door,/c/en/type,"[""/r/RelatedTo""]",0.23
+/c/en/doors,/c/en/guard,"[""/r/RelatedTo""]",0.139
+/c/en/doors,/c/en/gut_rehab,"[""/r/RelatedTo""]",1.0
+/c/en/doors,/c/en/hall,"[""/r/RelatedTo""]",0.884
+/c/en/doors,/c/en/handle,"[""/r/RelatedTo""]",1.408
+/c/en/doors,/c/en/house,"[""/r/HasA"", ""/r/RelatedTo""]",2.828
+/c/en/doorstop,/c/en/floor,"[""/r/RelatedTo""]",1.0
+/c/en/doorstop,/c/en/politician,"[""/r/RelatedTo""]",1.0
+/c/en/dosshouse,/c/en/house,"[""/r/DerivedFrom"", ""/r/IsA""]",1.0
+/c/en/dosshouse,/c/en/inn,"[""/r/RelatedTo""]",1.0
+/c/en/dotted_gizzard_shad,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/double_dip,/c/en/finance,"[""/r/HasContext""]",1.0
+/c/en/double_dip,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/double_dip,/c/en/two,"[""/r/RelatedTo""]",1.0
+/c/en/drain,/c/en/filter,"[""/r/RelatedTo""]",1.0
+/c/en/drain,/c/en/liquid,"[""/r/RelatedTo""]",1.0
+/c/en/drain,/c/en/rainwater,"[""/r/RelatedTo""]",1.0
+/c/en/drain,/c/en/resource,"[""/r/RelatedTo""]",1.0
+/c/en/drain,/c/en/sink,"[""/r/RelatedTo""]",1.0
+/c/en/drain,/c/en/water,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/drammock,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/drammock,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/dredger,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/dredger,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/drinkable,/c/en/safe,"[""/r/RelatedTo""]",1.0
+/c/en/drinkable,/c/en/water,"[""/r/RelatedTo""]",1.082
+/c/en/drinker,/c/en/sponge,"[""/r/RelatedTo""]",1.0
+/c/en/drinker,/c/en/supper,"[""/r/RelatedTo""]",1.0
+/c/en/drinking,/c/en/ocean,"[""/r/UsedFor""]",1.0
+/c/en/drinking,/c/en/pleasure,"[""/r/UsedFor""]",1.0
+/c/en/drinking,/c/en/session,"[""/r/RelatedTo""]",1.0
+/c/en/drinking,/c/en/spoon,"[""/r/UsedFor""]",1.0
+/c/en/drinking,/c/en/swallow,"[""/r/Causes""]",2.828
+/c/en/drinking,/c/en/water,"[""/r/RelatedTo"", ""/r/UsedFor""]",4.0
+/c/en/drive_on,/c/en/road,"[""/r/RelatedTo""]",0.675
+/c/en/drive_on,/c/en/street,"[""/r/RelatedTo"", ""/r/UsedFor""]",1.0
+/c/en/driving_place,/c/en/road,"[""/r/RelatedTo""]",0.345
+/c/en/driving_place,/c/en/street,"[""/r/RelatedTo""]",0.382
+/c/en/drunken_boxing,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/dry_out,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/dull,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/dull,/c/en/personality,"[""/r/RelatedTo""]",0.144
+/c/en/dull,/c/en/polish,"[""/r/Antonym""]",0.901
+/c/en/dumbwaiter,/c/en/floor,"[""/r/RelatedTo""]",1.0
+/c/en/dumbwaiter,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/dumbwaiter,/c/en/tray,"[""/r/RelatedTo""]",1.0
+/c/en/dwarf,/c/en/munchkin,"[""/r/Synonym""]",1.0
+/c/en/dwarf,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/dwarf,/c/en/sneeze,"[""/r/RelatedTo""]",0.271
+/c/en/dwellinghouse,/c/en/house,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/dwellinghouse,/c/en/residential,"[""/r/RelatedTo""]",1.0
+/c/en/dysteleology,/c/en/organ,"[""/r/RelatedTo""]",1.0
+/c/en/each,/c/en/family,"[""/r/RelatedTo""]",0.141
+/c/en/each,/c/en/language,"[""/r/RelatedTo""]",0.137
+/c/en/each,/c/en/person,"[""/r/RelatedTo""]",0.312
+/c/en/earthly_branch,/c/en/period,"[""/r/RelatedTo""]",1.0
+/c/en/earthly_branch,/c/en/represent,"[""/r/RelatedTo""]",1.0
+/c/en/earthly_branch,/c/en/second,"[""/r/RelatedTo""]",1.0
+/c/en/earthly_branch,/c/en/zodiac,"[""/r/RelatedTo""]",1.0
+/c/en/eat_in_restaurant,/c/en/feel_hungry,"[""/r/HasPrerequisite""]",1.0
+/c/en/eat_in_restaurant,/c/en/food,"[""/r/MotivatedByGoal""]",2.828
+/c/en/eat_in_restaurant,/c/en/hungry,"[""/r/HasPrerequisite""]",1.0
+/c/en/eat_spaghetti,/c/en/person,"[""/r/CapableOf""]",1.0
+/c/en/eating_breakfast_in_bed,/c/en/food,"[""/r/HasPrerequisite""]",1.0
+/c/en/eating_breakfast_in_bed,/c/en/happiness,"[""/r/Causes""]",1.0
+/c/en/eating_breakfast_in_bed,/c/en/pleasure,"[""/r/Causes"", ""/r/UsedFor""]",1.0
+/c/en/eating_breakfast_in_bed,/c/en/tray,"[""/r/HasPrerequisite""]",2.0
+/c/en/eating_dinner,/c/en/families,"[""/r/UsedFor""]",1.0
+/c/en/eating_dinner,/c/en/food,"[""/r/HasPrerequisite""]",2.828
+/c/en/eating_dinner,/c/en/food_poisoning,"[""/r/HasSubevent""]",1.0
+/c/en/eating_dinner,/c/en/fork,"[""/r/HasPrerequisite""]",1.0
+/c/en/eating_dinner,/c/en/gas,"[""/r/Causes""]",1.0
+/c/en/eating_dinner,/c/en/hunger,"[""/r/UsedFor""]",1.0
+/c/en/eating_in_restaurant,/c/en/food,"[""/r/HasPrerequisite""]",1.0
+/c/en/eating_in_restaurant,/c/en/food_poisoning,"[""/r/Causes""]",2.0
+/c/en/eating_lunch,/c/en/food,"[""/r/HasPrerequisite""]",4.899
+/c/en/eating_lunch,/c/en/fun,"[""/r/UsedFor""]",1.0
+/c/en/economist,/c/en/husband,"[""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/economist,/c/en/newspaper,"[""/r/IsA""]",0.5
+/c/en/economist,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/educational_organization,/c/en/school,"[""/r/IsA""]",1.0
+/c/en/eel,/c/en/fish,"[""/r/IsA"", ""/r/RelatedTo""]",1.5
+/c/en/eel,/c/en/gunnel,"[""/r/RelatedTo""]",1.0
+/c/en/eel,/c/en/water,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.828
+/c/en/eggs,/c/en/female,"[""/r/RelatedTo""]",1.0
+/c/en/eggs,/c/en/food,"[""/r/IsA""]",4.472
+/c/en/eggs,/c/en/pound_cake,"[""/r/RelatedTo""]",1.0
+/c/en/eggs,/c/en/rabbit,"[""/r/RelatedTo""]",0.32
+/c/en/eggs,/c/en/spatula,"[""/r/RelatedTo""]",0.141
+/c/en/electrolyte,/c/en/substance,"[""/r/RelatedTo""]",1.0
+/c/en/electrolyte,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/elegant,/c/en/fine,"[""/r/RelatedTo""]",1.0
+/c/en/elegant,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/elementary_school,/c/en/north_america,"[""/r/HasContext""]",1.0
+/c/en/elementary_school,/c/en/school,"[""/r/IsA""]",5.657
+/c/en/elf_owl,/c/en/north_america,"[""/r/RelatedTo""]",1.0
+/c/en/ellagic_acid,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/emberizidae,/c/en/grassquit,"[""/r/RelatedTo""]",1.0
+/c/en/emissary,/c/en/escape,"[""/r/RelatedTo""]",1.0
+/c/en/emissary,/c/en/represent,"[""/r/RelatedTo""]",1.0
+/c/en/emissary,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/en_vessie,/c/en/food,"[""/r/HasContext""]",1.0
+/c/en/end_of_line,/c/en/fish,"[""/r/AtLocation""]",2.0
+/c/en/end_of_line,/c/en/period,"[""/r/AtLocation""]",2.0
+/c/en/end_of_line,/c/en/process,"[""/r/RelatedTo""]",1.0
+/c/en/end_of_line,/c/en/railway,"[""/r/RelatedTo""]",1.0
+/c/en/engine,/c/en/gas,"[""/r/RelatedTo""]",0.274
+/c/en/engine,/c/en/holden,"[""/r/dbpedia/product""]",0.5
+/c/en/engine,/c/en/mechanical,"[""/r/RelatedTo""]",1.0
+/c/en/engine,/c/en/plot,"[""/r/RelatedTo""]",1.0
+/c/en/engine,/c/en/transmission,"[""/r/RelatedTo""]",1.0
+/c/en/engine,/c/en/turret,"[""/r/RelatedTo""]",1.0
+/c/en/engine,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/equality,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/equality,/c/en/person,"[""/r/Desires""]",2.0
+/c/en/equid,/c/en/mule,"[""/r/RelatedTo""]",1.0
+/c/en/equipment,/c/en/hose,"[""/r/RelatedTo""]",0.105
+/c/en/equipment,/c/en/mechanical,"[""/r/RelatedTo""]",1.0
+/c/en/equipment,/c/en/print,"[""/r/RelatedTo""]",0.169
+/c/en/equipment,/c/en/stick,"[""/r/RelatedTo""]",0.104
+/c/en/equipment,/c/en/toy,"[""/r/RelatedTo""]",0.237
+/c/en/escape,/c/en/fire,"[""/r/RelatedTo""]",0.274
+/c/en/escape,/c/en/leak,"[""/r/RelatedTo""]",1.0
+/c/en/escape,/c/en/liquid,"[""/r/RelatedTo""]",1.0
+/c/en/escape,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/escape,/c/en/singing,"[""/r/RelatedTo""]",1.0
+/c/en/eskimo,/c/en/language,"[""/r/RelatedTo""]",1.0
+/c/en/estate_agent,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/estate_agent,/c/en/property,"[""/r/RelatedTo""]",1.0
+/c/en/ester,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/estuary,/c/en/ocean,"[""/r/RelatedTo""]",1.0
+/c/en/estuary,/c/en/river,"[""/r/RelatedTo""]",1.0
+/c/en/estuary,/c/en/wash,"[""/r/RelatedTo""]",1.0
+/c/en/estuary,/c/en/water,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/ethology,/c/en/ethos,"[""/r/RelatedTo""]",1.0
+/c/en/ethos,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/exeat,/c/en/house,"[""/r/RelatedTo""]",1.0
+/c/en/exeat,/c/en/priest,"[""/r/RelatedTo""]",1.0
+/c/en/executor_de_son_tort,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/executor_de_son_tort,/c/en/property,"[""/r/RelatedTo""]",1.0
+/c/en/exhausted,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/exhausted,/c/en/run_down,"[""/r/RelatedTo""]",1.0
+/c/en/explore,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/explore,/c/en/person,"[""/r/Desires""]",2.0
+/c/en/extra,/c/en/inn,"[""/r/RelatedTo""]",0.134
+/c/en/extra,/c/en/necessary,"[""/r/RelatedTo""]",1.0
+/c/en/extra,/c/en/north_america,"[""/r/HasContext""]",1.0
+/c/en/extra,/c/en/reward,"[""/r/RelatedTo""]",0.125
+/c/en/extra,/c/en/school,"[""/r/RelatedTo""]",1.0
+/c/en/extra,/c/en/surcharge,"[""/r/RelatedTo""]",1.0
+/c/en/eyestripe,/c/en/ornithology,"[""/r/HasContext""]",1.0
+/c/en/fabada_asturiana,/c/en/food,"[""/r/IsA""]",0.5
+/c/en/fac_brat,/c/en/high_school,"[""/r/RelatedTo""]",1.0
+/c/en/faeroe_islands_person,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/faeroe_islands_person,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/fall_from_tree,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/families,/c/en/family,"[""/r/FormOf"", ""/r/RelatedTo""]",1.0
+/c/en/families,/c/en/house,"[""/r/RelatedTo""]",0.136
+/c/en/families,/c/en/sister,"[""/r/RelatedTo""]",0.162
+/c/en/family,/c/en/family_medicine,"[""/r/DerivedFrom""]",1.0
+/c/en/family,/c/en/firefly,"[""/r/RelatedTo""]",1.0
+/c/en/family,/c/en/flying_gurnard,"[""/r/RelatedTo""]",1.0
+/c/en/family,/c/en/four,"[""/r/RelatedTo""]",0.143
+/c/en/family,/c/en/genealogy,"[""/r/RelatedTo""]",1.0
+/c/en/family,/c/en/grass,"[""/r/RelatedTo""]",1.0
+/c/en/family,/c/en/gunnel,"[""/r/RelatedTo""]",1.0
+/c/en/family,/c/en/house,"[""/r/AtLocation"", ""/r/RelatedTo"", ""/r/UsedFor""]",6.325
+/c/en/family,/c/en/husband,"[""/r/RelatedTo""]",1.0
+/c/en/family,/c/en/ovenbird,"[""/r/RelatedTo""]",1.0
+/c/en/family,/c/en/parents,"[""/r/RelatedTo""]",3.021
+/c/en/family,/c/en/person,"[""/r/AtLocation""]",1.0
+/c/en/family,/c/en/pet,"[""/r/RelatedTo""]",0.461
+/c/en/family,/c/en/relatives_house,"[""/r/AtLocation""]",2.0
+/c/en/family,/c/en/sister,"[""/r/RelatedTo""]",3.026
+/c/en/family,/c/en/social_being,"[""/r/IsA""]",1.0
+/c/en/family,/c/en/social_group,"[""/r/RelatedTo""]",0.305
+/c/en/family,/c/en/spinetail,"[""/r/RelatedTo""]",1.0
+/c/en/family,/c/en/things,"[""/r/RelatedTo""]",1.0
+/c/en/family,/c/en/together,"[""/r/RelatedTo""]",0.546
+/c/en/family_medicine,/c/en/medicine,"[""/r/RelatedTo""]",1.0
+/c/en/family_medicine,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/family_room,/c/en/find_downstairs,"[""/r/DefinedAs""]",1.0
+/c/en/family_room,/c/en/fireplace,"[""/r/AtLocation""]",1.0
+/c/en/family_room,/c/en/furniture,"[""/r/HasA""]",1.0
+/c/en/family_room,/c/en/large_house,"[""/r/AtLocation""]",1.0
+/c/en/family_room,/c/en/living_room,"[""/r/IsA""]",1.0
+/c/en/family_room,/c/en/own_home,"[""/r/AtLocation""]",1.0
+/c/en/farms,/c/en/irrigation,"[""/r/RelatedTo""]",0.21
+/c/en/farms,/c/en/pony,"[""/r/RelatedTo""]",0.135
+/c/en/feel_hungry,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/female,/c/en/miss,"[""/r/RelatedTo""]",1.442
+/c/en/female,/c/en/mule,"[""/r/RelatedTo""]",0.159
+/c/en/female,/c/en/person,"[""/r/RelatedTo""]",0.21
+/c/en/female,/c/en/sister,"[""/r/RelatedTo""]",4.239
+/c/en/female,/c/en/wife,"[""/r/RelatedTo""]",1.0
+/c/en/feral,/c/en/isolated,"[""/r/RelatedTo""]",1.0
+/c/en/ferry,/c/en/moving,"[""/r/RelatedTo""]",0.338
+/c/en/ferry,/c/en/ocean,"[""/r/RelatedTo""]",0.245
+/c/en/ferry,/c/en/passenger,"[""/r/RelatedTo""]",0.45
+/c/en/ferry,/c/en/river,"[""/r/RelatedTo""]",0.121
+/c/en/ferry,/c/en/small,"[""/r/RelatedTo""]",0.128
+/c/en/ferry,/c/en/water,"[""/r/RelatedTo""]",0.487
+/c/en/fever,/c/en/headache,"[""/r/Causes""]",1.0
+/c/en/fever,/c/en/high,"[""/r/RelatedTo""]",0.768
+/c/en/fever,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/field_of_vision,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/figurative,/c/en/lord,"[""/r/RelatedTo""]",1.0
+/c/en/filter,/c/en/fluid,"[""/r/RelatedTo""]",1.0
+/c/en/filter,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/filter,/c/en/noise,"[""/r/RelatedTo""]",1.0
+/c/en/filter,/c/en/substance,"[""/r/RelatedTo""]",1.0
+/c/en/finance,/c/en/fine,"[""/r/EtymologicallyRelatedTo"", ""/r/RelatedTo""]",1.0
+/c/en/finance,/c/en/fire,"[""/r/HasContext""]",1.0
+/c/en/finance,/c/en/floor,"[""/r/HasContext""]",1.0
+/c/en/finance,/c/en/liquid,"[""/r/HasContext""]",1.0
+/c/en/finance,/c/en/principal,"[""/r/HasContext""]",1.0
+/c/en/finance,/c/en/resource,"[""/r/RelatedTo""]",1.0
+/c/en/finance,/c/en/utility,"[""/r/HasContext""]",1.0
+/c/en/finance,/c/en/water,"[""/r/HasContext""]",1.0
+/c/en/finclip,/c/en/fish,"[""/r/RelatedTo""]",1.0
+/c/en/finclip,/c/en/shark,"[""/r/RelatedTo""]",1.0
+/c/en/find_downstairs,/c/en/floor,"[""/r/IsA""]",1.0
+/c/en/find_downstairs,/c/en/kitchen,"[""/r/DefinedAs"", ""/r/IsA""]",2.0
+/c/en/find_downstairs,/c/en/laundry_room,"[""/r/IsA""]",1.0
+/c/en/find_downstairs,/c/en/living_room,"[""/r/DefinedAs"", ""/r/IsA""]",2.0
+/c/en/find_downstairs,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/fine,/c/en/ground,"[""/r/RelatedTo""]",0.217
+/c/en/fine,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/fine,/c/en/small,"[""/r/RelatedTo""]",0.385
+/c/en/fine,/c/en/tow,"[""/r/RelatedTo""]",0.338
+/c/en/fine,/c/en/two,"[""/r/RelatedTo""]",0.102
+/c/en/finnish,/c/en/language,"[""/r/RelatedTo""]",1.0
+/c/en/finnish,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/fins,/c/en/fish,"[""/r/HasA"", ""/r/RelatedTo""]",3.138
+/c/en/fins,/c/en/shark,"[""/r/RelatedTo""]",0.146
+/c/en/fire,/c/en/firefly,"[""/r/DerivedFrom""]",1.0
+/c/en/fire,/c/en/firehose,"[""/r/RelatedTo""]",1.0
+/c/en/fire,/c/en/firehosing,"[""/r/RelatedTo""]",1.0
+/c/en/fire,/c/en/fireperson,"[""/r/DerivedFrom""]",1.0
+/c/en/fire,/c/en/fireplace,"[""/r/AtLocation"", ""/r/DerivedFrom"", ""/r/RelatedTo""]",4.899
+/c/en/fire,/c/en/firewater,"[""/r/DerivedFrom""]",1.0
+/c/en/fire,/c/en/flame,"[""/r/IsA"", ""/r/RelatedTo""]",6.216
+/c/en/fire,/c/en/food,"[""/r/RelatedTo""]",0.145
+/c/en/fire,/c/en/four,"[""/r/RelatedTo""]",0.168
+/c/en/fire,/c/en/gas,"[""/r/RelatedTo""]",0.341
+/c/en/fire,/c/en/high,"[""/r/RelatedTo""]",0.213
+/c/en/fire,/c/en/hose,"[""/r/RelatedTo""]",0.159
+/c/en/fire,/c/en/house,"[""/r/AtLocation""]",1.0
+/c/en/fire,/c/en/lighter,"[""/r/RelatedTo""]",0.31
+/c/en/fire,/c/en/process,"[""/r/RelatedTo""]",0.105
+/c/en/fire,/c/en/santilmo,"[""/r/RelatedTo""]",1.0
+/c/en/fire,/c/en/siren,"[""/r/RelatedTo""]",0.244
+/c/en/fire,/c/en/steel,"[""/r/RelatedTo""]",0.247
+/c/en/fire,/c/en/substance,"[""/r/RelatedTo""]",0.339
+/c/en/fire,/c/en/water,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/RelatedTo""]",1.303
+/c/en/firehose,/c/en/firehosing,"[""/r/DerivedFrom""]",1.0
+/c/en/firehose,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/firehosing,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/fireperson,/c/en/person,"[""/r/DerivedFrom""]",1.0
+/c/en/fireplace,/c/en/holder,"[""/r/RelatedTo""]",0.141
+/c/en/fireplace,/c/en/house,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/fireplace,/c/en/living_room,"[""/r/AtLocation"", ""/r/RelatedTo""]",3.464
+/c/en/fireplace,/c/en/mantle,"[""/r/RelatedTo""]",1.0
+/c/en/firewater,/c/en/water,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/first,/c/en/hospital,"[""/r/RelatedTo""]",0.17
+/c/en/first,/c/en/introduce,"[""/r/RelatedTo""]",0.715
+/c/en/first,/c/en/main,"[""/r/RelatedTo""]",0.336
+/c/en/first,/c/en/my,"[""/r/RelatedTo""]",0.288
+/c/en/first,/c/en/print,"[""/r/RelatedTo""]",0.134
+/c/en/first,/c/en/reward,"[""/r/RelatedTo""]",0.148
+/c/en/first,/c/en/school,"[""/r/RelatedTo""]",0.143
+/c/en/first,/c/en/second,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/RelatedTo""]",3.207
+/c/en/first,/c/en/sequence,"[""/r/RelatedTo""]",0.339
+/c/en/first,/c/en/two,"[""/r/RelatedTo""]",0.265
+/c/en/fish,/c/en/fish_cop,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/fish_tank,"[""/r/CapableOf""]",1.0
+/c/en/fish,/c/en/fishball,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/fishboat,"[""/r/DerivedFrom""]",1.0
+/c/en/fish,/c/en/fisherwoman,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/fishgarth,"[""/r/DerivedFrom""]",1.0
+/c/en/fish,/c/en/fishify,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/fishing,"[""/r/DerivedFrom"", ""/r/FormOf"", ""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/fishlore,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/fishmonger,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/fishmongering,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/fishsicle,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/fishtank,"[""/r/AtLocation"", ""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/fishweir,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/fishwife,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/flip_kipper,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/flossing,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/flying_gurnard,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/food,"[""/r/Desires"", ""/r/RelatedTo""]",2.853
+/c/en/fish,/c/en/found_in_ocean,"[""/r/ReceivesAction""]",1.0
+/c/en/fish,/c/en/from_sea,"[""/r/RelatedTo""]",0.316
+/c/en/fish,/c/en/gillnet,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/gob_stick,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/goblin_shark,"[""/r/IsA""]",0.5
+/c/en/fish,/c/en/gunnel,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/gyotaku,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/hexanchiformes,"[""/r/IsA""]",0.5
+/c/en/fish,/c/en/hunger,"[""/r/CausesDesire""]",2.828
+/c/en/fish,/c/en/hungry,"[""/r/MotivatedByGoal""]",1.0
+/c/en/fish,/c/en/jellyfish,"[""/r/DerivedFrom""]",1.0
+/c/en/fish,/c/en/lemon_shark,"[""/r/IsA""]",0.5
+/c/en/fish,/c/en/lobster,"[""/r/RelatedTo""]",0.429
+/c/en/fish,/c/en/madrague,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/melanophore,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/milkfish,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/need_food,"[""/r/MotivatedByGoal""]",1.0
+/c/en/fish,/c/en/ocean,"[""/r/AtLocation"", ""/r/RelatedTo"", ""/r/UsedFor""]",6.633
+/c/en/fish,/c/en/omega_3_fatty_acid,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/pet,"[""/r/RelatedTo""]",0.345
+/c/en/fish,/c/en/pisces,"[""/r/RelatedTo""]",2.0
+/c/en/fish,/c/en/priest,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/river,"[""/r/AtLocation"", ""/r/RelatedTo""]",4.472
+/c/en/fish,/c/en/rundown,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/school,"[""/r/RelatedTo""]",0.449
+/c/en/fish,/c/en/sequence,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/shark,"[""/r/IsA"", ""/r/RelatedTo""]",1.718
+/c/en/fish,/c/en/striped,"[""/r/HasProperty""]",2.828
+/c/en/fish,/c/en/summer,"[""/r/CausesDesire""]",1.0
+/c/en/fish,/c/en/tank,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.0
+/c/en/fish,/c/en/tiddler,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/tiger_shark,"[""/r/IsA""]",0.5
+/c/en/fish,/c/en/tuna,"[""/r/IsA"", ""/r/RelatedTo""]",1.079
+/c/en/fish,/c/en/water,"[""/r/AtLocation"", ""/r/RelatedTo""]",11.489
+/c/en/fish,/c/en/weir,"[""/r/RelatedTo""]",1.0
+/c/en/fish,/c/en/whale_shark,"[""/r/IsA""]",1.0
+/c/en/fish_cop,/c/en/officer,"[""/r/RelatedTo""]",1.0
+/c/en/fish_tank,/c/en/lemur,"[""/r/AtLocation""]",1.0
+/c/en/fish_tank,/c/en/shark,"[""/r/AtLocation""]",1.0
+/c/en/fish_tank,/c/en/tank,"[""/r/DerivedFrom""]",1.0
+/c/en/fish_tank,/c/en/water,"[""/r/AtLocation""]",1.0
+/c/en/fishball,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/fisherwoman,/c/en/fishing,"[""/r/RelatedTo""]",1.0
+/c/en/fishgarth,/c/en/fishweir,"[""/r/RelatedTo""]",1.0
+/c/en/fishify,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/fishing,/c/en/fishlore,"[""/r/RelatedTo""]",1.0
+/c/en/fishing,/c/en/flossing,"[""/r/HasContext""]",1.0
+/c/en/fishing,/c/en/fun,"[""/r/UsedFor""]",2.828
+/c/en/fishing,/c/en/gillnet,"[""/r/HasContext""]",1.0
+/c/en/fishing,/c/en/madrague,"[""/r/HasContext""]",1.0
+/c/en/fishing,/c/en/ocean,"[""/r/UsedFor""]",2.0
+/c/en/fishing,/c/en/river,"[""/r/RelatedTo"", ""/r/UsedFor""]",4.0
+/c/en/fishing,/c/en/think,"[""/r/HasSubevent""]",1.0
+/c/en/fishing,/c/en/water,"[""/r/HasPrerequisite"", ""/r/RelatedTo""]",2.0
+/c/en/fishmonger,/c/en/fishmongering,"[""/r/RelatedTo""]",1.0
+/c/en/fishmonger,/c/en/fishwife,"[""/r/RelatedTo""]",1.0
+/c/en/fishmonger,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/fishtank,/c/en/tank,"[""/r/DerivedFrom""]",1.0
+/c/en/fishweir,/c/en/river,"[""/r/RelatedTo""]",1.0
+/c/en/fishweir,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/fishweir,/c/en/weir,"[""/r/DerivedFrom""]",1.0
+/c/en/fishwife,/c/en/wife,"[""/r/DerivedFrom""]",2.0
+/c/en/flag_carrier,/c/en/parade,"[""/r/RelatedTo""]",1.0
+/c/en/flag_carrier,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/flame,/c/en/gas,"[""/r/RelatedTo""]",0.102
+/c/en/flame,/c/en/mantle,"[""/r/RelatedTo""]",1.0
+/c/en/flame,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/flame,/c/en/post,"[""/r/RelatedTo""]",1.0
+/c/en/flame,/c/en/santilmo,"[""/r/RelatedTo""]",1.0
+/c/en/flasket,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/flasket,/c/en/handle,"[""/r/RelatedTo""]",1.0
+/c/en/flasket,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/flat_out,/c/en/food,"[""/r/HasContext""]",1.0
+/c/en/fletcherism,/c/en/food,"[""/r/RelatedTo""]",1.0
+/c/en/fletcherism,/c/en/hungry,"[""/r/RelatedTo""]",1.0
+/c/en/flexi_disc,/c/en/magazine,"[""/r/RelatedTo""]",1.0
+/c/en/flight_feather,/c/en/ornithology,"[""/r/HasContext""]",1.0
+/c/en/flip_kipper,/c/en/paper,"[""/r/RelatedTo""]",1.0
+/c/en/flk,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/flooded,/c/en/fluid,"[""/r/RelatedTo""]",1.0
+/c/en/flooded,/c/en/river,"[""/r/RelatedTo""]",1.0
+/c/en/flooded,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/floor,/c/en/flooring,"[""/r/FormOf"", ""/r/RelatedTo""]",1.0
+/c/en/floor,/c/en/floors,"[""/r/FormOf"", ""/r/RelatedTo""]",1.0
+/c/en/floor,/c/en/furniture,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/floor,/c/en/garbage,"[""/r/AtLocation""]",1.0
+/c/en/floor,/c/en/ground,"[""/r/DistinctFrom"", ""/r/RelatedTo""]",7.786
+/c/en/floor,/c/en/house,"[""/r/AtLocation"", ""/r/HasA"", ""/r/RelatedTo""]",3.011
+/c/en/floor,/c/en/main,"[""/r/RelatedTo""]",0.102
+/c/en/floor,/c/en/man_made,"[""/r/HasProperty""]",1.0
+/c/en/floor,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/floor,/c/en/newspaper,"[""/r/AtLocation""]",1.0
+/c/en/floor,/c/en/paper,"[""/r/AtLocation""]",1.0
+/c/en/floor,/c/en/polish,"[""/r/RelatedTo""]",0.173
+/c/en/floor,/c/en/rug,"[""/r/RelatedTo""]",1.47
+/c/en/floor,/c/en/spider,"[""/r/AtLocation""]",1.0
+/c/en/floor,/c/en/type,"[""/r/RelatedTo""]",0.1
+/c/en/flooring,/c/en/house,"[""/r/AtLocation""]",2.0
+/c/en/flooring,/c/en/kitchen,"[""/r/AtLocation""]",1.0
+/c/en/flooring,/c/en/rug,"[""/r/RelatedTo""]",0.114
+/c/en/floors,/c/en/school,"[""/r/AtLocation""]",1.0
+/c/en/fluffy,/c/en/fuzzy,"[""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/fluffy,/c/en/rabbit,"[""/r/RelatedTo""]",2.264
+/c/en/fluffy,/c/en/roll,"[""/r/RelatedTo""]",0.219
+/c/en/fluffy,/c/en/soft,"[""/r/RelatedTo""]",0.119
+/c/en/fluid,/c/en/formaldehyde,"[""/r/RelatedTo""]",0.221
+/c/en/fluid,/c/en/gas,"[""/r/RelatedTo""]",1.0
+/c/en/fluid,/c/en/leak,"[""/r/RelatedTo""]",1.0
+/c/en/fluid,/c/en/liquid,"[""/r/RelatedTo""]",1.0
+/c/en/fluid,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/fluid,/c/en/pasteur's_fluid,"[""/r/RelatedTo""]",1.0
+/c/en/fluid,/c/en/specifically,"[""/r/HasContext""]",1.0
+/c/en/fluid,/c/en/spit_up,"[""/r/RelatedTo""]",1.0
+/c/en/fluid,/c/en/substance,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/fluid,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/fluid,/c/en/water,"[""/r/IsA"", ""/r/RelatedTo""]",2.828
+/c/en/flush_toilet,/c/en/main,"[""/r/RelatedTo""]",1.0
+/c/en/flush_toilet,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/flutter,/c/en/flying,"[""/r/RelatedTo""]",1.0
+/c/en/flutter,/c/en/heart,"[""/r/RelatedTo""]",1.0
+/c/en/flutter,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/flying,/c/en/sneeze,"[""/r/RelatedTo""]",0.154
+/c/en/flying_gurnard,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/flyover,/c/en/railway,"[""/r/RelatedTo""]",1.0
+/c/en/flyover,/c/en/road,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/fodder,/c/en/food,"[""/r/EtymologicallyRelatedTo"", ""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/fodder,/c/en/haymaker,"[""/r/RelatedTo""]",1.0
+/c/en/fog_light,/c/en/headlight,"[""/r/RelatedTo""]",1.0
+/c/en/folio,/c/en/manuscript,"[""/r/RelatedTo""]",1.0
+/c/en/folio,/c/en/newsbook,"[""/r/RelatedTo""]",1.0
+/c/en/folio,/c/en/paper,"[""/r/HasContext"", ""/r/RelatedTo""]",1.0
+/c/en/fondle,/c/en/muzzle,"[""/r/RelatedTo""]",1.0
+/c/en/fondle,/c/en/pet,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/food_poisoning,"[""/r/DerivedFrom""]",1.0
+/c/en/food,/c/en/fork,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/frijol,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/fritter,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/game_bird,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/ginger,"[""/r/RelatedTo""]",0.668
+/c/en/food,/c/en/glad,"[""/r/RelatedTo""]",0.108
+/c/en/food,/c/en/goat,"[""/r/Desires""]",1.0
+/c/en/food,/c/en/goatmeat,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/grass,"[""/r/RelatedTo""]",0.88
+/c/en/food,/c/en/gum_arabic,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/gutbomb,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/halva,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/hanger_steak,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/harvest,"[""/r/RelatedTo""]",0.179
+/c/en/food,/c/en/helping,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/hot_dog,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/house,"[""/r/AtLocation""]",2.0
+/c/en/food,/c/en/hunger,"[""/r/RelatedTo"", ""/r/UsedFor""]",1.0
+/c/en/food,/c/en/idli,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/inn,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/k_ration,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/kaiser_roll,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/kitchen,"[""/r/AtLocation"", ""/r/RelatedTo""]",7.211
+/c/en/food,/c/en/lobster,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/make_shopping_list,"[""/r/MotivatedByGoal""]",1.0
+/c/en/food,/c/en/milkfish,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/muffin,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/pastry,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/pleasure,"[""/r/UsedFor""]",1.0
+/c/en/food,/c/en/ploughman's_lunch,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/polish,"[""/r/RelatedTo""]",0.146
+/c/en/food,/c/en/pound_cake,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/predator,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/primary_reinforcement,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/rabbit,"[""/r/RelatedTo""]",0.236
+/c/en/food,/c/en/recipe,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/relatives_house,"[""/r/AtLocation""]",1.0
+/c/en/food,/c/en/roll,"[""/r/RelatedTo""]",1.133
+/c/en/food,/c/en/rye,"[""/r/RelatedTo""]",0.104
+/c/en/food,/c/en/sate_hunger,"[""/r/MotivatedByGoal""]",1.0
+/c/en/food,/c/en/school,"[""/r/AtLocation""]",2.0
+/c/en/food,/c/en/seconds,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/servant,"[""/r/RelatedTo""]",0.244
+/c/en/food,/c/en/sesame,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/shelf,"[""/r/AtLocation""]",2.0
+/c/en/food,/c/en/sideboard,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/spatula,"[""/r/RelatedTo""]",0.128
+/c/en/food,/c/en/spicy,"[""/r/HasProperty""]",1.0
+/c/en/food,/c/en/spoon,"[""/r/AtLocation""]",1.0
+/c/en/food,/c/en/spoon_meat,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/stomach,"[""/r/AtLocation"", ""/r/RelatedTo""]",4.472
+/c/en/food,/c/en/streuselkuchen,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/substance,"[""/r/IsA"", ""/r/RelatedTo""]",2.828
+/c/en/food,/c/en/supper,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/swallow,"[""/r/RelatedTo""]",0.75
+/c/en/food,/c/en/tarator,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/teacake,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/tiramisu,"[""/r/IsA""]",2.0
+/c/en/food,/c/en/tray,"[""/r/RelatedTo""]",0.176
+/c/en/food,/c/en/trifle,"[""/r/IsA""]",0.5
+/c/en/food,/c/en/tupperware,"[""/r/RelatedTo""]",1.0
+/c/en/food,/c/en/water,"[""/r/Antonym""]",0.103
+/c/en/food,/c/en/wheat,"[""/r/UsedFor""]",1.0
+/c/en/food,/c/en/wolfer,"[""/r/RelatedTo""]",1.0
+/c/en/foolish,/c/en/fucktwit,"[""/r/RelatedTo""]",1.0
+/c/en/foolish,/c/en/person,"[""/r/NotDesires""]",2.0
+/c/en/foolish,/c/en/soft,"[""/r/RelatedTo""]",1.0
+/c/en/for_drinking,/c/en/water,"[""/r/RelatedTo""]",0.1
+/c/en/foreface,/c/en/muzzle,"[""/r/RelatedTo""]",1.0
+/c/en/foreigner,/c/en/person,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/fork,/c/en/hacker,"[""/r/RelatedTo""]",1.0
+/c/en/fork,/c/en/kitchen,"[""/r/AtLocation""]",5.292
+/c/en/fork,/c/en/process,"[""/r/RelatedTo""]",1.0
+/c/en/fork,/c/en/road,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.828
+/c/en/fork,/c/en/solid,"[""/r/RelatedTo""]",1.0
+/c/en/fork,/c/en/spoon,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/RelatedTo""]",1.17
+/c/en/fork,/c/en/two,"[""/r/RelatedTo""]",1.0
+/c/en/formaldehyde,/c/en/gas,"[""/r/RelatedTo""]",1.0
+/c/en/formaldehyde,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/fossil,/c/en/gas,"[""/r/RelatedTo""]",0.102
+/c/en/fossil,/c/en/paleobiology,"[""/r/RelatedTo""]",1.0
+/c/en/found_in_ocean,/c/en/jellyfish,"[""/r/ReceivesAction""]",2.0
+/c/en/found_in_ocean,/c/en/water,"[""/r/ReceivesAction""]",2.828
+/c/en/four,/c/en/four_wheel_drive,"[""/r/DerivedFrom""]",1.0
+/c/en/four,/c/en/house,"[""/r/RelatedTo""]",1.063
+/c/en/four,/c/en/liter,"[""/r/RelatedTo""]",0.168
+/c/en/four,/c/en/mole,"[""/r/RelatedTo""]",0.14
+/c/en/four,/c/en/mule,"[""/r/RelatedTo""]",0.241
+/c/en/four,/c/en/paper,"[""/r/RelatedTo""]",0.631
+/c/en/four,/c/en/rabbit,"[""/r/RelatedTo""]",0.141
+/c/en/four,/c/en/rule,"[""/r/RelatedTo""]",0.138
+/c/en/four,/c/en/two,"[""/r/RelatedTo""]",1.0
+/c/en/four,/c/en/wagon,"[""/r/RelatedTo""]",1.0
+/c/en/four_wheel_drive,/c/en/transmission,"[""/r/RelatedTo""]",1.0
+/c/en/fraud,/c/en/law,"[""/r/HasContext"", ""/r/RelatedTo""]",1.0
+/c/en/fraud,/c/en/person,"[""/r/RelatedTo""]",0.136
+/c/en/fraud,/c/en/theft,"[""/r/RelatedTo""]",0.611
+/c/en/fraud,/c/en/truth,"[""/r/Antonym""]",0.243
+/c/en/frazil,/c/en/north_america,"[""/r/HasContext""]",1.0
+/c/en/frazil,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/freeman,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/freeman,/c/en/subject,"[""/r/RelatedTo""]",1.0
+/c/en/freeman,/c/en/tyranny,"[""/r/RelatedTo""]",1.0
+/c/en/freeze,/c/en/person,"[""/r/NotDesires""]",2.0
+/c/en/freeze,/c/en/process,"[""/r/RelatedTo""]",0.276
+/c/en/freeze,/c/en/water,"[""/r/CapableOf""]",4.899
+/c/en/fritter,/c/en/pastry,"[""/r/InstanceOf""]",0.5
+/c/en/fritter,/c/en/trifle,"[""/r/Synonym""]",1.0
+/c/en/from_sea,/c/en/sponge,"[""/r/RelatedTo""]",0.178
+/c/en/front_courtyard,/c/en/house,"[""/r/AtLocation""]",1.0
+/c/en/front_courtyard,/c/en/plant_flowers,"[""/r/UsedFor""]",1.0
+/c/en/front_garden,/c/en/house,"[""/r/AtLocation""]",1.0
+/c/en/front_garden,/c/en/plant_flowers,"[""/r/UsedFor""]",1.0
+/c/en/front_garden,/c/en/property,"[""/r/RelatedTo""]",1.0
+/c/en/fucktwit,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/full_binary_tree,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/fun,/c/en/go_see_play,"[""/r/MotivatedByGoal""]",1.0
+/c/en/fun,/c/en/going_for_drive,"[""/r/UsedFor""]",1.0
+/c/en/fun,/c/en/going_see_film,"[""/r/UsedFor""]",2.0
+/c/en/fun,/c/en/pleasure,"[""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/fun,/c/en/singing,"[""/r/UsedFor""]",1.0
+/c/en/fun,/c/en/taking_car_for_drive,"[""/r/Causes""]",1.0
+/c/en/fun,/c/en/talking_to,"[""/r/UsedFor""]",1.0
+/c/en/fun,/c/en/toy,"[""/r/ReceivesAction"", ""/r/RelatedTo"", ""/r/UsedFor""]",4.971
+/c/en/fun,/c/en/typing,"[""/r/UsedFor""]",1.0
+/c/en/fur,/c/en/fuzzy,"[""/r/RelatedTo""]",0.19
+/c/en/fur,/c/en/goat,"[""/r/RelatedTo""]",0.233
+/c/en/fur,/c/en/hare,"[""/r/RelatedTo""]",1.0
+/c/en/fur,/c/en/mole,"[""/r/RelatedTo""]",0.857
+/c/en/fur,/c/en/pet,"[""/r/UsedFor""]",1.0
+/c/en/fur,/c/en/rabbit,"[""/r/RelatedTo""]",1.009
+/c/en/fur,/c/en/soft,"[""/r/RelatedTo""]",0.158
+/c/en/fur,/c/en/spaniel,"[""/r/RelatedTo""]",1.0
+/c/en/furniture,/c/en/house,"[""/r/AtLocation"", ""/r/HasA""]",6.325
+/c/en/furniture,/c/en/polish,"[""/r/RelatedTo""]",2.078
+/c/en/furniture,/c/en/relatives_house,"[""/r/AtLocation""]",1.0
+/c/en/furniture,/c/en/rug,"[""/r/AtLocation""]",2.828
+/c/en/furniture,/c/en/sideboard,"[""/r/RelatedTo""]",1.0
+/c/en/fuzzy,/c/en/rabbit,"[""/r/RelatedTo""]",1.287
+/c/en/game_bird,/c/en/golden_pheasant,"[""/r/RelatedTo""]",1.0
+/c/en/garbage,/c/en/glad,"[""/r/RelatedTo""]",0.108
+/c/en/garbage,/c/en/ground,"[""/r/AtLocation""]",1.0
+/c/en/garbage,/c/en/mouse,"[""/r/AtLocation""]",1.0
+/c/en/garbage,/c/en/paper,"[""/r/AtLocation""]",1.0
+/c/en/garbage,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/garbage,/c/en/sink,"[""/r/RelatedTo""]",0.106
+/c/en/garden_apartment,/c/en/house,"[""/r/RelatedTo""]",1.0
+/c/en/garden_apartment,/c/en/main,"[""/r/RelatedTo""]",1.0
+/c/en/garden_apartment,/c/en/parcel,"[""/r/RelatedTo""]",1.0
+/c/en/garden_engine,/c/en/tank,"[""/r/RelatedTo""]",1.0
+/c/en/garden_engine,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/gas,/c/en/gas_station,"[""/r/AtLocation"", ""/r/DerivedFrom""]",3.464
+/c/en/gas,/c/en/gaseous,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/gas,/c/en/high,"[""/r/RelatedTo""]",0.293
+/c/en/gas,/c/en/leak,"[""/r/RelatedTo""]",1.0
+/c/en/gas,/c/en/lighter,"[""/r/RelatedTo""]",0.164
+/c/en/gas,/c/en/liquid,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/NotHasProperty"", ""/r/RelatedTo"", ""/r/SimilarTo""]",1.44
+/c/en/gas,/c/en/mantle,"[""/r/RelatedTo""]",1.0
+/c/en/gas,/c/en/medium,"[""/r/RelatedTo""]",1.0
+/c/en/gas,/c/en/petrol,"[""/r/RelatedTo""]",2.402
+/c/en/gas,/c/en/pipelayer,"[""/r/RelatedTo""]",1.0
+/c/en/gas,/c/en/solid,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/NotHasProperty"", ""/r/RelatedTo""]",1.0
+/c/en/gas,/c/en/substance,"[""/r/IsA""]",1.0
+/c/en/gas,/c/en/taking_car_for_drive,"[""/r/HasPrerequisite""]",1.0
+/c/en/gas,/c/en/tank,"[""/r/RelatedTo""]",0.172
+/c/en/gas,/c/en/vapour,"[""/r/RelatedTo""]",0.346
+/c/en/gas_station,/c/en/north_america,"[""/r/HasContext""]",1.0
+/c/en/gas_station,/c/en/petrol,"[""/r/AtLocation""]",2.828
+/c/en/gaseous,/c/en/liquid,"[""/r/RelatedTo""]",1.0
+/c/en/gaseous,/c/en/vapour,"[""/r/RelatedTo""]",1.0
+/c/en/gaseous,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/gatehouse,/c/en/house,"[""/r/DerivedFrom""]",1.0
+/c/en/genealogy,/c/en/jesse,"[""/r/RelatedTo""]",1.0
+/c/en/genealogy,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/genitalia,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/geog,/c/en/school,"[""/r/RelatedTo""]",1.0
+/c/en/geog,/c/en/subject,"[""/r/RelatedTo""]",1.0
+/c/en/german,/c/en/hall,"[""/r/RelatedTo""]",1.0
+/c/en/german,/c/en/language,"[""/r/IsA"", ""/r/RelatedTo""]",5.657
+/c/en/german,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/german,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/german,/c/en/polish,"[""/r/DistinctFrom""]",0.173
+/c/en/german,/c/en/streuselkuchen,"[""/r/RelatedTo""]",1.0
+/c/en/german,/c/en/type,"[""/r/RelatedTo""]",1.0
+/c/en/get_candy,/c/en/going_see_film,"[""/r/HasSubevent""]",1.0
+/c/en/giblets,/c/en/organ,"[""/r/RelatedTo""]",1.0
+/c/en/gifts,/c/en/person,"[""/r/Desires""]",2.828
+/c/en/gifts,/c/en/toy,"[""/r/RelatedTo""]",0.294
+/c/en/gigerium,/c/en/stomach,"[""/r/RelatedTo""]",1.0
+/c/en/ginger,/c/en/spicy,"[""/r/RelatedTo""]",0.176
+/c/en/give_money,/c/en/person,"[""/r/CapableOf""]",1.0
+/c/en/give_money,/c/en/reward,"[""/r/RelatedTo""]",0.269
+/c/en/glad,/c/en/happiness,"[""/r/RelatedTo""]",1.536
+/c/en/glad,/c/en/tupperware,"[""/r/RelatedTo""]",0.651
+/c/en/glaucous_gull,/c/en/gull,"[""/r/RelatedTo""]",1.0
+/c/en/go_fast,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/go_for_walk,/c/en/think,"[""/r/MotivatedByGoal""]",1.0
+/c/en/goat,/c/en/goatmeat,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/goat,/c/en/herd,"[""/r/RelatedTo""]",1.0
+/c/en/gob_stick,/c/en/spoon,"[""/r/RelatedTo""]",1.0
+/c/en/goblin_shark,/c/en/shark,"[""/r/DerivedFrom""]",1.0
+/c/en/going_for_drive,/c/en/have_car_accident,"[""/r/HasSubevent""]",2.0
+/c/en/going_for_drive,/c/en/pleasure,"[""/r/UsedFor""]",1.0
+/c/en/going_see_film,/c/en/happiness,"[""/r/Causes""]",1.0
+/c/en/going_see_film,/c/en/having_fun,"[""/r/UsedFor""]",2.0
+/c/en/going_see_film,/c/en/school,"[""/r/UsedFor""]",1.0
+/c/en/going_see_film,/c/en/tears,"[""/r/Causes""]",1.0
+/c/en/good_looking,/c/en/person,"[""/r/Desires""]",3.464
+/c/en/goods_van,/c/en/railway,"[""/r/RelatedTo""]",1.0
+/c/en/graduation,/c/en/school,"[""/r/RelatedTo""]",0.752
+/c/en/grass,/c/en/grassquit,"[""/r/DerivedFrom""]",1.0
+/c/en/grass,/c/en/grasswren,"[""/r/DerivedFrom""]",1.0
+/c/en/grass,/c/en/ground,"[""/r/AtLocation"", ""/r/RelatedTo""]",3.464
+/c/en/grass,/c/en/haymaker,"[""/r/RelatedTo""]",1.0
+/c/en/grass,/c/en/hose,"[""/r/RelatedTo""]",0.134
+/c/en/grass,/c/en/mouse,"[""/r/AtLocation""]",1.0
+/c/en/grass,/c/en/noise,"[""/r/RelatedTo""]",1.0
+/c/en/grass,/c/en/plants,"[""/r/RelatedTo""]",0.822
+/c/en/grass,/c/en/rabbit,"[""/r/RelatedTo""]",0.131
+/c/en/grass,/c/en/river,"[""/r/RelatedTo""]",0.162
+/c/en/grass,/c/en/roots,"[""/r/RelatedTo""]",0.161
+/c/en/grass,/c/en/rye,"[""/r/RelatedTo""]",1.0
+/c/en/grass,/c/en/small,"[""/r/RelatedTo""]",0.383
+/c/en/grass,/c/en/spring,"[""/r/RelatedTo""]",1.0
+/c/en/grass,/c/en/stick,"[""/r/AtLocation""]",1.0
+/c/en/grass,/c/en/water,"[""/r/DistinctFrom""]",0.138
+/c/en/grass,/c/en/wheat,"[""/r/IsA""]",2.0
+/c/en/grave,/c/en/ground,"[""/r/RelatedTo""]",1.67
+/c/en/grave,/c/en/person,"[""/r/RelatedTo""]",0.694
+/c/en/grave,/c/en/plot,"[""/r/RelatedTo""]",0.651
+/c/en/gray,/c/en/newspaper,"[""/r/RelatedTo""]",0.15
+/c/en/gray,/c/en/statue,"[""/r/RelatedTo""]",0.134
+/c/en/gray,/c/en/steel,"[""/r/RelatedTo""]",0.155
+/c/en/gray,/c/en/street,"[""/r/RelatedTo""]",0.179
+/c/en/great_sark_person,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/great_sark_person,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/grenadan,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/grenadan,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/ground,/c/en/groundwater,"[""/r/DerivedFrom""]",1.0
+/c/en/ground,/c/en/house,"[""/r/RelatedTo""]",0.167
+/c/en/ground,/c/en/husband,"[""/r/RelatedTo""]",1.0
+/c/en/ground,/c/en/mole,"[""/r/RelatedTo""]",3.62
+/c/en/ground,/c/en/paving,"[""/r/AtLocation""]",1.0
+/c/en/ground,/c/en/plants,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/ground,/c/en/post,"[""/r/RelatedTo""]",0.616
+/c/en/ground,/c/en/property,"[""/r/RelatedTo""]",0.405
+/c/en/ground,/c/en/road,"[""/r/RelatedTo""]",0.168
+/c/en/ground,/c/en/roll,"[""/r/RelatedTo""]",0.188
+/c/en/ground,/c/en/seal,"[""/r/Antonym""]",0.184
+/c/en/ground,/c/en/small,"[""/r/RelatedTo""]",0.152
+/c/en/ground,/c/en/solid,"[""/r/RelatedTo""]",0.829
+/c/en/ground,/c/en/stick,"[""/r/RelatedTo""]",0.586
+/c/en/ground,/c/en/surcharge,"[""/r/RelatedTo""]",1.0
+/c/en/ground,/c/en/type,"[""/r/RelatedTo""]",0.176
+/c/en/ground,/c/en/upon,"[""/r/RelatedTo""]",0.647
+/c/en/ground,/c/en/venue,"[""/r/RelatedTo""]",0.144
+/c/en/ground,/c/en/water,"[""/r/Antonym""]",0.26
+/c/en/ground,/c/en/what,"[""/r/RelatedTo""]",0.106
+/c/en/groundwater,/c/en/water,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/grown,/c/en/rabbit,"[""/r/RelatedTo""]",0.441
+/c/en/guard,/c/en/kangal,"[""/r/RelatedTo""]",1.0
+/c/en/guard,/c/en/officer,"[""/r/RelatedTo""]",0.75
+/c/en/guard,/c/en/person,"[""/r/RelatedTo""]",3.985
+/c/en/guard,/c/en/reward,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/guard,/c/en/safe,"[""/r/RelatedTo""]",0.204
+/c/en/gugglet,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/gugglet,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/gulf_of_thailand,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/gull,/c/en/kittiwake,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/gum_arabic,/c/en/gum_water,"[""/r/RelatedTo""]",1.0
+/c/en/gum_water,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/gum_water,/c/en/stomach,"[""/r/RelatedTo""]",1.0
+/c/en/gum_water,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/gut_rehab,/c/en/house,"[""/r/RelatedTo""]",1.0
+/c/en/gut_rehab,/c/en/plaster,"[""/r/RelatedTo""]",1.0
+/c/en/gutbomb,/c/en/stomach,"[""/r/RelatedTo""]",1.0
+/c/en/gyotaku,/c/en/print,"[""/r/RelatedTo""]",1.0
+/c/en/hacker,/c/en/harvest,"[""/r/RelatedTo""]",1.0
+/c/en/hacker,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/half_binding,/c/en/leather,"[""/r/RelatedTo""]",1.0
+/c/en/hall,/c/en/hall_monitor,"[""/r/RelatedTo""]",1.0
+/c/en/hall,/c/en/house,"[""/r/RelatedTo""]",1.909
+/c/en/hall,/c/en/interior,"[""/r/RelatedTo""]",0.585
+/c/en/hall,/c/en/living_room,"[""/r/RelatedTo""]",1.0
+/c/en/hall,/c/en/school,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/hall,/c/en/two,"[""/r/RelatedTo""]",0.143
+/c/en/hall_monitor,/c/en/school,"[""/r/RelatedTo""]",1.0
+/c/en/halva,/c/en/sesame,"[""/r/RelatedTo""]",1.0
+/c/en/handle,/c/en/holder,"[""/r/RelatedTo""]",0.733
+/c/en/handle,/c/en/jug,"[""/r/RelatedTo""]",1.0
+/c/en/handle,/c/en/oar,"[""/r/RelatedTo""]",0.144
+/c/en/handle,/c/en/spatula,"[""/r/RelatedTo""]",1.0
+/c/en/handle,/c/en/spoon,"[""/r/RelatedTo""]",0.55
+/c/en/handle,/c/en/stick,"[""/r/RelatedTo""]",0.278
+/c/en/handle,/c/en/stomach,"[""/r/RelatedTo""]",1.0
+/c/en/hansel_and_gretel,/c/en/house,"[""/r/RelatedTo""]",1.0
+/c/en/happiness,/c/en/having_fun,"[""/r/Causes""]",1.0
+/c/en/happiness,/c/en/helping,"[""/r/Causes""]",1.0
+/c/en/happiness,/c/en/jesse,"[""/r/Causes""]",1.0
+/c/en/happiness,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/happiness,/c/en/pleasure,"[""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/happiness,/c/en/singing,"[""/r/Causes""]",4.472
+/c/en/happiness,/c/en/tears,"[""/r/Causes""]",1.0
+/c/en/happiness,/c/en/toy,"[""/r/RelatedTo""]",0.115
+/c/en/happiness,/c/en/utility,"[""/r/RelatedTo""]",1.0
+/c/en/hare,/c/en/harehound,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/hare,/c/en/rabbit,"[""/r/RelatedTo"", ""/r/Synonym""]",5.827
+/c/en/harvest,/c/en/haymaker,"[""/r/RelatedTo""]",1.0
+/c/en/hautein,/c/en/high,"[""/r/RelatedTo""]",1.0
+/c/en/have_car_accident,/c/en/person,"[""/r/NotDesires""]",2.0
+/c/en/having_fun,/c/en/pleasure,"[""/r/Causes"", ""/r/UsedFor""]",2.0
+/c/en/having_fun,/c/en/read,"[""/r/HasSubevent""]",1.0
+/c/en/having_fun,/c/en/singing,"[""/r/UsedFor""]",1.0
+/c/en/having_fun,/c/en/taking_car_for_drive,"[""/r/Causes""]",2.0
+/c/en/having_fun,/c/en/toy,"[""/r/RelatedTo""]",0.2
+/c/en/headache,/c/en/noise,"[""/r/RelatedTo""]",0.151
+/c/en/headache,/c/en/person,"[""/r/Desires""]",6.325
+/c/en/headgate,/c/en/irrigation,"[""/r/RelatedTo""]",1.0
+/c/en/headgate,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/headhouse,/c/en/house,"[""/r/DerivedFrom""]",1.0
+/c/en/headhouse,/c/en/passenger,"[""/r/RelatedTo""]",1.0
+/c/en/headhouse,/c/en/railway,"[""/r/RelatedTo""]",1.0
+/c/en/headlight,/c/en/indicator,"[""/r/RelatedTo""]",1.0
+/c/en/headlight,/c/en/road,"[""/r/RelatedTo""]",1.0
+/c/en/hearsay,/c/en/law,"[""/r/HasContext""]",1.0
+/c/en/hearsay,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/heart,/c/en/heartbeat,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/heart,/c/en/helping,"[""/r/Causes""]",1.0
+/c/en/heart,/c/en/hospital,"[""/r/AtLocation""]",1.0
+/c/en/heart,/c/en/interior,"[""/r/Synonym""]",1.0
+/c/en/heart,/c/en/main,"[""/r/RelatedTo""]",0.168
+/c/en/heart,/c/en/muscle,"[""/r/IsA""]",5.292
+/c/en/heart,/c/en/omega_3_fatty_acid,"[""/r/RelatedTo""]",1.0
+/c/en/heart,/c/en/organ,"[""/r/IsA"", ""/r/RelatedTo""]",1.083
+/c/en/heart,/c/en/person,"[""/r/AtLocation""]",2.0
+/c/en/heart,/c/en/represent,"[""/r/RelatedTo""]",1.0
+/c/en/heart,/c/en/vein,"[""/r/RelatedTo""]",1.0
+/c/en/heart,/c/en/vessel,"[""/r/RelatedTo""]",0.137
+/c/en/helping,/c/en/servant,"[""/r/RelatedTo""]",1.691
+/c/en/herd,/c/en/parade,"[""/r/RelatedTo""]",1.0
+/c/en/herd,/c/en/rogue,"[""/r/RelatedTo""]",1.0
+/c/en/herd,/c/en/together,"[""/r/RelatedTo""]",0.152
+/c/en/heterogangliate,/c/en/invertebrate,"[""/r/RelatedTo""]",1.0
+/c/en/hexanchiformes,/c/en/shark,"[""/r/IsA""]",1.0
+/c/en/hextree,/c/en/octree,"[""/r/RelatedTo""]",1.0
+/c/en/high,/c/en/lord,"[""/r/RelatedTo""]",1.0
+/c/en/high,/c/en/popular,"[""/r/RelatedTo""]",0.155
+/c/en/high,/c/en/school,"[""/r/RelatedTo""]",0.393
+/c/en/high_school,/c/en/north_america,"[""/r/HasContext""]",1.0
+/c/en/high_school,/c/en/popular,"[""/r/RelatedTo""]",0.155
+/c/en/high_school,/c/en/school,"[""/r/IsA""]",1.0
+/c/en/holder,/c/en/post,"[""/r/RelatedTo""]",0.153
+/c/en/holder,/c/en/safe,"[""/r/RelatedTo""]",0.307
+/c/en/holder,/c/en/stick,"[""/r/RelatedTo""]",0.101
+/c/en/holder,/c/en/stomach,"[""/r/RelatedTo""]",0.174
+/c/en/holder,/c/en/tank,"[""/r/RelatedTo""]",0.172
+/c/en/holder,/c/en/tray,"[""/r/RelatedTo""]",0.206
+/c/en/honk,/c/en/stomach,"[""/r/RelatedTo""]",1.0
+/c/en/honk,/c/en/vomit,"[""/r/RelatedTo""]",1.0
+/c/en/hose,/c/en/house,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/hose,/c/en/plants,"[""/r/RelatedTo""]",0.298
+/c/en/hose,/c/en/water,"[""/r/RelatedTo""]",1.198
+/c/en/hospital,/c/en/medicine,"[""/r/AtLocation""]",2.0
+/c/en/hospital,/c/en/mri,"[""/r/AtLocation""]",1.0
+/c/en/hospital,/c/en/person,"[""/r/AtLocation""]",2.0
+/c/en/hospital,/c/en/steel,"[""/r/AtLocation""]",1.0
+/c/en/hot_dog,/c/en/polish,"[""/r/RelatedTo""]",0.155
+/c/en/hot_dog,/c/en/roll,"[""/r/RelatedTo""]",0.132
+/c/en/house,/c/en/housebreak,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/house,/c/en/housebreaker,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/house,/c/en/husband,"[""/r/RelatedTo""]",1.0
+/c/en/house,/c/en/inn,"[""/r/RelatedTo""]",1.0
+/c/en/house,/c/en/kitchen,"[""/r/HasA"", ""/r/RelatedTo""]",2.828
+/c/en/house,/c/en/landlord,"[""/r/RelatedTo""]",1.0
+/c/en/house,/c/en/laundry_room,"[""/r/AtLocation""]",2.0
+/c/en/house,/c/en/living_room,"[""/r/HasA"", ""/r/PartOf"", ""/r/RelatedTo""]",3.464
+/c/en/house,/c/en/lubok,"[""/r/RelatedTo""]",1.0
+/c/en/house,/c/en/manor,"[""/r/RelatedTo""]",1.0
+/c/en/house,/c/en/newspaper,"[""/r/AtLocation""]",1.0
+/c/en/house,/c/en/pet,"[""/r/AtLocation"", ""/r/RelatedTo""]",4.0
+/c/en/house,/c/en/phone,"[""/r/AtLocation""]",2.0
+/c/en/house,/c/en/porch,"[""/r/RelatedTo""]",2.249
+/c/en/house,/c/en/property,"[""/r/RelatedTo""]",3.85
+/c/en/house,/c/en/relatives_house,"[""/r/IsA""]",1.0
+/c/en/house,/c/en/residential,"[""/r/RelatedTo""]",0.352
+/c/en/house,/c/en/road,"[""/r/RelatedTo""]",0.238
+/c/en/house,/c/en/robbery,"[""/r/RelatedTo""]",0.118
+/c/en/house,/c/en/room_study,"[""/r/AtLocation""]",1.0
+/c/en/house,/c/en/rug,"[""/r/RelatedTo""]",0.141
+/c/en/house,/c/en/school,"[""/r/RelatedTo""]",0.368
+/c/en/house,/c/en/sell,"[""/r/UsedFor""]",1.0
+/c/en/house,/c/en/servant,"[""/r/RelatedTo""]",4.88
+/c/en/house,/c/en/shelf,"[""/r/AtLocation""]",1.0
+/c/en/house,/c/en/sink,"[""/r/AtLocation""]",2.828
+/c/en/house,/c/en/sister,"[""/r/RelatedTo""]",0.458
+/c/en/house,/c/en/small,"[""/r/RelatedTo""]",0.175
+/c/en/house,/c/en/street,"[""/r/AtLocation"", ""/r/PartOf"", ""/r/RelatedTo""]",2.0
+/c/en/house,/c/en/temple,"[""/r/RelatedTo""]",0.215
+/c/en/house,/c/en/things,"[""/r/AtLocation""]",1.0
+/c/en/house,/c/en/type,"[""/r/RelatedTo""]",0.147
+/c/en/house,/c/en/utility,"[""/r/RelatedTo""]",1.0
+/c/en/house,/c/en/web,"[""/r/RelatedTo""]",0.282
+/c/en/house,/c/en/writer,"[""/r/AtLocation""]",1.0
+/c/en/house,/c/en/zodiac,"[""/r/RelatedTo""]",1.0
+/c/en/house_animal,/c/en/pet,"[""/r/RelatedTo""]",0.318
+/c/en/housebreak,/c/en/housebreaker,"[""/r/RelatedTo""]",1.0
+/c/en/household_animal,/c/en/pet,"[""/r/RelatedTo""]",0.749
+/c/en/household_pet,/c/en/rabbit,"[""/r/RelatedTo""]",0.174
+/c/en/hunger,/c/en/hungry,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/hunger,/c/en/make_shopping_list,"[""/r/CausesDesire""]",1.0
+/c/en/hunger,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/hunger,/c/en/primary_reinforcement,"[""/r/RelatedTo""]",1.0
+/c/en/hunger,/c/en/stomach,"[""/r/RelatedTo""]",0.427
+/c/en/hungry,/c/en/need_food,"[""/r/CapableOf""]",1.0
+/c/en/hungry,/c/en/starve,"[""/r/RelatedTo""]",1.0
+/c/en/hunt,/c/en/predator,"[""/r/RelatedTo""]",1.0
+/c/en/hunt,/c/en/wolf,"[""/r/RelatedTo""]",1.0
+/c/en/hunt,/c/en/wolfer,"[""/r/RelatedTo""]",1.0
+/c/en/husband,/c/en/lord,"[""/r/RelatedTo""]",0.143
+/c/en/husband,/c/en/property,"[""/r/RelatedTo""]",1.0
+/c/en/husband,/c/en/spouse,"[""/r/IsA""]",2.0
+/c/en/husband,/c/en/wife,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/FormOf"", ""/r/RelatedTo""]",2.0
+/c/en/hydronics,/c/en/liquid,"[""/r/RelatedTo""]",1.0
+/c/en/hydronics,/c/en/medium,"[""/r/RelatedTo""]",1.0
+/c/en/hydronics,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/hydrostat,/c/en/muscle,"[""/r/RelatedTo""]",1.0
+/c/en/hydrostat,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/immersion,/c/en/language,"[""/r/RelatedTo""]",1.0
+/c/en/immersion,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/immersion,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/indicator,/c/en/substance,"[""/r/RelatedTo""]",1.0
+/c/en/infinite,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/infinite,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/infinite,/c/en/things,"[""/r/HasProperty""]",1.0
+/c/en/injection,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/injection,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/injection,/c/en/specifically,"[""/r/HasContext""]",1.0
+/c/en/injection,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/inn,/c/en/lubok,"[""/r/RelatedTo""]",1.0
+/c/en/inn,/c/en/small,"[""/r/RelatedTo""]",0.464
+/c/en/intellect,/c/en/person,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/intellect,/c/en/think,"[""/r/RelatedTo""]",1.0
+/c/en/interior,/c/en/mathematics,"[""/r/HasContext""]",1.0
+/c/en/introduce,/c/en/person,"[""/r/RelatedTo""]",0.557
+/c/en/introduce,/c/en/together,"[""/r/RelatedTo""]",0.168
+/c/en/invertebrate,/c/en/jellyfish,"[""/r/IsA""]",1.0
+/c/en/invertebrate,/c/en/oar,"[""/r/RelatedTo""]",1.0
+/c/en/invertebrate,/c/en/pectoral_sandpiper,"[""/r/RelatedTo""]",1.0
+/c/en/invertebrate,/c/en/sponge,"[""/r/RelatedTo""]",1.0
+/c/en/irrigation,/c/en/river,"[""/r/UsedFor""]",1.0
+/c/en/irrigation,/c/en/water,"[""/r/RelatedTo""]",0.441
+/c/en/isolated,/c/en/isolation,"[""/r/RelatedTo""]",2.0
+/c/en/isolated,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/isolated,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/isolated,/c/en/skinner_box,"[""/r/RelatedTo""]",1.0
+/c/en/isolation,/c/en/medicine,"[""/r/HasContext""]",1.0
+/c/en/isolation,/c/en/person,"[""/r/NotDesires""]",2.828
+/c/en/jack,/c/en/legs,"[""/r/HasA""]",1.0
+/c/en/jellyfish,/c/en/ocean,"[""/r/AtLocation""]",1.0
+/c/en/jellyfish,/c/en/tank,"[""/r/AtLocation""]",1.0
+/c/en/jesse,/c/en/person,"[""/r/IsA""]",0.5
+/c/en/jesus,/c/en/lord,"[""/r/RelatedTo""]",1.956
+/c/en/jesus,/c/en/person,"[""/r/IsA""]",2.0
+/c/en/jethou_person,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/jethou_person,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/jog,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/jordanian_person,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/jordanian_person,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/journal,/c/en/magazine,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/journal,/c/en/newspaper,"[""/r/RelatedTo""]",1.0
+/c/en/journal,/c/en/paper,"[""/r/RelatedTo""]",1.0
+/c/en/judge,/c/en/jurist,"[""/r/RelatedTo""]",1.0
+/c/en/judge,/c/en/law,"[""/r/RelatedTo""]",1.496
+/c/en/judge,/c/en/officer,"[""/r/RelatedTo""]",0.334
+/c/en/judge,/c/en/person,"[""/r/CapableOf"", ""/r/IsA"", ""/r/RelatedTo""]",2.738
+/c/en/judge,/c/en/referee,"[""/r/RelatedTo""]",1.0
+/c/en/judge,/c/en/think,"[""/r/Synonym""]",1.0
+/c/en/judge,/c/en/truth,"[""/r/Synonym""]",1.0
+/c/en/jug,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/jug,/c/en/water,"[""/r/AtLocation""]",1.0
+/c/en/jurist,/c/en/law,"[""/r/RelatedTo""]",1.0
+/c/en/jurist,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/k_ration,/c/en/supper,"[""/r/RelatedTo""]",1.0
+/c/en/kaiser_roll,/c/en/roll,"[""/r/RelatedTo""]",1.0
+/c/en/kaiser_roll,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/kangal,/c/en/mastiff,"[""/r/RelatedTo""]",1.0
+/c/en/kitchen,/c/en/mouse,"[""/r/AtLocation""]",5.292
+/c/en/kitchen,/c/en/phone,"[""/r/RelatedTo""]",0.264
+/c/en/kitchen,/c/en/runner,"[""/r/RelatedTo""]",1.0
+/c/en/kitchen,/c/en/servant,"[""/r/RelatedTo""]",0.21
+/c/en/kitchen,/c/en/sideboard,"[""/r/AtLocation""]",1.0
+/c/en/kitchen,/c/en/sink,"[""/r/AtLocation"", ""/r/RelatedTo""]",6.928
+/c/en/kitchen,/c/en/spatula,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.0
+/c/en/kitchen,/c/en/sponge,"[""/r/RelatedTo""]",0.235
+/c/en/kitchen,/c/en/steel,"[""/r/RelatedTo""]",0.134
+/c/en/kitchen,/c/en/tray,"[""/r/RelatedTo""]",0.368
+/c/en/labor,/c/en/person,"[""/r/UsedFor""]",1.0
+/c/en/labor,/c/en/servant,"[""/r/RelatedTo""]",0.64
+/c/en/landlord,/c/en/lord,"[""/r/DerivedFrom""]",1.0
+/c/en/landlord,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/landlord,/c/en/property,"[""/r/RelatedTo""]",0.229
+/c/en/landlord,/c/en/shark,"[""/r/RelatedTo""]",1.0
+/c/en/language,/c/en/lesson,"[""/r/RelatedTo""]",0.15
+/c/en/language,/c/en/manchu,"[""/r/RelatedTo""]",1.0
+/c/en/language,/c/en/mathematics,"[""/r/RelatedTo""]",0.224
+/c/en/language,/c/en/medium,"[""/r/RelatedTo""]",0.101
+/c/en/language,/c/en/phone,"[""/r/RelatedTo""]",1.0
+/c/en/language,/c/en/polish,"[""/r/IsA"", ""/r/RelatedTo""]",2.0
+/c/en/language,/c/en/samoyed,"[""/r/RelatedTo""]",1.0
+/c/en/language,/c/en/school,"[""/r/RelatedTo""]",0.273
+/c/en/language,/c/en/subject,"[""/r/RelatedTo""]",0.123
+/c/en/language,/c/en/talking_to,"[""/r/HasPrerequisite""]",2.828
+/c/en/language,/c/en/what,"[""/r/RelatedTo""]",0.366
+/c/en/large_house,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/laundry_room,/c/en/sink,"[""/r/AtLocation""]",1.0
+/c/en/law,/c/en/laws,"[""/r/FormOf"", ""/r/RelatedTo""]",1.0
+/c/en/law,/c/en/liberalism,"[""/r/RelatedTo""]",1.0
+/c/en/law,/c/en/person,"[""/r/HasContext""]",1.0
+/c/en/law,/c/en/personality,"[""/r/RelatedTo""]",1.0
+/c/en/law,/c/en/property,"[""/r/RelatedTo""]",0.266
+/c/en/law,/c/en/restriction,"[""/r/RelatedTo""]",0.129
+/c/en/law,/c/en/robbery,"[""/r/RelatedTo""]",0.115
+/c/en/law,/c/en/rule,"[""/r/IsA"", ""/r/RelatedTo""]",6.369
+/c/en/law,/c/en/statue,"[""/r/RelatedTo""]",0.416
+/c/en/laws,/c/en/person,"[""/r/NotDesires""]",2.0
+/c/en/laws,/c/en/rule,"[""/r/RelatedTo""]",0.742
+/c/en/leak,/c/en/liquid,"[""/r/RelatedTo""]",0.155
+/c/en/leak,/c/en/mole,"[""/r/RelatedTo""]",0.102
+/c/en/leak,/c/en/sinks,"[""/r/RelatedTo""]",0.168
+/c/en/leak,/c/en/spurt,"[""/r/RelatedTo""]",0.15
+/c/en/leak,/c/en/water,"[""/r/RelatedTo""]",2.087
+/c/en/leather,/c/en/liquid,"[""/r/NotHasProperty""]",1.0
+/c/en/leather,/c/en/polish,"[""/r/RelatedTo""]",1.0
+/c/en/leather,/c/en/solid,"[""/r/HasProperty""]",1.0
+/c/en/lebanese_person,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/lebanese_person,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/legs,/c/en/mole,"[""/r/RelatedTo""]",0.14
+/c/en/legs,/c/en/mule,"[""/r/RelatedTo""]",0.241
+/c/en/legs,/c/en/person,"[""/r/RelatedTo""]",0.374
+/c/en/legs,/c/en/rabbit,"[""/r/RelatedTo""]",0.304
+/c/en/legs,/c/en/servant,"[""/r/RelatedTo""]",0.138
+/c/en/legs,/c/en/spider,"[""/r/RelatedTo""]",0.488
+/c/en/legs,/c/en/statue,"[""/r/RelatedTo""]",0.309
+/c/en/lemon_shark,/c/en/north_america,"[""/r/RelatedTo""]",1.0
+/c/en/lemon_shark,/c/en/shark,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/lemonade,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/lemonade,/c/en/spider,"[""/r/RelatedTo""]",1.0
+/c/en/lemonade,/c/en/summer,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/lesson,/c/en/school,"[""/r/RelatedTo""]",0.49
+/c/en/lesson,/c/en/session,"[""/r/RelatedTo""]",0.152
+/c/en/liar,/c/en/person,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/liar,/c/en/politician,"[""/r/RelatedTo""]",0.103
+/c/en/liar,/c/en/truth,"[""/r/Antonym"", ""/r/DistinctFrom""]",0.166
+/c/en/liberal,/c/en/liberalism,"[""/r/RelatedTo""]",1.0
+/c/en/liberal,/c/en/mechanical,"[""/r/RelatedTo""]",1.0
+/c/en/liberal,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/liberalism,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/limnobiology,/c/en/plants,"[""/r/RelatedTo""]",1.0
+/c/en/limnobiology,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/lines,/c/en/paper,"[""/r/RelatedTo""]",1.648
+/c/en/lines,/c/en/road,"[""/r/RelatedTo""]",1.092
+/c/en/lines,/c/en/school,"[""/r/RelatedTo""]",1.0
+/c/en/lines,/c/en/street,"[""/r/AtLocation"", ""/r/RelatedTo""]",4.0
+/c/en/lines,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/liquid,/c/en/liter,"[""/r/RelatedTo""]",0.276
+/c/en/liquid,/c/en/medium,"[""/r/RelatedTo""]",1.0
+/c/en/liquid,/c/en/methane_rain,"[""/r/RelatedTo""]",1.0
+/c/en/liquid,/c/en/ocean,"[""/r/HasProperty"", ""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/liquid,/c/en/petrol,"[""/r/IsA""]",2.0
+/c/en/liquid,/c/en/polish,"[""/r/RelatedTo""]",0.14
+/c/en/liquid,/c/en/river,"[""/r/RelatedTo""]",0.282
+/c/en/liquid,/c/en/runnel,"[""/r/RelatedTo""]",1.0
+/c/en/liquid,/c/en/sink,"[""/r/RelatedTo""]",1.0
+/c/en/liquid,/c/en/solid,"[""/r/Antonym"", ""/r/DistinctFrom"", ""/r/NotHasProperty"", ""/r/RelatedTo"", ""/r/SimilarTo""]",1.0
+/c/en/liquid,/c/en/spoon_meat,"[""/r/RelatedTo""]",1.0
+/c/en/liquid,/c/en/spurt,"[""/r/RelatedTo""]",1.0
+/c/en/liquid,/c/en/squirt,"[""/r/RelatedTo""]",1.0
+/c/en/liquid,/c/en/substance,"[""/r/IsA"", ""/r/RelatedTo""]",2.0
+/c/en/liquid,/c/en/swallow,"[""/r/RelatedTo""]",0.173
+/c/en/liquid,/c/en/vapour,"[""/r/RelatedTo""]",1.0
+/c/en/liquid,/c/en/vessel,"[""/r/RelatedTo""]",0.367
+/c/en/liquid,/c/en/vodka,"[""/r/HasProperty""]",1.0
+/c/en/liquid,/c/en/wash,"[""/r/RelatedTo""]",1.0
+/c/en/liquid,/c/en/water,"[""/r/HasProperty"", ""/r/IsA"", ""/r/RelatedTo""]",7.317
+/c/en/liter,/c/en/soft,"[""/r/RelatedTo""]",0.13
+/c/en/liter,/c/en/water,"[""/r/AtLocation""]",1.0
+/c/en/lithou_island_person,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/lithou_island_person,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/living_room,/c/en/mouse,"[""/r/AtLocation""]",1.0
+/c/en/living_room,/c/en/rug,"[""/r/AtLocation""]",1.0
+/c/en/lobster,/c/en/ocean,"[""/r/AtLocation""]",4.0
+/c/en/lobster,/c/en/water,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.0
+/c/en/loon,/c/en/person,"[""/r/RelatedTo""]",0.151
+/c/en/loon,/c/en/water,"[""/r/RelatedTo""]",0.205
+/c/en/lord,/c/en/manor,"[""/r/RelatedTo""]",1.0
+/c/en/lord,/c/en/person,"[""/r/RelatedTo""]",0.696
+/c/en/lord,/c/en/servant,"[""/r/Antonym"", ""/r/RelatedTo""]",1.0
+/c/en/lord,/c/en/younger,"[""/r/RelatedTo""]",1.0
+/c/en/lubok,/c/en/popular,"[""/r/RelatedTo""]",1.0
+/c/en/lubok,/c/en/print,"[""/r/RelatedTo""]",1.0
+/c/en/madrague,/c/en/tuna,"[""/r/RelatedTo""]",1.0
+/c/en/magazine,/c/en/newspaper,"[""/r/Antonym"", ""/r/RelatedTo""]",0.168
+/c/en/magazine,/c/en/organ,"[""/r/RelatedTo""]",1.0
+/c/en/magazine,/c/en/paper,"[""/r/RelatedTo""]",0.102
+/c/en/magazine,/c/en/read,"[""/r/RelatedTo""]",0.204
+/c/en/main,/c/en/parade,"[""/r/RelatedTo""]",0.135
+/c/en/main,/c/en/plot,"[""/r/RelatedTo""]",0.17
+/c/en/main,/c/en/popular,"[""/r/RelatedTo""]",0.106
+/c/en/main,/c/en/principal,"[""/r/RelatedTo""]",0.758
+/c/en/main,/c/en/river,"[""/r/RelatedTo""]",1.0
+/c/en/main,/c/en/road,"[""/r/RelatedTo""]",0.102
+/c/en/main,/c/en/street,"[""/r/RelatedTo""]",3.443
+/c/en/main,/c/en/type,"[""/r/RelatedTo""]",0.103
+/c/en/main,/c/en/water,"[""/r/RelatedTo""]",0.275
+/c/en/man_made,/c/en/road,"[""/r/RelatedTo""]",0.242
+/c/en/manchu,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/mantle,/c/en/ornithology,"[""/r/HasContext""]",1.0
+/c/en/mantle,/c/en/shelf,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/manuscript,/c/en/paper,"[""/r/RelatedTo""]",1.0
+/c/en/manuscript,/c/en/referee,"[""/r/RelatedTo""]",1.0
+/c/en/marmoset,/c/en/water,"[""/r/AtLocation""]",1.0
+/c/en/mathematics,/c/en/primitive,"[""/r/HasContext""]",1.0
+/c/en/mathematics,/c/en/school,"[""/r/RelatedTo""]",1.419
+/c/en/mathematics,/c/en/sequence,"[""/r/HasContext""]",1.0
+/c/en/mathematics,/c/en/straight,"[""/r/HasContext""]",1.0
+/c/en/mathematics,/c/en/subject,"[""/r/RelatedTo""]",1.777
+/c/en/mathematics,/c/en/type,"[""/r/HasContext""]",1.0
+/c/en/maverick,/c/en/officer,"[""/r/RelatedTo""]",1.0
+/c/en/maverick,/c/en/rogue,"[""/r/RelatedTo""]",0.364
+/c/en/mean,/c/en/medium,"[""/r/RelatedTo""]",1.0
+/c/en/mean,/c/en/person,"[""/r/RelatedTo""]",0.135
+/c/en/mean,/c/en/personality,"[""/r/RelatedTo""]",0.105
+/c/en/mean,/c/en/rug,"[""/r/RelatedTo""]",1.0
+/c/en/mean,/c/en/small,"[""/r/RelatedTo""]",1.0
+/c/en/mechanical,/c/en/organ,"[""/r/RelatedTo""]",1.0
+/c/en/mechanical,/c/en/print,"[""/r/RelatedTo""]",0.245
+/c/en/mechanical,/c/en/runner,"[""/r/RelatedTo""]",1.0
+/c/en/mechanical,/c/en/siren,"[""/r/RelatedTo""]",1.0
+/c/en/mechanical,/c/en/zoopraxinoscope,"[""/r/RelatedTo""]",1.0
+/c/en/medical_school,/c/en/medicine,"[""/r/RelatedTo""]",1.0
+/c/en/medical_school,/c/en/school,"[""/r/RelatedTo""]",1.0
+/c/en/medicine,/c/en/mri,"[""/r/HasContext""]",1.0
+/c/en/medicine,/c/en/period,"[""/r/HasContext""]",1.0
+/c/en/medicine,/c/en/recipe,"[""/r/HasContext"", ""/r/RelatedTo""]",1.0
+/c/en/medicine,/c/en/theater,"[""/r/HasContext""]",1.0
+/c/en/medicine,/c/en/type,"[""/r/HasContext""]",1.0
+/c/en/medicine,/c/en/washout,"[""/r/HasContext""]",1.0
+/c/en/medicine,/c/en/water,"[""/r/HasContext""]",1.0
+/c/en/medium,/c/en/newspaper,"[""/r/RelatedTo""]",0.102
+/c/en/medium,/c/en/paper,"[""/r/RelatedTo""]",0.837
+/c/en/medium,/c/en/print,"[""/r/RelatedTo""]",1.0
+/c/en/medium,/c/en/road,"[""/r/RelatedTo""]",0.105
+/c/en/medium,/c/en/solid,"[""/r/RelatedTo""]",1.0
+/c/en/medium,/c/en/song,"[""/r/RelatedTo""]",0.198
+/c/en/medium,/c/en/substance,"[""/r/RelatedTo""]",1.0
+/c/en/methane_rain,/c/en/river,"[""/r/RelatedTo""]",1.0
+/c/en/methane_rain,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/minskin,/c/en/munchkin,"[""/r/RelatedTo""]",1.0
+/c/en/miss,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/miss,/c/en/sister,"[""/r/RelatedTo""]",1.0
+/c/en/mobbing,/c/en/predator,"[""/r/RelatedTo""]",1.0
+/c/en/mobile,/c/en/person,"[""/r/Desires""]",1.0
+/c/en/mobile,/c/en/phone,"[""/r/RelatedTo""]",0.565
+/c/en/mobile,/c/en/toy,"[""/r/RelatedTo""]",0.104
+/c/en/mole,/c/en/mouse,"[""/r/RelatedTo""]",1.363
+/c/en/mole,/c/en/paws,"[""/r/RelatedTo""]",0.332
+/c/en/mole,/c/en/rabbit,"[""/r/RelatedTo""]",0.469
+/c/en/mole,/c/en/small,"[""/r/RelatedTo""]",2.767
+/c/en/mole,/c/en/small_animal,"[""/r/RelatedTo""]",0.93
+/c/en/mouse,/c/en/muscle,"[""/r/EtymologicallyRelatedTo"", ""/r/RelatedTo""]",1.0
+/c/en/mouse,/c/en/mussel,"[""/r/RelatedTo""]",1.0
+/c/en/mouse,/c/en/navigate,"[""/r/RelatedTo""]",1.0
+/c/en/mouse,/c/en/own_home,"[""/r/AtLocation""]",2.828
+/c/en/mouse,/c/en/pet,"[""/r/CapableOf""]",1.0
+/c/en/mouse,/c/en/school,"[""/r/AtLocation""]",1.0
+/c/en/mouse,/c/en/shelf,"[""/r/AtLocation""]",1.0
+/c/en/mouse,/c/en/small,"[""/r/RelatedTo""]",0.216
+/c/en/moving,/c/en/muscle,"[""/r/UsedFor""]",1.0
+/c/en/moving,/c/en/river,"[""/r/RelatedTo""]",1.761
+/c/en/moving,/c/en/roll,"[""/r/RelatedTo""]",0.353
+/c/en/moving,/c/en/statue,"[""/r/Antonym""]",0.141
+/c/en/moving,/c/en/vessel,"[""/r/UsedFor""]",1.0
+/c/en/mri,/c/en/pet,"[""/r/RelatedTo""]",1.0
+/c/en/muffin,/c/en/small,"[""/r/RelatedTo""]",1.0
+/c/en/muffin,/c/en/teacake,"[""/r/RelatedTo""]",1.0
+/c/en/munchkin,/c/en/person,"[""/r/RelatedTo""]",1.0
+/c/en/munchkin,/c/en/tiddler,"[""/r/RelatedTo""]",1.0
+/c/en/muscle,/c/en/my,"[""/r/RelatedTo""]",1.0
+/c/en/muscle,/c/en/organ,"[""/r/RelatedTo""]",1.0
+/c/en/muscle,/c/en/substance,"[""/r/RelatedTo""]",0.172
+/c/en/mussel,/c/en/muzzle,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/mussel,/c/en/ocean,"[""/r/RelatedTo""]",0.159
+/c/en/muzzle,/c/en/spaniel,"[""/r/RelatedTo""]",1.0
+/c/en/my,/c/en/person,"[""/r/RelatedTo""]",0.288
+/c/en/navigate,/c/en/vessel,"[""/r/UsedFor""]",1.0
+/c/en/navigate,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/necessary,/c/en/necessity,"[""/r/EtymologicallyRelatedTo"", ""/r/RelatedTo""]",2.0
+/c/en/necessary,/c/en/water,"[""/r/RelatedTo""]",0.102
+/c/en/necessity,/c/en/paper,"[""/r/RelatedTo""]",0.18
+/c/en/necessity,/c/en/water,"[""/r/RelatedTo""]",0.409
+/c/en/need_food,/c/en/person,"[""/r/CapableOf""]",2.828
+/c/en/nepalese,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/nepalese,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/newsbook,/c/en/newspaper,"[""/r/RelatedTo""]",1.0
+/c/en/newspaper,/c/en/paper,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/newspaper,/c/en/porch,"[""/r/AtLocation""]",1.0
+/c/en/newspaper,/c/en/post,"[""/r/RelatedTo""]",0.142
+/c/en/newspaper,/c/en/print,"[""/r/AtLocation"", ""/r/RelatedTo""]",4.055
+/c/en/newspaper,/c/en/read,"[""/r/ReceivesAction"", ""/r/RelatedTo""]",2.0
+/c/en/newspaper,/c/en/rug,"[""/r/AtLocation""]",1.0
+/c/en/noise,/c/en/person,"[""/r/NotDesires""]",1.0
+/c/en/noise,/c/en/rattlesnake,"[""/r/RelatedTo""]",0.243
+/c/en/noise,/c/en/siren,"[""/r/RelatedTo""]",1.372
+/c/en/noise,/c/en/sneeze,"[""/r/RelatedTo""]",2.382
+/c/en/noise,/c/en/song,"[""/r/Antonym"", ""/r/RelatedTo""]",0.446
+/c/en/noise,/c/en/street,"[""/r/AtLocation""]",1.0
+/c/en/noise,/c/en/traffic,"[""/r/RelatedTo""]",0.191
+/c/en/noise,/c/en/transmission,"[""/r/AtLocation""]",1.0
+/c/en/north_america,/c/en/pectoral_sandpiper,"[""/r/RelatedTo""]",1.0
+/c/en/north_america,/c/en/period,"[""/r/HasContext""]",1.0
+/c/en/north_america,/c/en/principal,"[""/r/HasContext""]",1.0
+/c/en/north_america,/c/en/redbird,"[""/r/HasContext""]",1.0
+/c/en/north_america,/c/en/road,"[""/r/AtLocation""]",1.0
+/c/en/north_america,/c/en/sandhill_crane,"[""/r/RelatedTo""]",1.0
+/c/en/north_america,/c/en/spatula,"[""/r/HasContext""]",1.0
+/c/en/north_america,/c/en/windshield,"[""/r/HasContext""]",1.0
+/c/en/notebook,/c/en/paper,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.828
+/c/en/oar,/c/en/organ,"[""/r/RelatedTo""]",1.0
+/c/en/oar,/c/en/spoon,"[""/r/RelatedTo""]",0.122
+/c/en/oar,/c/en/stick,"[""/r/RelatedTo""]",0.106
+/c/en/oar,/c/en/wash,"[""/r/RelatedTo""]",1.0
+/c/en/oar,/c/en/water,"[""/r/RelatedTo""]",0.129
+/c/en/obedience,/c/en/school,"[""/r/RelatedTo""]",0.504
+/c/en/ocean,/c/en/plankton,"[""/r/AtLocation""]",2.828
+/c/en/ocean,/c/en/river,"[""/r/DistinctFrom"", ""/r/RelatedTo""]",0.686
+/c/en/ocean,/c/en/seal,"[""/r/RelatedTo""]",0.262
+/c/en/ocean,/c/en/shark,"[""/r/AtLocation"", ""/r/RelatedTo""]",11.314
+/c/en/ocean,/c/en/small,"[""/r/RelatedTo""]",0.164
+/c/en/ocean,/c/en/submarine,"[""/r/AtLocation""]",2.0
+/c/en/ocean,/c/en/tuna,"[""/r/AtLocation""]",1.0
+/c/en/ocean,/c/en/vessel,"[""/r/AtLocation""]",2.0
+/c/en/ocean,/c/en/water,"[""/r/AtLocation"", ""/r/HasA"", ""/r/MadeOf"", ""/r/RelatedTo""]",5.872
+/c/en/ocean,/c/en/whale_shark,"[""/r/AtLocation""]",1.0
+/c/en/officer,/c/en/organization_member,"[""/r/IsA""]",1.0
+/c/en/officer,/c/en/person,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/officer,/c/en/principal,"[""/r/RelatedTo""]",1.0
+/c/en/officer,/c/en/servant,"[""/r/RelatedTo""]",1.0
+/c/en/officer,/c/en/what,"[""/r/RelatedTo""]",0.149
+/c/en/one_way_street,/c/en/road,"[""/r/RelatedTo""]",1.0
+/c/en/one_way_street,/c/en/street,"[""/r/DerivedFrom""]",1.0
+/c/en/one_way_street,/c/en/traffic,"[""/r/RelatedTo""]",1.0
+/c/en/organ,/c/en/stomach,"[""/r/RelatedTo""]",1.0
+/c/en/organization_member,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/ornithology,/c/en/song,"[""/r/HasContext""]",1.0
+/c/en/orphan,/c/en/person,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/orphan,/c/en/type,"[""/r/RelatedTo""]",1.0
+/c/en/ovenbird,/c/en/spinetail,"[""/r/RelatedTo""]",1.0
+/c/en/overwash,/c/en/wash,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/overwash,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/own_home,/c/en/person,"[""/r/Desires""]",2.0
+/c/en/own_home,/c/en/room_study,"[""/r/AtLocation""]",1.0
+/c/en/painted,/c/en/polish,"[""/r/RelatedTo""]",0.142
+/c/en/painted,/c/en/road,"[""/r/RelatedTo""]",0.239
+/c/en/painted,/c/en/steel,"[""/r/ReceivesAction""]",1.0
+/c/en/paper,/c/en/papers,"[""/r/FormOf"", ""/r/RelatedTo""]",1.0
+/c/en/paper,/c/en/parcel,"[""/r/RelatedTo""]",0.132
+/c/en/paper,/c/en/print,"[""/r/AtLocation"", ""/r/RelatedTo""]",4.436
+/c/en/paper,/c/en/printer,"[""/r/AtLocation"", ""/r/Desires"", ""/r/RelatedTo""]",4.472
+/c/en/paper,/c/en/read,"[""/r/RelatedTo""]",0.141
+/c/en/paper,/c/en/roll,"[""/r/RelatedTo""]",0.238
+/c/en/paper,/c/en/school,"[""/r/RelatedTo""]",0.289
+/c/en/paper,/c/en/solid,"[""/r/IsA""]",1.0
+/c/en/paper,/c/en/substance,"[""/r/RelatedTo""]",0.431
+/c/en/paper,/c/en/toy,"[""/r/RelatedTo""]",0.172
+/c/en/paper,/c/en/two,"[""/r/RelatedTo""]",0.556
+/c/en/paper,/c/en/upon,"[""/r/RelatedTo""]",0.865
+/c/en/paper,/c/en/wad,"[""/r/RelatedTo""]",0.404
+/c/en/papers,/c/en/print,"[""/r/RelatedTo""]",0.13
+/c/en/papers,/c/en/read,"[""/r/ReceivesAction""]",2.0
+/c/en/papers,/c/en/school,"[""/r/RelatedTo""]",0.151
+/c/en/parade,/c/en/street,"[""/r/RelatedTo""]",0.171
+/c/en/parcel,/c/en/pastry,"[""/r/RelatedTo""]",1.0
+/c/en/parcel,/c/en/plot,"[""/r/Synonym""]",1.0
+/c/en/parcel,/c/en/post,"[""/r/RelatedTo""]",0.372
+/c/en/parcel,/c/en/property,"[""/r/RelatedTo""]",0.487
+/c/en/parents,/c/en/person,"[""/r/Desires""]",2.0
+/c/en/passenger,/c/en/person,"[""/r/IsA""]",1.0
+/c/en/passenger,/c/en/railway,"[""/r/RelatedTo""]",1.0
+/c/en/passenger,/c/en/traffic,"[""/r/RelatedTo""]",1.0
+/c/en/passenger,/c/en/turret,"[""/r/RelatedTo""]",1.0
+/c/en/pasteur's_fluid,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/pastry,/c/en/roll,"[""/r/RelatedTo""]",1.014
+/c/en/paving,/c/en/road,"[""/r/RelatedTo""]",0.253
+/c/en/paving,/c/en/street,"[""/r/AtLocation""]",1.0
+/c/en/period,/c/en/school,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.0
+/c/en/period,/c/en/session,"[""/r/RelatedTo""]",1.0
+/c/en/period,/c/en/summer,"[""/r/RelatedTo""]",0.212
+/c/en/perpetrator,/c/en/person,"[""/r/RelatedTo""]",0.164
+/c/en/perpetrator,/c/en/pet,"[""/r/RelatedTo""]",0.111
+/c/en/person,/c/en/person_with_nationality,"[""/r/IsA""]",1.0
+/c/en/person,/c/en/personality,"[""/r/RelatedTo""]",0.369
+/c/en/person,/c/en/pisces,"[""/r/IsA""]",1.0
+/c/en/person,/c/en/plant_flowers,"[""/r/CapableOf""]",1.0
+/c/en/person,/c/en/pleasure,"[""/r/RelatedTo""]",1.0
+/c/en/person,/c/en/polish,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/person,/c/en/politician,"[""/r/RelatedTo""]",0.224
+/c/en/person,/c/en/priest,"[""/r/IsA""]",2.0
+/c/en/person,/c/en/primitive,"[""/r/RelatedTo""]",1.0
+/c/en/person,/c/en/principal,"[""/r/RelatedTo""]",0.545
+/c/en/person,/c/en/put_down,"[""/r/NotDesires""]",1.0
+/c/en/person,/c/en/queue,"[""/r/NotDesires""]",1.0
+/c/en/person,/c/en/rare_bird,"[""/r/RelatedTo""]",1.0
+/c/en/person,/c/en/represent,"[""/r/RelatedTo""]",1.0
+/c/en/person,/c/en/restriction,"[""/r/NotDesires""]",1.0
+/c/en/person,/c/en/reward,"[""/r/Desires""]",2.0
+/c/en/person,/c/en/rogue,"[""/r/RelatedTo""]",1.0
+/c/en/person,/c/en/rookie,"[""/r/IsA""]",1.0
+/c/en/person,/c/en/run_down,"[""/r/NotDesires""]",2.0
+/c/en/person,/c/en/runner,"[""/r/IsA""]",1.0
+/c/en/person,/c/en/safe,"[""/r/Desires""]",2.0
+/c/en/person,/c/en/santilmo,"[""/r/RelatedTo""]",1.0
+/c/en/person,/c/en/schoolchild,"[""/r/RelatedTo""]",1.0
+/c/en/person,/c/en/servant,"[""/r/Antonym"", ""/r/RelatedTo""]",5.267
+/c/en/person,/c/en/sikkim_person,"[""/r/IsA""]",1.0
+/c/en/person,/c/en/sister,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/person,/c/en/sneeze,"[""/r/NotDesires""]",1.0
+/c/en/person,/c/en/social_being,"[""/r/IsA""]",1.0
+/c/en/person,/c/en/spouse,"[""/r/Desires""]",1.0
+/c/en/person,/c/en/statue,"[""/r/RelatedTo""]",5.725
+/c/en/person,/c/en/stimulation,"[""/r/Desires""]",1.0
+/c/en/person,/c/en/straight,"[""/r/RelatedTo""]",1.0
+/c/en/person,/c/en/substantive,"[""/r/RelatedTo""]",1.0
+/c/en/person,/c/en/taiwanese,"[""/r/IsA""]",1.0
+/c/en/person,/c/en/talking_to,"[""/r/UsedFor""]",1.0
+/c/en/person,/c/en/theater,"[""/r/AtLocation""]",1.0
+/c/en/person,/c/en/theft,"[""/r/NotDesires""]",1.0
+/c/en/person,/c/en/think,"[""/r/CapableOf"", ""/r/Desires""]",1.0
+/c/en/person,/c/en/throw_up,"[""/r/NotDesires""]",1.0
+/c/en/person,/c/en/tobacco,"[""/r/Desires""]",1.0
+/c/en/person,/c/en/together,"[""/r/Antonym""]",0.125
+/c/en/person,/c/en/togolese,"[""/r/IsA""]",1.0
+/c/en/person,/c/en/truth,"[""/r/NotDesires""]",3.464
+/c/en/person,/c/en/turkmen,"[""/r/IsA""]",1.0
+/c/en/person,/c/en/two,"[""/r/RelatedTo""]",0.374
+/c/en/person,/c/en/tyranny,"[""/r/NotDesires""]",1.0
+/c/en/person,/c/en/user,"[""/r/IsA""]",1.0
+/c/en/person,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/person,/c/en/volcano_islands_person,"[""/r/IsA""]",1.0
+/c/en/person,/c/en/wagon,"[""/r/RelatedTo""]",1.0
+/c/en/person,/c/en/walk_dog,"[""/r/CapableOf""]",3.464
+/c/en/person,/c/en/wash_dishes,"[""/r/CapableOf""]",2.828
+/c/en/person,/c/en/water,"[""/r/MadeOf""]",1.0
+/c/en/person,/c/en/worried,"[""/r/NotDesires""]",2.0
+/c/en/person_with_nationality,/c/en/sikkim_person,"[""/r/IsA""]",1.0
+/c/en/person_with_nationality,/c/en/taiwanese,"[""/r/IsA""]",1.0
+/c/en/person_with_nationality,/c/en/togolese,"[""/r/IsA""]",1.0
+/c/en/person_with_nationality,/c/en/turkmen,"[""/r/IsA""]",1.0
+/c/en/person_with_nationality,/c/en/volcano_islands_person,"[""/r/IsA""]",1.0
+/c/en/personality,/c/en/servant,"[""/r/RelatedTo""]",0.177
+/c/en/pet,/c/en/pony,"[""/r/CapableOf""]",1.0
+/c/en/pet,/c/en/rabbit,"[""/r/IsA"", ""/r/RelatedTo""]",2.395
+/c/en/pet,/c/en/rule,"[""/r/RelatedTo""]",0.102
+/c/en/pet,/c/en/type,"[""/r/RelatedTo""]",0.102
+/c/en/petrol,/c/en/petrol_tank,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/petrol_tank,/c/en/tank,"[""/r/RelatedTo""]",1.0
+/c/en/pipelayer,/c/en/politician,"[""/r/RelatedTo""]",1.0
+/c/en/pipelayer,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/pisces,/c/en/rule,"[""/r/RelatedTo""]",1.0
+/c/en/pisces,/c/en/zodiac,"[""/r/RelatedTo""]",1.0
+/c/en/plankton,/c/en/water,"[""/r/AtLocation""]",4.899
+/c/en/plankton,/c/en/whale_shark,"[""/r/RelatedTo""]",1.0
+/c/en/plants,/c/en/porch,"[""/r/AtLocation""]",1.0
+/c/en/plants,/c/en/roots,"[""/r/HasA""]",4.0
+/c/en/plants,/c/en/think,"[""/r/NotCapableOf""]",1.0
+/c/en/plants,/c/en/water,"[""/r/AtLocation""]",1.0
+/c/en/plaster,/c/en/solid,"[""/r/RelatedTo""]",1.0
+/c/en/plaster,/c/en/statue,"[""/r/RelatedTo""]",0.324
+/c/en/plaster,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/pleasure,/c/en/stimulation,"[""/r/RelatedTo""]",1.0
+/c/en/pleasure,/c/en/utility,"[""/r/RelatedTo""]",1.0
+/c/en/plot,/c/en/property,"[""/r/RelatedTo""]",0.264
+/c/en/police_car,/c/en/siren,"[""/r/RelatedTo""]",0.14
+/c/en/polish,/c/en/substance,"[""/r/RelatedTo""]",1.0
+/c/en/polish,/c/en/type,"[""/r/RelatedTo""]",0.172
+/c/en/polish,/c/en/wash,"[""/r/RelatedTo""]",0.115
+/c/en/pony,/c/en/small,"[""/r/RelatedTo""]",0.737
+/c/en/pony,/c/en/type,"[""/r/RelatedTo""]",0.168
+/c/en/popular,/c/en/school,"[""/r/RelatedTo""]",0.342
+/c/en/porch,/c/en/type,"[""/r/RelatedTo""]",0.17
+/c/en/post,/c/en/road,"[""/r/RelatedTo""]",0.143
+/c/en/post,/c/en/stick,"[""/r/RelatedTo""]",0.598
+/c/en/post,/c/en/turret,"[""/r/RelatedTo""]",1.0
+/c/en/pound_cake,/c/en/recipe,"[""/r/RelatedTo""]",1.0
+/c/en/predator,/c/en/shark,"[""/r/RelatedTo""]",0.173
+/c/en/primary_reinforcement,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/principal,/c/en/road,"[""/r/RelatedTo""]",1.0
+/c/en/principal,/c/en/rule,"[""/r/RelatedTo""]",1.0
+/c/en/principal,/c/en/school,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.828
+/c/en/principal,/c/en/turret,"[""/r/RelatedTo""]",1.0
+/c/en/print,/c/en/printer,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/print,/c/en/process,"[""/r/RelatedTo""]",0.132
+/c/en/print,/c/en/read,"[""/r/RelatedTo""]",0.213
+/c/en/print,/c/en/tray,"[""/r/RelatedTo""]",0.183
+/c/en/print,/c/en/type,"[""/r/RelatedTo""]",3.324
+/c/en/print,/c/en/typing,"[""/r/RelatedTo""]",0.414
+/c/en/printer,/c/en/school,"[""/r/AtLocation""]",1.0
+/c/en/process,/c/en/sneeze,"[""/r/RelatedTo""]",0.104
+/c/en/process,/c/en/swallow,"[""/r/RelatedTo""]",0.221
+/c/en/process,/c/en/think,"[""/r/RelatedTo""]",0.34
+/c/en/process,/c/en/wash,"[""/r/RelatedTo""]",0.181
+/c/en/property,/c/en/robbery,"[""/r/RelatedTo""]",1.0
+/c/en/property,/c/en/theater,"[""/r/HasContext""]",1.0
+/c/en/property,/c/en/theft,"[""/r/IsA""]",1.0
+/c/en/property,/c/en/things,"[""/r/RelatedTo""]",0.186
+/c/en/property,/c/en/type,"[""/r/RelatedTo""]",0.22
+/c/en/property,/c/en/what,"[""/r/RelatedTo""]",0.15
+/c/en/psalm,/c/en/song,"[""/r/RelatedTo""]",1.0
+/c/en/put_down,/c/en/read,"[""/r/RelatedTo""]",1.0
+/c/en/put_down,/c/en/run_down,"[""/r/Synonym""]",1.0
+/c/en/rabbit,/c/en/small,"[""/r/RelatedTo""]",3.677
+/c/en/rabbit,/c/en/small_animal,"[""/r/RelatedTo""]",1.943
+/c/en/rabbit,/c/en/soft,"[""/r/RelatedTo""]",0.17
+/c/en/rabbit,/c/en/two,"[""/r/RelatedTo""]",0.116
+/c/en/railcar,/c/en/railway,"[""/r/RelatedTo""]",1.0
+/c/en/railcar,/c/en/wagon,"[""/r/RelatedTo""]",1.0
+/c/en/railway,/c/en/road,"[""/r/RelatedTo""]",1.0
+/c/en/railway,/c/en/roadway,"[""/r/RelatedTo""]",1.0
+/c/en/railway,/c/en/streetcar,"[""/r/RelatedTo""]",1.0
+/c/en/railway,/c/en/underbridge,"[""/r/RelatedTo""]",1.0
+/c/en/railway,/c/en/wagon,"[""/r/RelatedTo""]",1.0
+/c/en/rainwater,/c/en/river,"[""/r/RelatedTo""]",1.0
+/c/en/rainwater,/c/en/spring,"[""/r/RelatedTo""]",1.0
+/c/en/rainwater,/c/en/water,"[""/r/DerivedFrom""]",1.0
+/c/en/read,/c/en/school,"[""/r/RelatedTo""]",0.197
+/c/en/read,/c/en/subject,"[""/r/RelatedTo""]",0.197
+/c/en/read,/c/en/think,"[""/r/RelatedTo""]",1.0
+/c/en/read,/c/en/typing,"[""/r/HasSubevent""]",1.0
+/c/en/referee,/c/en/rule,"[""/r/RelatedTo""]",1.0
+/c/en/referee,/c/en/striped,"[""/r/RelatedTo""]",0.134
+/c/en/represent,/c/en/type,"[""/r/RelatedTo""]",1.0
+/c/en/residential,/c/en/street,"[""/r/RelatedTo""]",0.477
+/c/en/restriction,/c/en/rule,"[""/r/RelatedTo""]",0.764
+/c/en/reward,/c/en/skinner_box,"[""/r/RelatedTo""]",1.0
+/c/en/reward,/c/en/type,"[""/r/RelatedTo""]",0.135
+/c/en/river,/c/en/road,"[""/r/Antonym"", ""/r/RelatedTo""]",0.542
+/c/en/river,/c/en/rye,"[""/r/RelatedTo""]",1.0
+/c/en/river,/c/en/small,"[""/r/RelatedTo""]",0.479
+/c/en/river,/c/en/song,"[""/r/RelatedTo""]",1.0
+/c/en/river,/c/en/street,"[""/r/RelatedTo""]",1.0
+/c/en/river,/c/en/type,"[""/r/RelatedTo""]",0.157
+/c/en/river,/c/en/underbridge,"[""/r/RelatedTo""]",1.0
+/c/en/river,/c/en/water,"[""/r/AtLocation"", ""/r/HasA"", ""/r/RelatedTo""]",10.326
+/c/en/river,/c/en/weir,"[""/r/RelatedTo""]",1.0
+/c/en/road,/c/en/roadway,"[""/r/DerivedFrom"", ""/r/EtymologicallyRelatedTo"", ""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/road,/c/en/rollover,"[""/r/RelatedTo""]",1.0
+/c/en/road,/c/en/single_point_urban_interchange,"[""/r/RelatedTo""]",1.0
+/c/en/road,/c/en/small,"[""/r/RelatedTo""]",0.591
+/c/en/road,/c/en/straight,"[""/r/RelatedTo""]",0.263
+/c/en/road,/c/en/street,"[""/r/DistinctFrom"", ""/r/IsA"", ""/r/RelatedTo"", ""/r/Synonym""]",8.582
+/c/en/road,/c/en/traffic,"[""/r/RelatedTo""]",1.0
+/c/en/road,/c/en/turnpike,"[""/r/IsA"", ""/r/PartOf"", ""/r/RelatedTo""]",1.0
+/c/en/road,/c/en/two,"[""/r/RelatedTo""]",0.997
+/c/en/road,/c/en/underbridge,"[""/r/RelatedTo""]",1.0
+/c/en/road,/c/en/upon,"[""/r/RelatedTo""]",0.209
+/c/en/road,/c/en/vein,"[""/r/RelatedTo""]",0.103
+/c/en/road,/c/en/venue,"[""/r/RelatedTo""]",1.0
+/c/en/road,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/road,/c/en/what,"[""/r/RelatedTo""]",0.308
+/c/en/roadway,/c/en/street,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/roadway,/c/en/traffic,"[""/r/RelatedTo""]",1.0
+/c/en/roadway,/c/en/turnpike,"[""/r/IsA""]",1.0
+/c/en/robbery,/c/en/stick,"[""/r/RelatedTo""]",0.874
+/c/en/robbery,/c/en/street,"[""/r/RelatedTo""]",0.292
+/c/en/robbery,/c/en/theft,"[""/r/RelatedTo""]",4.595
+/c/en/robbery,/c/en/two,"[""/r/RelatedTo""]",0.176
+/c/en/robbery,/c/en/type,"[""/r/RelatedTo""]",0.102
+/c/en/role,/c/en/servant,"[""/r/RelatedTo""]",0.205
+/c/en/role,/c/en/theater,"[""/r/RelatedTo""]",0.128
+/c/en/role,/c/en/type,"[""/r/RelatedTo""]",0.103
+/c/en/roll,/c/en/rollover,"[""/r/DerivedFrom""]",1.0
+/c/en/roll,/c/en/small,"[""/r/RelatedTo""]",2.439
+/c/en/roll,/c/en/spicy,"[""/r/RelatedTo""]",0.102
+/c/en/roll,/c/en/tuna,"[""/r/RelatedTo""]",0.102
+/c/en/roll,/c/en/type,"[""/r/RelatedTo""]",0.655
+/c/en/roll,/c/en/wad,"[""/r/RelatedTo""]",0.17
+/c/en/roll,/c/en/what,"[""/r/RelatedTo""]",0.179
+/c/en/rollover,/c/en/traffic,"[""/r/RelatedTo""]",1.0
+/c/en/room_study,/c/en/school,"[""/r/AtLocation""]",2.0
+/c/en/roots,/c/en/water,"[""/r/AtLocation""]",1.0
+/c/en/rug,/c/en/small,"[""/r/RelatedTo""]",0.206
+/c/en/rug,/c/en/soft,"[""/r/RelatedTo""]",0.102
+/c/en/rule,/c/en/school,"[""/r/AtLocation""]",1.0
+/c/en/rule,/c/en/small,"[""/r/RelatedTo""]",0.214
+/c/en/rule,/c/en/stick,"[""/r/RelatedTo""]",0.265
+/c/en/rule,/c/en/substantive,"[""/r/RelatedTo""]",1.0
+/c/en/rule,/c/en/type,"[""/r/RelatedTo""]",0.165
+/c/en/rule,/c/en/tyranny,"[""/r/RelatedTo""]",0.377
+/c/en/run_down,/c/en/rundown,"[""/r/FormOf""]",1.0
+/c/en/run_down,/c/en/spring,"[""/r/RelatedTo""]",1.0
+/c/en/runnel,/c/en/water,"[""/r/Synonym""]",1.0
+/c/en/rye,/c/en/type,"[""/r/RelatedTo""]",0.162
+/c/en/safe,/c/en/small,"[""/r/RelatedTo""]",0.162
+/c/en/safe,/c/en/steel,"[""/r/RelatedTo""]",0.136
+/c/en/samoyed,/c/en/spitz,"[""/r/RelatedTo""]",1.0
+/c/en/school,/c/en/school_day,"[""/r/RelatedTo""]",1.0
+/c/en/school,/c/en/schoolchild,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/school,/c/en/second,"[""/r/RelatedTo""]",0.143
+/c/en/school,/c/en/session,"[""/r/RelatedTo""]",1.0
+/c/en/school,/c/en/shark,"[""/r/AtLocation""]",1.0
+/c/en/school,/c/en/subject,"[""/r/RelatedTo""]",0.17
+/c/en/school,/c/en/theater,"[""/r/AtLocation""]",1.0
+/c/en/school,/c/en/tiger_mother,"[""/r/RelatedTo""]",1.0
+/c/en/school,/c/en/usher,"[""/r/RelatedTo""]",1.0
+/c/en/school,/c/en/wad,"[""/r/RelatedTo""]",0.104
+/c/en/school,/c/en/writer,"[""/r/AtLocation""]",1.0
+/c/en/school,/c/en/younger,"[""/r/RelatedTo""]",0.103
+/c/en/school_day,/c/en/summer,"[""/r/RelatedTo""]",1.0
+/c/en/seal,/c/en/water,"[""/r/RelatedTo""]",0.162
+/c/en/second,/c/en/seconds,"[""/r/FormOf"", ""/r/RelatedTo""]",2.0
+/c/en/second,/c/en/street,"[""/r/RelatedTo""]",0.252
+/c/en/second,/c/en/two,"[""/r/RelatedTo""]",1.0
+/c/en/sequence,/c/en/session,"[""/r/RelatedTo""]",1.0
+/c/en/sequence,/c/en/song,"[""/r/RelatedTo""]",0.227
+/c/en/sequence,/c/en/straight,"[""/r/RelatedTo""]",1.0
+/c/en/servant,/c/en/subject,"[""/r/RelatedTo""]",1.0
+/c/en/servant,/c/en/tiger,"[""/r/RelatedTo""]",1.0
+/c/en/servant,/c/en/two,"[""/r/RelatedTo""]",0.138
+/c/en/servant,/c/en/type,"[""/r/RelatedTo""]",0.295
+/c/en/sesame,/c/en/street,"[""/r/RelatedTo""]",0.867
+/c/en/session,/c/en/user,"[""/r/RelatedTo""]",1.0
+/c/en/shark,/c/en/tank,"[""/r/AtLocation""]",2.0
+/c/en/shark,/c/en/tiger,"[""/r/RelatedTo""]",0.169
+/c/en/shark,/c/en/tiger_shark,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/shark,/c/en/water,"[""/r/RelatedTo""]",0.169
+/c/en/shark,/c/en/whale_shark,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/shih_tzu,/c/en/small,"[""/r/RelatedTo""]",1.0
+/c/en/shoreline,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/singing,/c/en/song,"[""/r/RelatedTo""]",3.353
+/c/en/single_point_urban_interchange,/c/en/street,"[""/r/RelatedTo""]",1.0
+/c/en/single_point_urban_interchange,/c/en/traffic,"[""/r/RelatedTo""]",1.0
+/c/en/sink,/c/en/sinks,"[""/r/FormOf"", ""/r/RelatedTo""]",2.0
+/c/en/sink,/c/en/sponge,"[""/r/RelatedTo""]",0.712
+/c/en/sink,/c/en/submarine,"[""/r/RelatedTo""]",1.0
+/c/en/sink,/c/en/submarines,"[""/r/CapableOf""]",2.0
+/c/en/sink,/c/en/vessel,"[""/r/RelatedTo""]",1.0
+/c/en/sink,/c/en/wash,"[""/r/RelatedTo""]",0.834
+/c/en/sink,/c/en/water,"[""/r/AtLocation"", ""/r/RelatedTo""]",4.472
+/c/en/sinks,/c/en/water,"[""/r/RelatedTo""]",0.168
+/c/en/sister,/c/en/younger,"[""/r/RelatedTo""]",0.141
+/c/en/skinner_box,/c/en/subject,"[""/r/RelatedTo""]",1.0
+/c/en/small,/c/en/squirt,"[""/r/RelatedTo""]",1.0
+/c/en/small,/c/en/stick,"[""/r/RelatedTo""]",3.015
+/c/en/small,/c/en/street,"[""/r/RelatedTo""]",1.006
+/c/en/small,/c/en/toy,"[""/r/RelatedTo""]",0.905
+/c/en/sneeze,/c/en/talking_to,"[""/r/HasSubevent""]",1.0
+/c/en/soft,/c/en/softback,"[""/r/DerivedFrom""]",1.0
+/c/en/soft,/c/en/sponge,"[""/r/HasProperty"", ""/r/RelatedTo""]",1.0
+/c/en/soft,/c/en/steel,"[""/r/Antonym""]",0.109
+/c/en/soft,/c/en/washout,"[""/r/RelatedTo""]",1.0
+/c/en/solid,/c/en/statue,"[""/r/RelatedTo""]",0.443
+/c/en/solid,/c/en/vapour,"[""/r/RelatedTo""]",1.0
+/c/en/solid,/c/en/water,"[""/r/NotHasProperty""]",1.0
+/c/en/song,/c/en/think,"[""/r/RelatedTo""]",0.219
+/c/en/song,/c/en/type,"[""/r/RelatedTo""]",0.173
+/c/en/spatula,/c/en/spoon,"[""/r/RelatedTo""]",0.375
+/c/en/spatula,/c/en/stick,"[""/r/RelatedTo""]",0.15
+/c/en/spider,/c/en/web,"[""/r/AtLocation"", ""/r/RelatedTo""]",2.82
+/c/en/spit_up,/c/en/stomach,"[""/r/RelatedTo""]",1.0
+/c/en/spit_up,/c/en/vomit,"[""/r/RelatedTo""]",1.0
+/c/en/sponge,/c/en/wash,"[""/r/RelatedTo""]",0.201
+/c/en/sponge,/c/en/water,"[""/r/RelatedTo""]",0.136
+/c/en/spoon,/c/en/spoon_meat,"[""/r/RelatedTo""]",1.0
+/c/en/spoon,/c/en/steel,"[""/r/RelatedTo""]",0.143
+/c/en/spouse,/c/en/wife,"[""/r/IsA"", ""/r/RelatedTo""]",2.0
+/c/en/spring,/c/en/summer,"[""/r/DistinctFrom"", ""/r/RelatedTo""]",3.392
+/c/en/spring,/c/en/water,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/spurt,/c/en/water,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/squirt,/c/en/water,"[""/r/RelatedTo""]",0.765
+/c/en/statue,/c/en/type,"[""/r/RelatedTo""]",0.148
+/c/en/statue,/c/en/what,"[""/r/RelatedTo""]",0.217
+/c/en/steel,/c/en/submarine,"[""/r/MadeOf""]",1.0
+/c/en/steel,/c/en/type,"[""/r/RelatedTo""]",0.208
+/c/en/stick,/c/en/stickshift,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0
+/c/en/stick,/c/en/straight,"[""/r/RelatedTo""]",0.598
+/c/en/stick,/c/en/tiger,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/stick,/c/en/together,"[""/r/RelatedTo""]",0.155
+/c/en/stick,/c/en/transmission,"[""/r/RelatedTo""]",0.103
+/c/en/stickshift,/c/en/transmission,"[""/r/RelatedTo""]",1.0
+/c/en/stomach,/c/en/vomit,"[""/r/RelatedTo""]",1.0
+/c/en/straight,/c/en/street,"[""/r/RelatedTo""]",0.102
+/c/en/straight,/c/en/tobacco,"[""/r/RelatedTo""]",1.0
+/c/en/street,/c/en/streetcar,"[""/r/AtLocation"", ""/r/DerivedFrom""]",1.0
+/c/en/street,/c/en/traffic,"[""/r/AtLocation"", ""/r/RelatedTo""]",5.292
+/c/en/street,/c/en/two,"[""/r/RelatedTo""]",0.274
+/c/en/street,/c/en/type,"[""/r/RelatedTo""]",0.442
+/c/en/street,/c/en/water,"[""/r/AtLocation""]",1.0
+/c/en/striped,/c/en/tiger,"[""/r/RelatedTo""]",0.515
+/c/en/subject,/c/en/typing,"[""/r/IsA""]",1.0
+/c/en/submarine,/c/en/submarines,"[""/r/FormOf"", ""/r/RelatedTo""]",1.0
+/c/en/submarine,/c/en/water,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/submarines,/c/en/water,"[""/r/AtLocation""]",6.0
+/c/en/substance,/c/en/substantive,"[""/r/RelatedTo""]",1.0
+/c/en/substance,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/summer,/c/en/tarator,"[""/r/RelatedTo""]",1.0
+/c/en/summer,/c/en/two,"[""/r/RelatedTo""]",0.184
+/c/en/summer,/c/en/warm,"[""/r/RelatedTo""]",2.79
+/c/en/swallow,/c/en/throw_up,"[""/r/Antonym""]",0.292
+/c/en/tears,/c/en/water,"[""/r/AtLocation""]",1.0
+/c/en/theater,/c/en/usher,"[""/r/AtLocation""]",1.0
+/c/en/theater,/c/en/venue,"[""/r/RelatedTo""]",1.0
+/c/en/theater,/c/en/water,"[""/r/AtLocation""]",1.0
+/c/en/think,/c/en/type,"[""/r/HasSubevent""]",1.0
+/c/en/think,/c/en/typing,"[""/r/HasSubevent""]",1.0
+/c/en/think,/c/en/vessel,"[""/r/RelatedTo""]",0.102
+/c/en/think,/c/en/worried,"[""/r/RelatedTo""]",1.0
+/c/en/throw_up,/c/en/vomit,"[""/r/IsA"", ""/r/RelatedTo"", ""/r/Synonym""]",1.0
+/c/en/tiger,/c/en/tiger_mother,"[""/r/DerivedFrom""]",1.0
+/c/en/tiger,/c/en/tiger_shark,"[""/r/DerivedFrom""]",1.0
+/c/en/tiramisu,/c/en/trifle,"[""/r/SimilarTo""]",1.0
+/c/en/tobacco,/c/en/wad,"[""/r/RelatedTo""]",0.184
+/c/en/tow,/c/en/toy,"[""/r/EtymologicallyRelatedTo""]",0.25
+/c/en/toy,/c/en/trifle,"[""/r/RelatedTo""]",1.0
+/c/en/toy,/c/en/zoopraxinoscope,"[""/r/RelatedTo""]",1.0
+/c/en/truth,/c/en/what,"[""/r/IsA"", ""/r/RelatedTo""]",1.0
+/c/en/tuna,/c/en/water,"[""/r/AtLocation""]",1.0
+/c/en/two,/c/en/water,"[""/r/RelatedTo""]",0.835
+/c/en/type,/c/en/typing,"[""/r/FormOf"", ""/r/RelatedTo""]",1.0
+/c/en/utility,/c/en/water,"[""/r/IsA""]",1.0
+/c/en/vapour,/c/en/water,"[""/r/RelatedTo""]",0.13
+/c/en/vein,/c/en/vessel,"[""/r/Antonym"", ""/r/RelatedTo""]",0.531
+/c/en/vessel,/c/en/water,"[""/r/RelatedTo""]",1.0
+/c/en/vodka,/c/en/water,"[""/r/RelatedTo""]",0.345
+/c/en/wash,/c/en/wash_dishes,"[""/r/RelatedTo""]",1.0
+/c/en/wash,/c/en/washout,"[""/r/DerivedFrom""]",1.0
+/c/en/wash,/c/en/water,"[""/r/RelatedTo"", ""/r/UsedFor""]",3.72
+/c/en/washout,/c/en/water,"[""/r/AtLocation"", ""/r/RelatedTo""]",1.0
+/c/en/water,/c/en/weir,"[""/r/RelatedTo""]",1.0
+/c/en/wolf,/c/en/wolfer,"[""/r/DerivedFrom"", ""/r/RelatedTo""]",1.0

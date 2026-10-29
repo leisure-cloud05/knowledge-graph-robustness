@@ -1,0 +1,26 @@
+{
+  "source": "data\\raw\\conceptnet-assertions-5.7.0.csv.gz",
+  "seeds": [
+    "/c/en/animal",
+    "/c/en/dog",
+    "/c/en/cat",
+    "/c/en/bird",
+    "/c/en/fish",
+    "/c/en/pet",
+    "/c/en/food",
+    "/c/en/water",
+    "/c/en/house",
+    "/c/en/person",
+    "/c/en/child",
+    "/c/en/school",
+    "/c/en/book",
+    "/c/en/car",
+    "/c/en/road"
+  ],
+  "max_nodes": 1000,
+  "pool_size": 5000,
+  "greedy_seed": 2026,
+  "node_count": 1000,
+  "edge_count": 3417,
+  "status": "candidate"
+}
