@@ -1,10 +1,11 @@
+
 {
   "status": "frozen",
   "part": "A",
   "source": {
     "dataset": "ConceptNet",
     "version": "5.7.0",
-    "path": "data\\raw\\conceptnet-assertions-5.7.0.csv.gz",
+    "path": "data/raw/conceptnet-assertions-5.7.0.csv.gz",
     "download_url": "https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz",
     "size_bytes": 497963447,
     "sha256": "accd65fe94038584295574ddc26e1500c1919c8c4532bf771811cafd0948af7e",
@@ -31,7 +32,10 @@
   ],
   "max_nodes": 1000,
   "method": {
-    "sampling": "Normalize and retain all English seed concept paths; select the lexicographically smallest distinct English concepts directly adjacent to any seed up to max_nodes, independent of source row order; scan the assertions file twice.",
+    "sampling": "Structure-aware greedy sampling. Retain all 15 English seed concepts, construct an adjacency graph within a reproducibly sampled pool of up to 5000 distinct English seed neighbors, and iteratively select the candidate having the most connections to already selected nodes. Break score ties lexicographically. Retain all valid edges between the final 1000 selected nodes.",
+    "sampling_strategy": "greedy",
+    "candidate_pool_size": 5000,
+    "greedy_seed": 2026,
     "cleaning": "Keep valid English base concept endpoints; remove self-loops; treat edges as undirected, merge reverse and repeated edges, union relation categories, and retain the maximum weight for each node pair.",
     "distance_pairs": "Count unordered node pairs with shortest-path distance exactly 2 or exactly 3 in the largest connected component.",
     "mixed_query_quota": {
@@ -41,22 +45,36 @@
   },
   "quality": {
     "node_count": 1000,
-    "edge_count": 1325,
+    "edge_count": 3417,
     "connected_component_count": 1,
     "largest_component_ratio": 1.0,
     "isolated_node_count": 0,
-    "distance_2_pair_count": 93449,
-    "distance_3_pair_count": 200359,
-    "distance_2_or_3_pair_count": 293808,
+    "average_degree": 6.834,
+    "leaf_count": 0,
+    "leaf_ratio": 0.0,
+    "bridge_ratio": 0.0,
+    "average_clustering": 0.3716,
+    "max_degree": 244,
+    "distance_2_pair_count": 92941,
+    "distance_3_pair_count": 300923,
+    "distance_2_or_3_pair_count": 393864,
     "can_form_mixed_query_set": true
   },
-  "sampling_seconds": 1109.0424376,
   "sha256": {
-    "nodes.csv": "ee3707a806946be17e7916c49234541b9bcb981bec4a486a06b79344c921ec51",
-    "edges.csv": "837510ddb395f905e9bb5605e39bac1753d2a12fef74f6068e61c21ae436f0e8"
+    "nodes.csv": "a5f54f9700969335b98e9fc8566aaa03a2487a99402e06cad4e5c87f1a197e27",
+    "edges.csv": "941b353e004522b8e7ea156b27b24878012dcd31b79911d5993e0ade3980e483"
+  },
+  "previous_graph": {
+    "sampling_strategy": "lexicographic",
+    "node_count": 1000,
+    "edge_count": 1325,
+    "backup_directory": "data/processed/lexicographic_backup"
   },
   "limitations": [
-    "The person node has degree 355 in this graph and can dominate connectivity and short-path candidate counts.",
-    "The lexicographic truncation of seed neighbors favors alphabetically early concept identifiers and is not a representative or random sample."
+    "The graph is sampled from the neighborhoods of 15 predefined seed concepts and is not representative of the full ConceptNet network.",
+    "Greedy sampling favors nodes with more internal connections and may overrepresent densely interconnected concept groups.",
+    "The greedy selection was performed using one reproducible candidate pool of up to 5000 nodes with random seed 2026.",
+    "The graph is an undirected projection of ConceptNet relations; its paths represent structural associations rather than verified semantic reasoning.",
+    "The sampling comparison and robustness pre-check used graph-specific query sets, so their results are not a controlled comparison on identical concept pairs."
   ]
 }

@@ -1,0 +1,62 @@
+{
+  "status": "frozen",
+  "part": "A",
+  "source": {
+    "dataset": "ConceptNet",
+    "version": "5.7.0",
+    "path": "data\\raw\\conceptnet-assertions-5.7.0.csv.gz",
+    "download_url": "https://s3.amazonaws.com/conceptnet/downloads/2019/edges/conceptnet-assertions-5.7.0.csv.gz",
+    "size_bytes": 497963447,
+    "sha256": "accd65fe94038584295574ddc26e1500c1919c8c4532bf771811cafd0948af7e",
+    "download_date": "2026-10-28",
+    "download_date_evidence": "Local raw-file creation and last-modified dates are both 2026-10-28; no separate download log was checked."
+  },
+  "graph_build_date": "2026-10-29",
+  "seeds": [
+    "/c/en/animal",
+    "/c/en/dog",
+    "/c/en/cat",
+    "/c/en/bird",
+    "/c/en/fish",
+    "/c/en/pet",
+    "/c/en/food",
+    "/c/en/water",
+    "/c/en/house",
+    "/c/en/person",
+    "/c/en/child",
+    "/c/en/school",
+    "/c/en/book",
+    "/c/en/car",
+    "/c/en/road"
+  ],
+  "max_nodes": 1000,
+  "method": {
+    "sampling": "Normalize and retain all English seed concept paths; select the lexicographically smallest distinct English concepts directly adjacent to any seed up to max_nodes, independent of source row order; scan the assertions file twice.",
+    "cleaning": "Keep valid English base concept endpoints; remove self-loops; treat edges as undirected, merge reverse and repeated edges, union relation categories, and retain the maximum weight for each node pair.",
+    "distance_pairs": "Count unordered node pairs with shortest-path distance exactly 2 or exactly 3 in the largest connected component.",
+    "mixed_query_quota": {
+      "distance_2_pairs": 75,
+      "distance_3_pairs": 75
+    }
+  },
+  "quality": {
+    "node_count": 1000,
+    "edge_count": 1325,
+    "connected_component_count": 1,
+    "largest_component_ratio": 1.0,
+    "isolated_node_count": 0,
+    "distance_2_pair_count": 93449,
+    "distance_3_pair_count": 200359,
+    "distance_2_or_3_pair_count": 293808,
+    "can_form_mixed_query_set": true
+  },
+  "sampling_seconds": 1109.0424376,
+  "sha256": {
+    "nodes.csv": "ee3707a806946be17e7916c49234541b9bcb981bec4a486a06b79344c921ec51",
+    "edges.csv": "837510ddb395f905e9bb5605e39bac1753d2a12fef74f6068e61c21ae436f0e8"
+  },
+  "limitations": [
+    "The person node has degree 355 in this graph and can dominate connectivity and short-path candidate counts.",
+    "The lexicographic truncation of seed neighbors favors alphabetically early concept identifiers and is not a representative or random sample."
+  ]
+}
