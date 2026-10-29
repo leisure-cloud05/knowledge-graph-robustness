@@ -98,7 +98,7 @@ def export_greedy(raw_path, output_dir):
     with nodes_path.open(
         "w", newline="", encoding="utf-8"
     ) as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator="\n")
         writer.writerow(["concept"])
 
         for node in sorted(nodes):
@@ -110,7 +110,7 @@ def export_greedy(raw_path, output_dir):
     with edges_path.open(
         "w", newline="", encoding="utf-8"
     ) as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator="\n")
         writer.writerow(
             ["source", "target", "relation", "weight"]
         )
