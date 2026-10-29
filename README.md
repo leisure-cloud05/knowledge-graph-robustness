@@ -405,7 +405,64 @@ The script loads the original Lexicographic baseline and the exported Greedy can
 
 This preliminary experiment is separate from the formal Part C and Part D evaluations.
 
-## 9. Limitations
+## Part B — Network Structure Analysis
+
+The frozen Greedy graph was analyzed as an unweighted, undirected network using NetworkX.
+
+### Structural Statistics
+
+| Metric | Value |
+|---|---:|
+| Number of nodes | 1,000 |
+| Number of edges | 3,417 |
+| Average degree | 6.834 |
+| Minimum degree | 2 |
+| Maximum degree | 244 |
+| Network density | 0.006841 |
+| Average clustering coefficient | 0.371597 |
+| Number of connected components | 1 |
+| Largest connected component ratio | 1.000 |
+| Number of bridges | 0 |
+
+The network is globally sparse but exhibits substantial local clustering. All 1,000 nodes belong to a single connected component, and no bridge edges are present, indicating some structural redundancy.
+
+The degree distribution is heterogeneous, with `/c/en/person` being the highest-degree node (degree 244).
+
+### Edge Betweenness Centrality
+
+The five edges with the highest normalized edge betweenness centrality are:
+
+| Edge | Betweenness |
+|---|---:|
+| person — water | 0.039983 |
+| animal — person | 0.026694 |
+| dog — person | 0.019724 |
+| food — water | 0.019080 |
+| animal — food | 0.016170 |
+
+These edges participate in a relatively large proportion of shortest paths and are candidates for further investigation in the edge-protection experiments. High edge betweenness does not necessarily imply the greatest impact on query robustness.
+
+### Generated Outputs
+
+Run the analysis using:
+
+```bash
+python -m src.network_analysis
+```
+
+The outputs are saved in `results/part_b/`, including:
+
+- `network_stats.json`
+- `node_metrics.csv`
+- `degree_distribution.csv`
+- `component_sizes.csv`
+- `edge_betweenness.csv`
+- `degree_distribution.png`
+- `network_visualization.png`
+
+The network visualization displays an 80-node subgraph centered on `/c/en/person`, rather than the entire 1,000-node network.
+
+## 10. Limitations
 
 The following limitations should be considered when interpreting the results:
 
@@ -425,17 +482,22 @@ The following limitations should be considered when interpreting the results:
 
 The sampling comparison supports the selection of an experimental graph for the current project. It does not establish an optimal general-purpose ConceptNet sampling strategy.
 
-## 10. Next Steps
+## 11. Next Steps
 
 The frozen Greedy graph will be used as the common input for the remaining project components.
 
-**Part B — Network Structure Analysis**
+**Part B — Network Structure Analysis (Completed)**
 
-- Degree distribution
-- Average clustering coefficient
-- Largest connected component and component statistics
-- Edge betweenness centrality
-- Network visualization
+The frozen Greedy graph was analyzed using NetworkX. The analysis covers degree distribution, clustering coefficient, connected components, edge betweenness centrality, and network visualization.
+
+Results are available in `results/part_b/`.
+
+**Part C — Random Edge Failure (Next)**
+
+- Freeze 150 concept-pair queries.
+- Simulate independent random edge failures.
+- Evaluate Q(q) and S(q) over 30 trials.
+- Report mean performance and uncertainty.
 
 **Part C — Random Edge Failure**
 
