@@ -12,7 +12,7 @@ The local raw file is 497,963,447 bytes and has SHA-256 `accd65fe94038584295574d
 
 ## Environment and reproduction
 
-Use the `PC5253-KG` Conda environment with Python 3.11 (the recorded environment used Python 3.11.16). From the project root, create it if needed and install the pinned packages:
+Use a Conda environment with Python 3.11 (the environment used to build the graph had Python 3.11.16). From the project root, create an environment if needed and install the pinned packages:
 
 ```powershell
 conda create -n PC5253-KG python=3.11
