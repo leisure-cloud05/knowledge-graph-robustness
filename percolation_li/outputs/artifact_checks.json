@@ -1,0 +1,13 @@
+{
+  "notebook_cells": 24,
+  "executed_code_cells": 9,
+  "embedded_figures": 5,
+  "every_figure_has_implementation_note": true,
+  "small_components_equals_1_minus_S": true,
+  "degree_axes_logarithmic": true,
+  "scenario_rows": 330,
+  "per_query_rows": 49500,
+  "raw_outcomes_match_run_Q": true,
+  "scope_check_passed": true,
+  "tests": "..................................                                 [100%]\n34 passed, 6 subtests passed in 1.73s"
+}

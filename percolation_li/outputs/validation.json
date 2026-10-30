@@ -1,0 +1,13 @@
+{
+  "query_count_and_quotas": true,
+  "query_pairs_unique_unordered": true,
+  "query_original_distances": true,
+  "zero_failure_endpoint": true,
+  "full_failure_endpoint": true,
+  "outcomes_partition": true,
+  "strata_average": true,
+  "all_original_nodes_retained": true,
+  "nested_monotonicity": true,
+  "original_graph_unchanged": true,
+  "identical_draws_reproduce_metrics": true
+}

@@ -1,0 +1,103 @@
+{
+  "python": "3.11.16",
+  "required_python": "3.11.16",
+  "packages": {
+    "certifi": {
+      "expected": "2026.10.23",
+      "installed": "2026.10.23",
+      "matches": true
+    },
+    "charset-normalizer": {
+      "expected": "3.5.2",
+      "installed": "3.5.2",
+      "matches": true
+    },
+    "colorama": {
+      "expected": "0.4.6",
+      "installed": "0.4.6",
+      "matches": true
+    },
+    "idna": {
+      "expected": "3.20",
+      "installed": "3.20",
+      "matches": true
+    },
+    "iniconfig": {
+      "expected": "2.3.1",
+      "installed": "2.3.1",
+      "matches": true
+    },
+    "networkx": {
+      "expected": "3.6.1",
+      "installed": "3.6.1",
+      "matches": true
+    },
+    "packaging": {
+      "expected": "26.3",
+      "installed": "26.3",
+      "matches": true
+    },
+    "pluggy": {
+      "expected": "1.7.0",
+      "installed": "1.7.0",
+      "matches": true
+    },
+    "Pygments": {
+      "expected": "2.21.0",
+      "installed": "2.21.0",
+      "matches": true
+    },
+    "pytest": {
+      "expected": "9.2.0",
+      "installed": "9.2.0",
+      "matches": true
+    },
+    "requests": {
+      "expected": "2.34.2",
+      "installed": "2.34.2",
+      "matches": true
+    },
+    "urllib3": {
+      "expected": "2.8.0",
+      "installed": "2.8.0",
+      "matches": true
+    },
+    "numpy": {
+      "expected": "2.4.6",
+      "installed": "2.4.6",
+      "matches": true
+    },
+    "matplotlib": {
+      "expected": "3.11.2",
+      "installed": "3.11.2",
+      "matches": true
+    },
+    "pandas": {
+      "expected": "2.3.3",
+      "installed": "2.3.3",
+      "matches": true
+    },
+    "scipy": {
+      "expected": "1.16.3",
+      "installed": "1.16.3",
+      "matches": true
+    },
+    "nbformat": {
+      "expected": "5.11.1",
+      "installed": "5.11.1",
+      "matches": true
+    },
+    "nbclient": {
+      "expected": "0.11.0",
+      "installed": "0.11.0",
+      "matches": true
+    },
+    "ipykernel": {
+      "expected": "7.4.0",
+      "installed": "7.4.0",
+      "matches": true
+    }
+  },
+  "passed": true,
+  "problems": []
+}
