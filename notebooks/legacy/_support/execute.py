@@ -9,7 +9,7 @@ LEGACY = ROOT/"notebooks/legacy"
 
 
 def execute(path):
-    check_environment(notebook=True)
+    check_environment()
     import os
     import sys
     from jupyter_client import KernelManager

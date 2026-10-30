@@ -16,16 +16,14 @@ python scripts/percolation.py
 ```
 
 For a new environment, first run `conda create -n PC5253-KG python=3.11.16`.
-All original package pins are retained. pandas 2.3.3 and SciPy 1.16.3 are the two
-additional runtime dependencies. No Jupyter installation is needed to calculate
-results or produce figures. The requirements file is now UTF-8 for portability.
+All original package pins are retained. The single root `requirements.txt` includes
+pandas 2.3.3, SciPy 1.16.3, nbformat 5.11.1, nbclient 0.11.0 and ipykernel 7.4.0.
+The same environment supports both the final script and the legacy notebook;
+there is no separate dependency file or environment for the notebook.
 
-To execute the optional legacy notebook, install the optional tools in the **same**
-environment:
+To execute the legacy notebook's display cells after the shared installation:
 
 ```bash
-python -m pip install -r requirements-notebook.txt
-python -m src.environment --notebook
 python notebooks/legacy/_support/execute.py --execute
 ```
 
@@ -48,7 +46,7 @@ its support helpers do not implement a second copy of the scientific algorithms.
 | `src/percolation/statistics.py` | Trial summaries, t intervals, within-q correlations |
 | `src/percolation/theory.py` | Empirical degree distributions and configuration-model reference |
 | `src/percolation/plots.py` | Figures from saved result tables |
-| `src/environment.py` | Root runtime pins, with optional notebook checks |
+| `src/environment.py` | All shared project dependency pins |
 | `tests/test_percolation.py` | Scientific invariants and CLI tests |
 
 Library functions such as `damage_graph()` and `evaluate()` do not check installed

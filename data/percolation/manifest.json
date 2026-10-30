@@ -98,7 +98,7 @@
   "q_reference": 0.9692115008604921,
   "query_outcomes_file": "query_outcomes.csv",
   "source_hashes": {
-    "src/environment.py": "116a8f2173b072b9977874696bc28e1176b65fe41cea79bba8d2c9433552375f",
+    "src/environment.py": "b90d88388040d19c8b6acf3832ad47f5e2f926d6de3ea66f1571a41bc3b8da40",
     "src/percolation/__init__.py": "6a821598f79524da07983899e38a68a92222009aa4d1b2b0b2517b7c2c2cac32",
     "src/percolation/core.py": "4ef3d8c74ba8dea29ef144d90c24dac816ec645c1251d4f4188ba6f6b8bdc440",
     "src/percolation/experiment.py": "4535741d4ce01b744b4e9ab141c5de51044e779818853e36ab04afa352abd228",
@@ -108,5 +108,5 @@
     "scripts/percolation.py": "c25c9b16f855c49157ebe28c6803efb75cd7128395addd6b986aa49c7e93bde4"
   },
   "requirements_file": "requirements.txt",
-  "requirements_sha256": "fd048d2c9fc3cef8aa768f93383aa7a3dd37f93f0d9c621be15d2c786ae7f548"
+  "requirements_sha256": "26f225511cc9bf4d46f9c0ddce1c203d1e7984eb9259b4bf602c52f8238a9abb"
 }

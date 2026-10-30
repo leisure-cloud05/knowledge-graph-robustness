@@ -98,15 +98,14 @@ def test_exported_run_invariants():
     assert all(validate_runs(frame,queries,load_graph(verify=True)).values())
 
 
-def test_shared_runtime_and_optional_notebook_requirements():
+def test_single_shared_requirements_file():
     from src.environment import check_environment, read_requirements, ROOT
     assert check_environment()['passed']
-    runtime = read_requirements(ROOT/'requirements.txt')
-    optional = read_requirements(ROOT/'requirements-notebook.txt')
-    assert runtime['networkx']=='3.6.1' and runtime['numpy']=='2.4.6'
-    assert not {'nbformat','nbclient','ipykernel'} & set(runtime)
-    assert all(optional[k]==v for k,v in runtime.items())
-    assert optional['ipykernel']=='7.4.0'
+    pins = read_requirements(ROOT/'requirements.txt')
+    assert pins['networkx']=='3.6.1' and pins['numpy']=='2.4.6'
+    assert pins['nbformat']=='5.11.1' and pins['nbclient']=='0.11.0'
+    assert pins['ipykernel']=='7.4.0'
+    assert not (ROOT/'requirements-notebook.txt').exists()
 
 
 
@@ -151,15 +150,14 @@ def test_final_runner_default_csv_dispatch(monkeypatch):
     assert received=={'output_dir':ROOT/'data/percolation','plain_csv':True}
 
 
-def test_runtime_check_does_not_require_notebook_tools(monkeypatch):
+def test_shared_environment_reports_missing_notebook_package(monkeypatch):
     import src.environment as environment
     from importlib.metadata import PackageNotFoundError
     actual_version = environment.version
-    def runtime_only(name):
-        if name in {'nbformat','nbclient','ipykernel'}:
+    def missing_package(name):
+        if name=='nbformat':
             raise PackageNotFoundError(name)
         return actual_version(name)
-    monkeypatch.setattr(environment,'version',runtime_only)
-    assert environment.check_environment()['passed']
-    with pytest.raises(RuntimeError,match='requirements-notebook.txt'):
-        environment.check_environment(notebook=True)
+    monkeypatch.setattr(environment,'version',missing_package)
+    with pytest.raises(RuntimeError,match='requirements.txt'):
+        environment.check_environment()

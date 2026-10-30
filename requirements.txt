@@ -16,3 +16,8 @@ matplotlib==3.11.2
 # Percolation runtime dependencies
 pandas==2.3.3
 scipy==1.16.3
+
+# Notebook report dependencies (shared environment)
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0

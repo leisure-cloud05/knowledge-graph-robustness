@@ -1,4 +1,4 @@
-"""Check the shared project's pinned runtime, with optional notebook tools."""
+"""Check the shared project environment, including notebook dependencies."""
 import argparse
 import json
 import platform
@@ -29,8 +29,8 @@ def read_requirements(path):
     return pins
 
 
-def check_environment(*, notebook=False):
-    filename = 'requirements-notebook.txt' if notebook else 'requirements.txt'
+def check_environment():
+    filename = 'requirements.txt'
     expected = read_requirements(ROOT/filename)
     packages,problems = {},[]
     if platform.python_version()!='3.11.16':
@@ -51,6 +51,5 @@ def check_environment(*, notebook=False):
 
 if __name__=='__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--notebook',action='store_true',help='Also verify optional notebook dependencies')
     args = parser.parse_args()
-    print(json.dumps(check_environment(notebook=args.notebook),indent=2))
+    print(json.dumps(check_environment(),indent=2))

@@ -12,6 +12,34 @@ The authoritative graph files are:
 
 The original lexicographically sampled graph is retained as a historical baseline. Sampling strategy comparisons and preliminary robustness experiments are documented below.
 
+## Project Layout
+
+```text
+knowledge-graph-robustness/
+├── requirements.txt                 # Shared dependencies for scripts and notebook
+├── scripts/
+│   └── percolation.py               # One-command Part C entry point
+├── src/
+│   ├── data_pipeline.py             # ConceptNet acquisition and cleaning
+│   ├── network_analysis.py          # Part B structural analysis
+│   ├── environment.py               # Shared version checks
+│   └── percolation/                 # Core algorithms, experiment, statistics, theory, plots
+├── tests/                          # Shared pipeline and percolation tests
+├── data/
+│   ├── processed/                  # Authoritative frozen graph and historical backup
+│   └── percolation/                # Formal Part C CSV results and metadata
+│       └── figures/                # Five generated figures
+├── results/                        # Existing Part B and historical comparison outputs
+├── docs/
+│   └── percolation.md              # Methods, result schema, and protection handoff
+└── notebooks/
+    └── legacy/
+        ├── percolation_research.ipynb
+        └── _support/               # Optional display/execution helpers
+```
+
+Percolation is part of the shared project. Its only maintained result directory is `data/percolation/`. The legacy notebook reads those results and contains no separate experiment implementation. Machine-local runtimes, caches, and migration backups under `.local/` are ignored by Git.
+
 ## 1. Data Source and Provenance
 
 The dataset is derived from the official ConceptNet 5.7.0 assertions dump.
@@ -41,40 +69,67 @@ The raw dataset should be placed at:
 
 The `data/raw/` directory is excluded from Git, and the full raw dataset is not included in this repository.
 
-## 2. Environment
+## 2. Environment and Quick Start
 
-The project was developed using Python 3.11 and NetworkX.
+Run the commands below from the repository root. Use the authors' **PC5253-KG** environment and **Python 3.11.16**.
 
-The original Part A environment used Python 3.11.16.
+### 2.1 Shared runtime
 
-To reproduce the environment:
+For a new environment:
 
 ```bash
 conda create -n PC5253-KG python=3.11.16
 conda activate PC5253-KG
 python -m pip install -r requirements.txt
-```
-
-The shared `requirements.txt` includes the original pinned dependencies plus pandas and SciPy for percolation. Optional notebook tools are installed in the same environment with:
-
-```bash
-python -m pip install -r requirements-notebook.txt
-```
-
-**Percolation one-command run:**
-
-```bash
 python -m src.environment
+```
+
+If the environment already exists, activate it and install the same requirements; do not create another environment for percolation. If necessary, align its Python version with `conda install -n PC5253-KG python=3.11.16`.
+
+The root requirements retain the original package pins, including NetworkX **3.6.1**, NumPy **2.4.6**, and Matplotlib **3.11.2**, and include pandas **2.3.3**, SciPy **1.16.3**, nbformat **5.11.1**, nbclient **0.11.0**, and ipykernel **7.4.0**. Scripts and notebook use this one shared dependency file and environment. The requirements file is UTF-8.
+
+### 2.2 One-command percolation run
+
+```bash
 python scripts/percolation.py
 ```
 
-Results are written to `data/percolation/`, with figures in `data/percolation/figures/`. The maintained code is in `src/percolation/`, tests are in `tests/test_percolation.py`, and the archived research notebook is in `notebooks/legacy/`. See [Percolation documentation](docs/percolation.md) for outputs, the optional notebook workflow, and edge-protection handoff.
+Equivalent module entry: `python -m scripts.percolation`. The command uses the supplied frozen graph, performs all Part C calculations and checks, and writes CSV results and JSON metadata to `data/percolation/`, with figures in `data/percolation/figures/`. The raw ConceptNet download and the notebook are not needed for this run.
 
-Run the Part A tests from the project root:
+To select another result directory:
 
 ```bash
-python -m pytest tests/test_data_pipeline.py
+python scripts/percolation.py --output data/percolation_trial
 ```
+
+Relative output paths are resolved from the repository root. The output folder is created automatically. The runner refuses to replace an incompatible frozen query list silently.
+
+### 2.3 Legacy notebook
+
+The archived research report is [notebooks/legacy/percolation_research.ipynb](notebooks/legacy/percolation_research.ipynb). Its saved text and figures can be inspected without rerunning the experiment. After the shared installation in Section 2.1, execute its display cells in the **same environment**:
+
+```bash
+python -m src.environment
+python notebooks/legacy/_support/execute.py --execute
+```
+
+The executor uses the active interpreter and reads the formal results; it does not rerun the experiment or register a global kernel.
+
+For interactive Jupyter or VS Code use, register the active environment once and select its kernel:
+
+```bash
+python -m ipykernel install --user --name pc5253-kg --display-name "PC5253-KG (Python 3.11.16)"
+```
+
+### 2.4 Tests
+
+Run all shared tests, including the original data pipeline and percolation:
+
+```bash
+python -m pytest tests -q -p no:cacheprovider
+```
+
+See [Percolation documentation](docs/percolation.md) for implementation responsibilities, result fields, and the interface for the edge-protection component.
 
 ## 3. Graph Construction
 
@@ -279,7 +334,7 @@ The final experimental network contains:
 
 The frozen graph supports the intended mixed query set of 150 concept pairs, with 75 pairs at distance 2 and 75 pairs at distance 3.
 
-This establishes query-set feasibility; the final query set must be explicitly generated and frozen before the formal robustness experiments.
+The formal Part C query set has been generated and frozen at `data/percolation/queries.csv`. It contains 75 pairs per distance group and is reused across all trials and failure probabilities.
 
 ### 7.1 Authoritative files
 
@@ -408,11 +463,11 @@ Run it with:
 python -m scripts.compare_robustness
 ```
 
-The script loads the original Lexicographic baseline and the exported Greedy candidate, constructs reproducible query sets, performs repeated random edge failures, and produces query-success and largest-component-ratio results.
+This script is retained as a historical comparison utility, separate from the maintained Part C runner. Its current `Lexicographic` input reads `data/processed/nodes.csv` and `edges.csv`, which now contain the frozen Greedy graph. Running it unchanged therefore does not reproduce the original Lexicographic-versus-Greedy table in Section 5. That historical table records the earlier pre-check.
 
-This preliminary experiment is separate from the formal Part C and Part D evaluations.
+Use `python scripts/percolation.py` for the formal Part C results. A new historical-sample comparison would need to explicitly use `data/processed/lexicographic_backup/` and document its query sets.
 
-## Part B — Network Structure Analysis
+## 9. Network Structure Analysis (Part B)
 
 The frozen Greedy graph was analyzed as an unweighted, undirected network using NetworkX.
 
@@ -469,7 +524,79 @@ The outputs are saved in `results/part_b/`, including:
 
 The network visualization displays an 80-node subgraph centered on `/c/en/person`, rather than the entire 1,000-node network.
 
-## 10. Limitations
+## 10. Random Edge-Failure Analysis (Part C)
+
+The frozen Greedy graph was evaluated under independent random edge failures. This formal experiment follows the network analysis in Section 9 and is separate from the historical pre-check in Section 5.
+
+### 10.1 Experimental setup
+
+- **Graph:** The same 1,000-node, 3,417-edge frozen graph used by Part B.
+- **Queries:** 150 fixed unordered concept pairs, sampled uniformly without replacement within each distance group: 75 originally at distance 2 and 75 at distance 3.
+- **Failure probabilities:** q ∈ {0, 0.1, ..., 1.0}.
+- **Repeated trials:** 30 independent trials, giving 330 trial/q scenarios.
+- **Failure model:** Each edge independently fails with probability q; all original nodes remain present, including isolates.
+- **Shared scenarios:** Original-edge random values are reused across q within each trial, giving nested damage. Query selection and failures use separate streams.
+- **Component sweep:** A separate 51-point q grid at spacing 0.02 uses the same failure draws.
+
+The query seed is 5253001 and the failure seed is 5253002. The fixed workload, edge ordering and draw matrix are saved for reproducibility and downstream comparisons.
+
+### 10.2 Evaluation metrics
+
+**Query Success Rate, Q(q):** The fraction of the 150 fixed queries still connected by any path of at most three edges. Q2 and Q3 report the two original-distance groups separately.
+
+**Largest Connected Component Ratio, S(q):** The number of nodes in the largest component divided by the original 1,000 nodes.
+
+Each query is classified as successful, connected but requiring more than three hops, or disconnected. These fractions sum to one. The fraction of nodes in all components outside one largest component is also reported as **1-S**; it is a complementary view, not an independent fragmentation metric or critical-threshold estimator.
+
+Results use means, sample standard deviations and pointwise 95% t intervals over the 30 trials. They describe simulation uncertainty conditional on this graph and workload, not uncertainty across graph samples or query sets. The configuration-model curve supplies an assumption-dependent theoretical reference.
+
+### 10.3 Results
+
+| Failure probability q | Q | Q2 | Q3 | S |
+| --- | ---: | ---: | ---: | ---: |
+| 0.0 | 1.000 | 1.000 | 1.000 | 1.000 |
+| 0.2 | 0.810 | 0.896 | 0.723 | 0.986 |
+| 0.3 | 0.674 | 0.789 | 0.559 | 0.966 |
+| 0.4 | 0.525 | 0.656 | 0.393 | 0.933 |
+| 0.5 | 0.382 | 0.502 | 0.263 | 0.880 |
+| 0.7 | 0.136 | 0.204 | 0.068 | 0.694 |
+| 1.0 | 0.000 | 0.000 | 0.000 | 0.001 |
+
+At q = 0.5, mean query success is approximately **38.2%**, although the largest component still retains approximately **88.0%** of nodes. Another **40.4%** of all queries remain connected but require more than three hops. This demonstrates why overall connectivity does not fully describe short-query availability.
+
+Originally two-hop queries retain greater availability than the three-hop group: **50.2% versus 26.3%** at q = 0.5 for this workload. These are structural retrieval results, not semantic accuracy. The slightly different values in Section 5 belong to the earlier pre-check and its own query set.
+
+### 10.4 Generated outputs
+
+Run the complete formal experiment from the project root:
+
+```bash
+python scripts/percolation.py
+```
+
+The maintained implementation is in `src/percolation/`. The command runs independently of the legacy notebook and saves formal outputs to `data/percolation/`:
+
+| Output | Content |
+| --- | --- |
+| `queries.csv`, `query_audit.json`, `endpoint_reuse.csv` | Fixed workload and endpoint coverage |
+| `runs.csv`, `summary.csv` | 330 scenario metrics and trial-level statistical summaries |
+| `query_outcomes.csv` | 49,500 individual query outcomes |
+| `edge_order.csv`, `failure_draws.csv`, `failure_uniforms.npy` | Canonical edge IDs and reusable failure draws |
+| `fragmentation_runs.csv`, `fragmentation_summary.csv` | Fine-grid S and outside-largest fraction |
+| `degree_distribution.csv`, `configuration_reference.csv` | Degree distributions and theoretical reference |
+| `within_q_correlations.csv` | Descriptive S/Q correlations at fixed q |
+| `manifest.json`, `environment_check.json`, `validation.json` | Settings, versions, hashes and checks |
+| `figures/` | Five generated research figures |
+
+The [legacy notebook](notebooks/legacy/percolation_research.ipynb) retains the research narrative and displays these same results; it does not maintain a second algorithm or output directory. See [Percolation documentation](docs/percolation.md) for field definitions and implementation details.
+
+### 10.5 Handoff to edge protection
+
+Part D can reuse `src/percolation/core.py::damage_graph(..., protected_edges=...)` and `evaluate()`, together with the saved queries, edge order, trial IDs and draws. An empty protected set reproduces this baseline. Selection strategies and their comparison remain Part D work; no such strategies are evaluated by Part C.
+
+Keep the same workload and damage scenarios across strategies and calculate differences within matching trials and q. The [handoff specification](docs/percolation.md#edge-protection-handoff) documents the interface and budget conventions.
+
+## 11. Limitations
 
 The following limitations should be considered when interpreting the results:
 
@@ -489,9 +616,9 @@ The following limitations should be considered when interpreting the results:
 
 The sampling comparison supports the selection of an experimental graph for the current project. It does not establish an optimal general-purpose ConceptNet sampling strategy.
 
-## 11. Next Steps
+## 12. Next Steps
 
-The frozen Greedy graph will be used as the common input for the remaining project components.
+The frozen Greedy graph is the common input. Parts A–C are complete; the next step is to implement and compare the Part D protection strategies using the saved Part C workload and damage scenarios.
 
 **Part B — Network Structure Analysis (Completed)**
 
@@ -514,4 +641,4 @@ Results are available in `results/part_b/`.
 - Comparison under a fixed 5% protection budget
 - Evaluation against the unprotected baseline
 
-All formal experiments will use the same frozen Greedy graph and a consistent query-set definition.
+Part D should reuse the formal Part C graph, frozen query file, edge ordering, and failure draws to keep strategy comparisons paired.
