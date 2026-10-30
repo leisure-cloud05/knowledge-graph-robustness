@@ -4,3 +4,7 @@ __pycache__/
 data/raw/
 tests/tmp*/
 data/processed/candidate_*
+
+# Machine-local validation runtimes and migration backups
+.local/
+.venv/

@@ -3,9 +3,10 @@ import networkx as nx
 import numpy as np
 import pytest
 
-from .core import damage_graph, edge_order, evaluate, sample_queries, load_graph
-from .study import mean_interval, validate_runs, OUTPUT
-from .theory import reference_threshold, configuration_curve
+from src.percolation.core import damage_graph, edge_order, evaluate, sample_queries, load_graph
+from src.percolation.statistics import mean_interval
+from src.percolation.experiment import validate_runs, OUTPUT
+from src.percolation.theory import reference_threshold, configuration_curve
 
 
 def query(u,v,d=2):
@@ -97,14 +98,16 @@ def test_exported_run_invariants():
     assert all(validate_runs(frame,queries,load_graph(verify=True)).values())
 
 
-def test_authors_environment_and_additive_requirements():
-    from .check_environment import check_environment, read_requirements, PART
+def test_shared_runtime_and_optional_notebook_requirements():
+    from src.environment import check_environment, read_requirements, ROOT
     assert check_environment()['passed']
-    original = read_requirements(PART.parent/'requirements.txt')
-    additions = read_requirements(PART/'requirements.txt')
-    assert not set(original).intersection(additions)
-    assert '-r ../requirements.txt' in (PART/'requirements.txt').read_text()
-    assert not (PART/'requirements-lock.txt').exists()
+    runtime = read_requirements(ROOT/'requirements.txt')
+    optional = read_requirements(ROOT/'requirements-notebook.txt')
+    assert runtime['networkx']=='3.6.1' and runtime['numpy']=='2.4.6'
+    assert not {'nbformat','nbclient','ipykernel'} & set(runtime)
+    assert all(optional[k]==v for k,v in runtime.items())
+    assert optional['ipykernel']=='7.4.0'
+
 
 
 def test_small_components_are_complement_including_isolates():
@@ -125,3 +128,38 @@ def test_handoff_preserves_edge_draws_and_empty_set_baseline():
     assert set(held.edges())=={edges[0],edges[1]}
     with pytest.raises(ValueError):
         damage_graph(graph,edges,uniforms,.5,protected_edges={(0,99)})
+
+
+def test_final_runner_help_from_another_directory(tmp_path):
+    import subprocess,sys
+    from src.percolation.core import ROOT
+    result = subprocess.run([sys.executable,str(ROOT/'scripts/percolation.py'),'--help'],
+                            cwd=tmp_path,capture_output=True,text=True)
+    assert result.returncode==0 and '--output' in result.stdout
+
+
+def test_final_runner_default_csv_dispatch(monkeypatch):
+    from scripts.percolation import main
+    from src.percolation import experiment as study
+    from src.percolation.core import ROOT
+    received = {}
+    def capture(output_dir, *, plain_csv=False):
+        received.update(output_dir=output_dir,plain_csv=plain_csv)
+        return {'status':'completed'}
+    monkeypatch.setattr(study,'run',capture)
+    assert main([])['status']=='completed'
+    assert received=={'output_dir':ROOT/'data/percolation','plain_csv':True}
+
+
+def test_runtime_check_does_not_require_notebook_tools(monkeypatch):
+    import src.environment as environment
+    from importlib.metadata import PackageNotFoundError
+    actual_version = environment.version
+    def runtime_only(name):
+        if name in {'nbformat','nbclient','ipykernel'}:
+            raise PackageNotFoundError(name)
+        return actual_version(name)
+    monkeypatch.setattr(environment,'version',runtime_only)
+    assert environment.check_environment()['passed']
+    with pytest.raises(RuntimeError,match='requirements-notebook.txt'):
+        environment.check_environment(notebook=True)

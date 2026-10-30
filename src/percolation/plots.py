@@ -2,8 +2,8 @@
 import os
 from pathlib import Path
 
-from .core import PART
-os.environ.setdefault("MPLCONFIGDIR", str(PART / "work/matplotlib"))
+from .core import ROOT
+os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".local/matplotlib"))
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -38,14 +38,16 @@ def finish(fig, path):
 
 
 def make_plots(output):
-    output = Path(output)
+    tables = Path(output)
+    output = tables / "figures"
+    output.mkdir(parents=True, exist_ok=True)
     plt.rcParams.update({"font.family":"DejaVu Sans","font.size":10,
         "axes.spines.top":False,"axes.spines.right":False,
         "axes.titleweight":"bold","axes.labelcolor":"#283747",
         "axes.grid":True,"grid.alpha":.18,"figure.constrained_layout.use":True})
-    summary = pd.read_csv(output/"summary.csv", keep_default_na=False)
+    summary = pd.read_csv(tables/"summary.csv", keep_default_na=False)
     none = summary.sort_values("q")
-    distributions = pd.read_csv(output/"degree_distribution.csv", keep_default_na=False)
+    distributions = pd.read_csv(tables/"degree_distribution.csv", keep_default_na=False)
     finish(plot_degree_distributions(distributions), output/"degree_structure.png")
 
     fig,axes = plt.subplots(1,2,figsize=(11,4))
@@ -68,7 +70,7 @@ def make_plots(output):
     axes[0].set(xlabel="Edge failure probability q",ylabel="Fraction of fixed queries",
         ylim=(0,1),title="Why queries fail")
     axes[0].legend(fontsize=8,loc="lower left")
-    runs = pd.read_csv(output/"runs.csv")
+    runs = pd.read_csv(tables/"runs.csv")
     for q,color in [(.3,"#4477aa"),(.5,"#d17a22"),(.7,"#7b5295")]:
         data = runs[runs.q==q]
         axes[1].scatter(data.S,data.Q,color=color,s=32,alpha=.7,label=f"q = {q}")
@@ -77,10 +79,10 @@ def make_plots(output):
     axes[1].legend(fontsize=9)
     finish(fig,output/"query_failure_analysis.png")
 
-    frag = pd.read_csv(output/"fragmentation_summary.csv", keep_default_na=False)
-    reference = pd.read_csv(output/"configuration_reference.csv", keep_default_na=False)
+    frag = pd.read_csv(tables/"fragmentation_summary.csv", keep_default_na=False)
+    reference = pd.read_csv(tables/"configuration_reference.csv", keep_default_na=False)
     import json
-    reference_q = json.loads((output/"manifest.json").read_text())["q_reference"]
+    reference_q = json.loads((tables/"manifest.json").read_text())["q_reference"]
     fig,axes = plt.subplots(1,2,figsize=(11,4.4))
     band(axes[0],frag,"S","Measured S","#41566d")
     axes[0].plot(reference.q,reference.configuration_S,"--",color="#ac6586",label="Configuration-model reference")
@@ -93,7 +95,7 @@ def make_plots(output):
     axes[1].set_title("Nodes in all other components")
     finish(fig,output/"fragmentation_reference.png")
 
-    endpoints = pd.read_csv(output/"endpoint_reuse.csv", keep_default_na=False).head(12)
+    endpoints = pd.read_csv(tables/"endpoint_reuse.csv", keep_default_na=False).head(12)
     fig,ax = plt.subplots(figsize=(9,4))
     ax.barh(endpoints.concept.str.replace("/c/en/","",regex=False)[::-1],endpoints.query_count[::-1],color="#41566d")
     ax.set(xlabel="Number of queries containing this concept",title="Most reused query endpoints (top 12)")

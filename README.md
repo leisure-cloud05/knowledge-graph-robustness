@@ -50,18 +50,25 @@ The original Part A environment used Python 3.11.16.
 To reproduce the environment:
 
 ```bash
-conda create -n PC5253-KG python=3.11
+conda create -n PC5253-KG python=3.11.16
 conda activate PC5253-KG
 python -m pip install -r requirements.txt
 ```
 
-Additional packages used by the sampling and robustness comparison scripts include NumPy and Matplotlib:
+The shared `requirements.txt` includes the original pinned dependencies plus pandas and SciPy for percolation. Optional notebook tools are installed in the same environment with:
 
 ```bash
-python -m pip install numpy matplotlib
+python -m pip install -r requirements-notebook.txt
 ```
 
-These dependencies should also be included in `requirements.txt` for complete reproducibility.
+**Percolation one-command run:**
+
+```bash
+python -m src.environment
+python scripts/percolation.py
+```
+
+Results are written to `data/percolation/`, with figures in `data/percolation/figures/`. The maintained code is in `src/percolation/`, tests are in `tests/test_percolation.py`, and the archived research notebook is in `notebooks/legacy/`. See [Percolation documentation](docs/percolation.md) for outputs, the optional notebook workflow, and edge-protection handoff.
 
 Run the Part A tests from the project root:
 
@@ -492,19 +499,12 @@ The frozen Greedy graph was analyzed using NetworkX. The analysis covers degree 
 
 Results are available in `results/part_b/`.
 
-**Part C — Random Edge Failure (Next)**
+**Part C — Random Edge Failure (Completed)**
 
-- Freeze 150 concept-pair queries.
-- Simulate independent random edge failures.
-- Evaluate Q(q) and S(q) over 30 trials.
-- Report mean performance and uncertainty.
-
-**Part C — Random Edge Failure**
-
-- Freeze 150 concept-pair queries
-- Simulate independent random edge failures
-- Evaluate Q(q) and S(q)
-- Report repeated-trial statistics and uncertainty
+- Fixed 150-query workload, independent edge failures, Q/Q2/Q3/S and outcome breakdowns.
+- 30 trials per q, saved random draws and repeated-trial uncertainty.
+- Run `python scripts/percolation.py`; outputs are under `data/percolation/`.
+- Reusable damage/evaluation interfaces support the next member's protection work.
 
 **Part D — Network-informed Edge Protection**
 

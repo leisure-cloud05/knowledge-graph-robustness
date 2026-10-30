@@ -1,0 +1,14 @@
+{
+  "single_result_directory": "data/percolation",
+  "figures_directory": "data/percolation/figures",
+  "legacy_notebook": "notebooks/legacy/percolation_research.ipynb",
+  "original_package_pins_preserved": true,
+  "queries_draws_and_scientific_results_unchanged": true,
+  "runtime_verified_without_notebook_dependencies": true,
+  "legacy_notebook_executed": true,
+  "embedded_figures": 5,
+  "shared_frozen_inputs_unchanged": true,
+  "source_hashes_verified": true,
+  "local_files_ignored": true,
+  "tests": ".....................................                              [100%]\n37 passed, 6 subtests passed in 2.42s"
+}

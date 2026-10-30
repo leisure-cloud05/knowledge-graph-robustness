@@ -10,8 +10,7 @@ from pathlib import Path
 import networkx as nx
 import numpy as np
 
-PART = Path(__file__).resolve().parents[1]
-ROOT = PART.parent
+ROOT = Path(__file__).resolve().parents[2]
 
 
 def digest(path):

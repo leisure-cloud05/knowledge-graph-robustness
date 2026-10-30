@@ -86,29 +86,27 @@
     "scipy": "1.16.3",
     "networkx": "3.6.1",
     "matplotlib": "3.11.2",
-    "pandas": "2.3.3",
-    "nbformat": "5.11.1",
-    "nbclient": "0.11.0"
+    "pandas": "2.3.3"
   },
   "python": "3.11.16",
   "platform": "macOS-27.0.1-arm64-arm-64bit",
   "interval": "pointwise 95% Student-t intervals over repetitions; raw limits not clipped",
-  "pilot_seconds": 0.012586416996782646,
-  "total_seconds": 6.105877124995459,
+  "pilot_seconds": 0.012346957984846085,
+  "total_seconds": 8.318388042011065,
   "small_components_definition": "Total nodes outside one largest component / original N; equals 1-S",
   "p_reference": 0.03078849913950785,
   "q_reference": 0.9692115008604921,
+  "query_outcomes_file": "query_outcomes.csv",
   "source_hashes": {
-    "__init__.py": "ad65b1c96a703d8c0084be82b35f04e89c88291a762aebe97864cef5051f93d7",
-    "src/__init__.py": "8e85610565113839bd1fc8828a4d2dd4bd67fe9b9c0a4ccd40fa836092acd16f",
-    "src/build_notebook.py": "2c249e1f05baa432f54f4b4ae404f0ab19cc335277b6bfbbe96e5f2985bc3313",
-    "src/check_environment.py": "8606a98e218d39a103f128f4fc216bf666b82c672daf8ba5ad74fbcc478f5ce3",
-    "src/core.py": "24fd28a7323727cfb44d61b272751cfcb474e93a619cbbcb4c17767f51c2f765",
-    "src/plots.py": "0dbafdaa8ad9b4cbda920f0b1b8422a760914265ce6fbdb8cbfedd8947626339",
-    "src/report.py": "744fc63a6f73b126b51158761db8117f1d07e6089fb854336522316f69df15d7",
-    "src/study.py": "e9f8ef60fac45f14fc92b0cd3045b6bb0d439f03c0280babafdaf5db5086ae7e",
-    "src/test_percolation.py": "615917b23139a749eb51f6d75b41344f078b379e1bde719f1bd090dc1f4dde01",
-    "src/theory.py": "224dbb9f33b9925c60dd58e4038c07bd56c0cff35c768bd8b972155ff1fa4aa5"
+    "src/environment.py": "116a8f2173b072b9977874696bc28e1176b65fe41cea79bba8d2c9433552375f",
+    "src/percolation/__init__.py": "6a821598f79524da07983899e38a68a92222009aa4d1b2b0b2517b7c2c2cac32",
+    "src/percolation/core.py": "4ef3d8c74ba8dea29ef144d90c24dac816ec645c1251d4f4188ba6f6b8bdc440",
+    "src/percolation/experiment.py": "4535741d4ce01b744b4e9ab141c5de51044e779818853e36ab04afa352abd228",
+    "src/percolation/plots.py": "aa673de8981eb81d3e5cae89aae489d8e614bd5cd1be6c5a77b8185c40f0ed77",
+    "src/percolation/statistics.py": "c3d0e61befc87483a810975c098fa8c13c83e3177d622b3baab884ec7f2a0b13",
+    "src/percolation/theory.py": "224dbb9f33b9925c60dd58e4038c07bd56c0cff35c768bd8b972155ff1fa4aa5",
+    "scripts/percolation.py": "c25c9b16f855c49157ebe28c6803efb75cd7128395addd6b986aa49c7e93bde4"
   },
-  "artifact_checks": "artifact_checks.json"
+  "requirements_file": "requirements.txt",
+  "requirements_sha256": "fd048d2c9fc3cef8aa768f93383aa7a3dd37f93f0d9c621be15d2c786ae7f548"
 }
