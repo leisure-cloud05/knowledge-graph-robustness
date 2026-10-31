@@ -16,14 +16,15 @@ python scripts/percolation.py
 ```
 
 For a new environment, first run `conda create -n PC5253-KG python=3.11.16`.
-All original package pins are retained. The single root `requirements.txt` includes
-pandas 2.3.3, SciPy 1.16.3, nbformat 5.11.1, nbclient 0.11.0 and ipykernel 7.4.0.
-The same environment supports both the final script and the legacy notebook;
-there is no separate dependency file or environment for the notebook.
+All runtime and notebook pins are in the single `requirements.txt`.
+The CLI checks only runtime packages; `--profile notebook` checks all pins.
+Use the same PC5253-KG environment.
 
-To execute the legacy notebook's display cells after the shared installation:
+To execute the legacy notebook's display cells, install optional dependencies:
 
 ```bash
+python -m pip install -r requirements.txt
+python -m src.environment --profile notebook
 python notebooks/legacy/_support/execute.py --execute
 ```
 
@@ -74,10 +75,10 @@ structural reachability within three edges, not semantic correctness.
 
 ## One authoritative result directory
 
-Default: `data/percolation/`. Override with:
+Default: `results/part_c/`. Override with:
 
 ```bash
-python scripts/percolation.py --output data/percolation_trial
+python scripts/percolation.py --output results/part_c_trial
 ```
 
 Relative paths are resolved from the repository root, independent of shell working
@@ -87,13 +88,13 @@ metrics are reproducible under the shared pinned environment.
 
 | Output | Meaning |
 | --- | --- |
-| `queries.csv` | Frozen 150-pair workload with original distances |
+| `data/experiments/part_c/queries.csv` | Frozen 150-pair workload (input) |
 | `query_audit.json`, `endpoint_reuse.csv` | Candidate counts and endpoint concentration |
 | `runs.csv` | 330 trial/q records, metrics and timings |
 | `summary.csv` | Q, Q2, Q3, S, outcome fractions: mean, sample SD, CI, n |
 | `query_outcomes.csv` | 49,500 query/trial/q outcomes |
-| `edge_order.csv` | Canonical endpoint pairs and edge IDs |
-| `failure_draws.csv`, `failure_uniforms.npy` | Trial/edge random values; 30 × 3,417 draws |
+| `data/experiments/part_c/edge_order.csv` | Canonical endpoint pairs and edge IDs (input) |
+| `data/experiments/part_c/{failure_draws.csv,failure_uniforms.npy}` | Trial/edge random values; 30 × 3,417 draws (input) |
 | `fragmentation_runs.csv`, `fragmentation_summary.csv` | Fine-grid S and small_components = 1-S |
 | `degree_distribution.csv` | Current and historical empirical degree frequencies/tails |
 | `configuration_reference.csv` | Degree-based infinite-ensemble reference curve |
@@ -142,3 +143,5 @@ At q=0.5, mean Q is approximately 0.382 and S approximately 0.880; about 0.404 o
 queries remain connected but exceed three hops. This supports distinguishing
 short-query availability from global connectivity. It does not establish semantic
 accuracy or generalise beyond this selected graph and frozen workload.
+
+Fixed inputs (`queries.csv`, `edge_order.csv`, `failure_draws.csv`, `failure_uniforms.npy`) are stored in `data/experiments/part_c/`; all other generated Part C tables, metadata and figures are in `results/part_c/`. Text output is UTF-8/LF. Text SHA-256 checks normalize CRLF to LF; binary hashes are unchanged. Frozen queries are compared as parsed fields, not raw text. See [local integration and file moves](local_integration.md).

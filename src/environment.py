@@ -29,9 +29,14 @@ def read_requirements(path):
     return pins
 
 
-def check_environment():
+def check_environment(profile="runtime"):
     filename = 'requirements.txt'
     expected = read_requirements(ROOT/filename)
+    notebook_packages = {"nbformat", "nbclient", "ipykernel"}
+    if profile not in {"runtime", "notebook"}:
+        raise ValueError("profile must be runtime or notebook")
+    if profile == "runtime":
+        expected = {name: pin for name, pin in expected.items() if name not in notebook_packages}
     packages,problems = {},[]
     if platform.python_version()!='3.11.16':
         problems.append(f'Python: expected 3.11.16, found {platform.python_version()}')
@@ -46,10 +51,11 @@ def check_environment():
     if problems:
         raise RuntimeError(f'Activate PC5253-KG (Python 3.11.16), then python -m pip install -r {filename}:\n'+'\n'.join(problems))
     return {'python':platform.python_version(),'required_python':'3.11.16',
-            'requirements':filename,'packages':packages,'passed':True,'problems':[]}
+            'requirements':filename,'profile':profile,'packages':packages,'passed':True,'problems':[]}
 
 
 if __name__=='__main__':
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--profile', choices=['runtime', 'notebook'], default='runtime')
     args = parser.parse_args()
-    print(json.dumps(check_environment(),indent=2))
+    print(json.dumps(check_environment(args.profile),indent=2))

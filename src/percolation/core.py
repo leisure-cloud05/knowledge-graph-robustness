@@ -13,14 +13,18 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[2]
 
 
-def digest(path):
-    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+def digest(path, *, text=False):
+    data = Path(path).read_bytes()
+    if text:
+        data = data.replace(b"\r\n", b"\n")
+    return hashlib.sha256(data).hexdigest()
 
 
 def write_json(path, value):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, indent=2, allow_nan=False) + "\n")
+    path.write_text(json.dumps(value, indent=2, allow_nan=False) + "\n",
+                    encoding="utf-8", newline="\n")
 
 
 def load_graph(directory=None, verify=False):
@@ -42,9 +46,9 @@ def load_graph(directory=None, verify=False):
         raise ValueError("Duplicate projected edges")
     graph.add_edges_from(sorted(edges))
     if verify:
-        metadata = json.loads((directory / "graph_metadata.json").read_text())
+        metadata = json.loads((directory / "graph_metadata.json").read_text(encoding="utf-8"))
         for filename, expected in metadata["sha256"].items():
-            if digest(directory / filename) != expected:
+            if digest(directory / filename, text=True) != expected:
                 raise ValueError(f"Frozen input hash mismatch: {filename}")
         if (len(graph), graph.number_of_edges()) != (1000, 3417):
             raise ValueError("Unexpected authoritative graph size")
@@ -88,13 +92,25 @@ def sample_queries(graph, quota=75, seed=5253001):
 
 def damage_graph(graph, edges, uniforms, q, protected_edges=()):
     """Apply original-edge draws; retain the original node set."""
-    protected = {tuple(sorted(e)) for e in protected_edges}
+    if graph.is_directed() or graph.is_multigraph() or nx.number_of_selfloops(graph):
+        raise ValueError("Expected a loop-free undirected simple graph")
+    edges = list(edges)
+    if edges != edge_order(graph):
+        raise ValueError("Edges must match the complete canonical original edge order")
+    try:
+        protected = {tuple(sorted(e)) for e in protected_edges}
+    except (TypeError, ValueError) as exc:
+        raise ValueError("Invalid protected edges") from exc
     if not protected <= set(edges):
         raise ValueError("Unknown protected edge")
-    values = np.asarray(uniforms)
-    if not 0 <= q <= 1 or len(values) != len(edges):
+    try:
+        values = np.asarray(uniforms, dtype=float)
+        valid_q = np.ndim(q) == 0 and np.isfinite(q) and 0 <= q <= 1
+    except (TypeError, ValueError) as exc:
+        raise ValueError("Invalid probability or failure draws") from exc
+    if not valid_q or values.ndim != 1 or len(values) != len(edges):
         raise ValueError("Invalid probability or failure-draw length")
-    if np.any((values < 0) | (values >= 1)):
+    if not np.all(np.isfinite(values)) or np.any((values < 0) | (values >= 1)):
         raise ValueError("Failure draws must lie in [0,1)")
     damaged = nx.Graph()
     damaged.add_nodes_from(graph.nodes())

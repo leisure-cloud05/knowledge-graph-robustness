@@ -1,0 +1,4 @@
+2026-10-31; PC5253-KG Python 3.11.16
+python -m pytest tests -q -p no:cacheprovider
+87 passed, 28 subtests passed
+Acceptance: 8 scenarios passed; pilot/full not run.

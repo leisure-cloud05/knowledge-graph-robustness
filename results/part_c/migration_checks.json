@@ -1,0 +1,24 @@
+{
+  "upstream": "e942208",
+  "checks": {
+    "frozen_input_identical_queries.csv": true,
+    "frozen_input_identical_edge_order.csv": true,
+    "frozen_input_identical_failure_draws.csv": true,
+    "frozen_input_identical_failure_uniforms.npy": true,
+    "scientific_metrics_match_runs.csv": true,
+    "scientific_metrics_match_summary.csv": true,
+    "scientific_metrics_match_query_outcomes.csv": true,
+    "scientific_metrics_match_fragmentation_runs.csv": true,
+    "scientific_metrics_match_fragmentation_summary.csv": true,
+    "scientific_metrics_match_degree_distribution.csv": true,
+    "scientific_metrics_match_configuration_reference.csv": true,
+    "scientific_metrics_match_within_q_correlations.csv": true,
+    "scientific_metrics_match_endpoint_reuse.csv": true,
+    "authoritative_unchanged_nodes.csv": true,
+    "authoritative_unchanged_edges.csv": true,
+    "authoritative_unchanged_graph_metadata.json": true,
+    "source_hashes_match": true,
+    "new_text_files_lf": true
+  },
+  "note": "Scientific columns compared with rtol=1e-12, atol=1e-14; timing columns excluded."
+}

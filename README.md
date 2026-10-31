@@ -16,7 +16,7 @@ The original lexicographically sampled graph is retained as a historical baselin
 
 ```text
 knowledge-graph-robustness/
-├── requirements.txt                 # Shared dependencies for scripts and notebook
+├── requirements.txt                 # Runtime dependencies
 ├── scripts/
 │   └── percolation.py               # One-command Part C entry point
 ├── src/
@@ -27,9 +27,8 @@ knowledge-graph-robustness/
 ├── tests/                          # Shared pipeline and percolation tests
 ├── data/
 │   ├── processed/                  # Authoritative frozen graph and historical backup
-│   └── percolation/                # Formal Part C CSV results and metadata
-│       └── figures/                # Five generated figures
-├── results/                        # Existing Part B and historical comparison outputs
+│   └── experiments/part_c/         # Frozen queries, canonical edges, failure draws
+├── results/                        # Part B, Part C, Part D and historical results
 ├── docs/
 │   └── percolation.md              # Methods, result schema, and protection handoff
 └── notebooks/
@@ -38,7 +37,7 @@ knowledge-graph-robustness/
         └── _support/               # Optional display/execution helpers
 ```
 
-Percolation is part of the shared project. Its only maintained result directory is `data/percolation/`. The legacy notebook reads those results and contains no separate experiment implementation. Machine-local runtimes, caches, and migration backups under `.local/` are ignored by Git.
+Percolation is part of the shared project. Its maintained result directory is `results/part_c/`; frozen inputs are in `data/experiments/part_c/`. The legacy notebook reads those results and contains no separate experiment implementation. Machine-local runtimes, caches, and migration backups under `.local/` are ignored by Git.
 
 ## 1. Data Source and Provenance
 
@@ -86,7 +85,7 @@ python -m src.environment
 
 If the environment already exists, activate it and install the same requirements; do not create another environment for percolation. If necessary, align its Python version with `conda install -n PC5253-KG python=3.11.16`.
 
-The root requirements retain the original package pins, including NetworkX **3.6.1**, NumPy **2.4.6**, and Matplotlib **3.11.2**, and include pandas **2.3.3**, SciPy **1.16.3**, nbformat **5.11.1**, nbclient **0.11.0**, and ipykernel **7.4.0**. Scripts and notebook use this one shared dependency file and environment. The requirements file is UTF-8.
+The runtime requirements retain the original package pins, including NetworkX **3.6.1**, NumPy **2.4.6**, Matplotlib **3.11.2**, pandas **2.3.3** and SciPy **1.16.3**. The same `requirements.txt` also lists notebook dependencies. The CLI checks runtime packages only; `--profile notebook` checks all packages. Files are UTF-8.
 
 ### 2.2 One-command percolation run
 
@@ -94,22 +93,23 @@ The root requirements retain the original package pins, including NetworkX **3.6
 python scripts/percolation.py
 ```
 
-Equivalent module entry: `python -m scripts.percolation`. The command uses the supplied frozen graph, performs all Part C calculations and checks, and writes CSV results and JSON metadata to `data/percolation/`, with figures in `data/percolation/figures/`. The raw ConceptNet download and the notebook are not needed for this run.
+Equivalent module entry: `python -m scripts.percolation`. The command uses the supplied frozen graph, performs all Part C calculations and checks, and writes CSV results and JSON metadata to `results/part_c/`, with figures in `results/part_c/figures/`. The raw ConceptNet download and the notebook are not needed for this run.
 
 To select another result directory:
 
 ```bash
-python scripts/percolation.py --output data/percolation_trial
+python scripts/percolation.py --output results/part_c_trial
 ```
 
 Relative output paths are resolved from the repository root. The output folder is created automatically. The runner refuses to replace an incompatible frozen query list silently.
 
 ### 2.3 Legacy notebook
 
-The archived research report is [notebooks/legacy/percolation_research.ipynb](notebooks/legacy/percolation_research.ipynb). Its saved text and figures can be inspected without rerunning the experiment. After the shared installation in Section 2.1, execute its display cells in the **same environment**:
+The archived research report is [notebooks/legacy/percolation_research.ipynb](notebooks/legacy/percolation_research.ipynb). Its saved text and figures can be inspected without rerunning the experiment. After installing the shared `requirements.txt`, execute its display cells in the **same environment**:
 
 ```bash
-python -m src.environment
+python -m pip install -r requirements.txt
+python -m src.environment --profile notebook
 python notebooks/legacy/_support/execute.py --execute
 ```
 
@@ -334,7 +334,7 @@ The final experimental network contains:
 
 The frozen graph supports the intended mixed query set of 150 concept pairs, with 75 pairs at distance 2 and 75 pairs at distance 3.
 
-The formal Part C query set has been generated and frozen at `data/percolation/queries.csv`. It contains 75 pairs per distance group and is reused across all trials and failure probabilities.
+The formal Part C query set has been generated and frozen at `data/experiments/part_c/queries.csv`. It contains 75 pairs per distance group and is reused across all trials and failure probabilities.
 
 ### 7.1 Authoritative files
 
@@ -574,14 +574,14 @@ Run the complete formal experiment from the project root:
 python scripts/percolation.py
 ```
 
-The maintained implementation is in `src/percolation/`. The command runs independently of the legacy notebook and saves formal outputs to `data/percolation/`:
+The maintained implementation is in `src/percolation/`. The command runs independently of the legacy notebook and saves formal outputs to `results/part_c/`:
 
 | Output | Content |
 | --- | --- |
-| `queries.csv`, `query_audit.json`, `endpoint_reuse.csv` | Fixed workload and endpoint coverage |
+| `query_audit.json`, `endpoint_reuse.csv` | Workload audit and endpoint coverage |
 | `runs.csv`, `summary.csv` | 330 scenario metrics and trial-level statistical summaries |
 | `query_outcomes.csv` | 49,500 individual query outcomes |
-| `edge_order.csv`, `failure_draws.csv`, `failure_uniforms.npy` | Canonical edge IDs and reusable failure draws |
+| `data/experiments/part_c/{queries.csv,edge_order.csv,failure_draws.csv,failure_uniforms.npy}` | Frozen workload and reusable failure inputs (outside results directory) |
 | `fragmentation_runs.csv`, `fragmentation_summary.csv` | Fine-grid S and outside-largest fraction |
 | `degree_distribution.csv`, `configuration_reference.csv` | Degree distributions and theoretical reference |
 | `within_q_correlations.csv` | Descriptive S/Q correlations at fixed q |
@@ -596,7 +596,42 @@ Part D can reuse `src/percolation/core.py::damage_graph(..., protected_edges=...
 
 Keep the same workload and damage scenarios across strategies and calculate differences within matching trials and q. The [handoff specification](docs/percolation.md#edge-protection-handoff) documents the interface and budget conventions.
 
-## 11. Limitations
+## 11. Network-informed Edge Protection (Part D)
+
+**Status:** Protocol, selection algorithms and the paired-run interface are complete. Eight minimal acceptance scenarios passed. The 60-scenario pilot, 1,320-scenario full study and protection-effectiveness analysis remain to be completed by teammates.
+
+### 11.1 Protection strategies and protocol
+
+Random, Degree and Betweenness selection are implemented in `src/edge_protection.py`. Each protects `floor(3417 × 0.05) = 170` original edges before failures. Degree uses the sum of endpoint degrees; Betweenness uses exact normalized unweighted edge betweenness. Score ties use canonical edge order.
+
+Random uses one fixed allocation with seed 2026 across all trials and q values. All four strategies, including None, share the Part C frozen queries, original-edge ordering and failure draws. The protocol is recorded in `data/experiments/part_d/protocol.json`. See [selection rules and interface](docs/part_d_selection.md).
+
+### 11.2 Execution
+
+The unified entry point is `scripts/protection.py`. Run commands from the repository root in the PC5253-KG environment. Outputs require a new directory; existing results are preserved.
+
+```bash
+# Repeat minimal acceptance in a new directory
+python scripts/protection.py --stage acceptance --output results/part_d/acceptance_repeat
+# Teammate tasks: pilot and full runs
+python scripts/protection.py --stage pilot
+python scripts/protection.py --stage full
+```
+
+The pilot uses four strategies, trials 0–4 and q=0.2/0.3/0.4. The full study uses four strategies, 30 trials and q=0/0.1/…/1.0. Strategy, trial and q subsets can be selected explicitly; see the [Part D handoff](docs/part_d_handoff.md) for commands, output fields and responsibilities.
+
+### 11.3 Outputs and validation
+
+| Location | Content and status |
+| --- | --- |
+| `results/part_d/selection/` | Three 170-edge protection lists and selection timing metadata; available |
+| `results/part_d/acceptance/` | Eight minimal acceptance scenarios and validation records; passed |
+| `results/part_d/pilot/` | 60-scenario pre-experiment; not yet run |
+| `results/part_d/full/` | 1,320-scenario formal comparison; not yet run |
+
+Each experiment directory contains `runs.csv`, `validation.json` and `manifest.json`. Checks cover paired deletion samples, retained protection edges, None reproduction of Part C, original inputs unchanged and the q=0 endpoint. Acceptance validates implementation correctness; it does not establish strategy effectiveness or ranking. Statistical summaries, comparison figures and research conclusions follow the full experiment.
+
+## 12. Limitations
 
 The following limitations should be considered when interpreting the results:
 
@@ -612,13 +647,13 @@ The following limitations should be considered when interpreting the results:
 
 6. **Structural rather than semantic evaluation:** A path within three hops indicates structural association, not necessarily semantically correct reasoning or question answering.
 
-7. **Protection strategies remain untested:** Greater baseline robustness does not guarantee that degree-based or edge-betweenness-based protection will outperform random edge protection.
+7. **Protection effectiveness remains unevaluated:** Minimal interface acceptance passed, but formal strategy comparisons are pending. Greater baseline robustness does not guarantee that degree-based or edge-betweenness-based protection will outperform random edge protection.
 
 The sampling comparison supports the selection of an experimental graph for the current project. It does not establish an optimal general-purpose ConceptNet sampling strategy.
 
-## 12. Next Steps
+## 13. Next Steps
 
-The frozen Greedy graph is the common input. Parts A–C are complete; the next step is to implement and compare the Part D protection strategies using the saved Part C workload and damage scenarios.
+The frozen Greedy graph is the common input. Parts A–C are complete; the Part D selectors and paired-run interface are implemented locally. Teammates next run the pilot/full study and compare strategies using the saved Part C workload and damage scenarios.
 
 **Part B — Network Structure Analysis (Completed)**
 
@@ -630,10 +665,10 @@ Results are available in `results/part_b/`.
 
 - Fixed 150-query workload, independent edge failures, Q/Q2/Q3/S and outcome breakdowns.
 - 30 trials per q, saved random draws and repeated-trial uncertainty.
-- Run `python scripts/percolation.py`; outputs are under `data/percolation/`.
+- Run `python scripts/percolation.py`; outputs are under `results/part_c/`.
 - Reusable damage/evaluation interfaces support the next member's protection work.
 
-**Part D — Network-informed Edge Protection**
+**Part D — Network-informed Edge Protection (Protocol and Interface Completed; Experiments Pending)**
 
 - Random edge protection
 - Degree-based edge protection
@@ -642,3 +677,5 @@ Results are available in `results/part_b/`.
 - Evaluation against the unprotected baseline
 
 Part D should reuse the formal Part C graph, frozen query file, edge ordering, and failure draws to keep strategy comparisons paired.
+
+Fixed inputs (`queries.csv`, `edge_order.csv`, `failure_draws.csv`, `failure_uniforms.npy`) are stored in `data/experiments/part_c/`; all other generated Part C tables, metadata and figures are in `results/part_c/`. Text output is UTF-8/LF. Text SHA-256 checks normalize CRLF to LF; binary hashes are unchanged. Frozen queries are compared as parsed fields, not raw text. See [local integration and file moves](docs/local_integration.md).

@@ -1,0 +1,37 @@
+# New modules and generated artifacts only; frozen Part A/B files are untouched.
+/src/environment.py text eol=lf
+/src/percolation/** text eol=lf
+/src/edge_protection.py text eol=lf
+/scripts/percolation.py text eol=lf
+/scripts/select_protection.py text eol=lf
+/tests/test_percolation.py text eol=lf
+/tests/test_percolation_portability.py text eol=lf
+/tests/test_edge_protection.py text eol=lf
+/data/experiments/part_c/*.csv text eol=lf
+/data/experiments/part_c/*.npy binary
+/results/part_c/*.csv text eol=lf
+/results/part_c/*.json text eol=lf
+/results/part_c/*.txt text eol=lf
+/results/part_c/figures/*.png binary
+/results/part_d/selection/*.csv text eol=lf
+/results/part_d/selection/*.json text eol=lf
+/notebooks/legacy/** text eol=lf
+/requirements*.txt text eol=lf
+/docs/percolation.md text eol=lf
+/docs/local_integration.md text eol=lf
+/docs/part_d_selection.md text eol=lf
+/README.md text eol=lf
+/.gitattributes text eol=lf
+/src/protection_experiment.py text eol=lf
+/scripts/protection.py text eol=lf
+/tests/test_protection_experiment.py text eol=lf
+/data/experiments/part_d/*.json text eol=lf
+/results/part_d/acceptance/*.csv text eol=lf
+/results/part_d/acceptance/*.json text eol=lf
+/results/part_d/acceptance/*.md text eol=lf
+/results/part_d/acceptance/*.txt text eol=lf
+/results/part_d/pilot/*.csv text eol=lf
+/results/part_d/pilot/*.json text eol=lf
+/results/part_d/full/*.csv text eol=lf
+/results/part_d/full/*.json text eol=lf
+/docs/part_d_handoff.md text eol=lf

@@ -82,7 +82,7 @@ def make_plots(output):
     frag = pd.read_csv(tables/"fragmentation_summary.csv", keep_default_na=False)
     reference = pd.read_csv(tables/"configuration_reference.csv", keep_default_na=False)
     import json
-    reference_q = json.loads((tables/"manifest.json").read_text())["q_reference"]
+    reference_q = json.loads((tables/"manifest.json").read_text(encoding="utf-8"))["q_reference"]
     fig,axes = plt.subplots(1,2,figsize=(11,4.4))
     band(axes[0],frag,"S","Measured S","#41566d")
     axes[0].plot(reference.q,reference.configuration_S,"--",color="#ac6586",label="Configuration-model reference")

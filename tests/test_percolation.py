@@ -5,7 +5,7 @@ import pytest
 
 from src.percolation.core import damage_graph, edge_order, evaluate, sample_queries, load_graph
 from src.percolation.statistics import mean_interval
-from src.percolation.experiment import validate_runs, OUTPUT
+from src.percolation.experiment import validate_runs, OUTPUT, INPUT
 from src.percolation.theory import reference_threshold, configuration_curve
 
 
@@ -93,12 +93,12 @@ def test_frozen_graph_hashes_and_sizes():
 def test_exported_run_invariants():
     import pandas as pd
     frame = pd.read_csv(OUTPUT/"runs.csv", keep_default_na=False)
-    queries = pd.read_csv(OUTPUT/"queries.csv", keep_default_na=False).to_dict("records")
+    queries = pd.read_csv(INPUT/"queries.csv", keep_default_na=False).to_dict("records")
     assert len(frame)==30*11
     assert all(validate_runs(frame,queries,load_graph(verify=True)).values())
 
 
-def test_single_shared_requirements_file():
+def test_single_requirements_with_separate_checks():
     from src.environment import check_environment, read_requirements, ROOT
     assert check_environment()['passed']
     pins = read_requirements(ROOT/'requirements.txt')
@@ -147,7 +147,7 @@ def test_final_runner_default_csv_dispatch(monkeypatch):
         return {'status':'completed'}
     monkeypatch.setattr(study,'run',capture)
     assert main([])['status']=='completed'
-    assert received=={'output_dir':ROOT/'data/percolation','plain_csv':True}
+    assert received=={'output_dir':ROOT/'results/part_c','plain_csv':True}
 
 
 def test_shared_environment_reports_missing_notebook_package(monkeypatch):
@@ -160,4 +160,5 @@ def test_shared_environment_reports_missing_notebook_package(monkeypatch):
         return actual_version(name)
     monkeypatch.setattr(environment,'version',missing_package)
     with pytest.raises(RuntimeError,match='requirements.txt'):
-        environment.check_environment()
+        environment.check_environment('notebook')
+    assert environment.check_environment('runtime')['passed']

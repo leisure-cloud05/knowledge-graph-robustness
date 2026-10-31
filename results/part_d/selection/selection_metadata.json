@@ -1,0 +1,69 @@
+{
+  "scope": "static edge selection only; no protection effectiveness conclusion",
+  "python": "3.11.16",
+  "networkx": "3.6.1",
+  "graph": {
+    "nodes": 1000,
+    "edges": 3417,
+    "files": {
+      "nodes.csv": {
+        "raw_sha256": "be52cf62974820e0b84acda7668f26cb615b6c5f3428835c3457c95cf0a573ff",
+        "lf_sha256": "a5f54f9700969335b98e9fc8566aaa03a2487a99402e06cad4e5c87f1a197e27"
+      },
+      "edges.csv": {
+        "raw_sha256": "d8536da6091eaf4d8a12ce818f119ee5a675872930ff3d54bbeb7cf7cd04495e",
+        "lf_sha256": "941b353e004522b8e7ea156b27b24878012dcd31b79911d5993e0ade3980e483"
+      }
+    }
+  },
+  "fraction": 0.05,
+  "budget": 170,
+  "rounding": "floor(m * Decimal(str(fraction)))",
+  "random_seed": 2026,
+  "edge_order": "lexicographic canonical (min endpoint, max endpoint)",
+  "ranking_tie_break": "canonical edge ascending",
+  "betweenness_cache": {
+    "path": "results/part_b/edge_betweenness.csv",
+    "raw_sha256": "31f6b4cd6119228c926424e8d29638c2c5e8f212aa4721a290649bed2384a57a",
+    "rows": 3417,
+    "normalized": true,
+    "weight": null,
+    "exact_verification_seconds": 2.0914299000000938,
+    "max_absolute_error": 0.0
+  },
+  "timing_scope": "one perf_counter measurement per selector; includes validation and sorting; excludes file I/O and cache loading/exact verification; not a benchmark",
+  "selections": {
+    "random": {
+      "count": 170,
+      "selection_seconds": 0.0020049999998263957,
+      "file": "protected_random.csv",
+      "sha256": "88cf34f02349459dda155408ab3b35b576f19c7e39436540ea8a13f391fd1828"
+    },
+    "degree": {
+      "count": 170,
+      "selection_seconds": 0.003809399999681773,
+      "file": "protected_degree.csv",
+      "sha256": "f31aad7eced61d8bddc7aeb854b732120e1d9c8863d48214e6a8807383608098"
+    },
+    "betweenness": {
+      "count": 170,
+      "selection_seconds": 0.006704200000058336,
+      "file": "protected_betweenness.csv",
+      "sha256": "aae0df5ce8eb20c120675014c020945c154303a1ac59f248fa9a3049313bfe95"
+    }
+  },
+  "query_audit": {
+    "path": "data/experiments/part_c/queries.csv",
+    "raw_sha256": "9f4bc9d5e5eb457c9f084dae95e3d7778520dc9334b0796ce72cfd2adc37efc9",
+    "lf_sha256": "9f4bc9d5e5eb457c9f084dae95e3d7778520dc9334b0796ce72cfd2adc37efc9",
+    "count": 150,
+    "unique_unordered_pairs": 150,
+    "actual_distance_counts": {
+      "2": 75,
+      "3": 75
+    },
+    "distance_labels_match": true,
+    "matches_formal_generator_seed_5253001": true,
+    "formal_status": "adopted upstream Part C frozen queries"
+  }
+}

@@ -1,0 +1,4 @@
+PC5253-KG Python 3.11.16
+python -m pytest tests -q -p no:cacheprovider
+69 passed, 28 subtests passed
+pip check: No broken requirements found.

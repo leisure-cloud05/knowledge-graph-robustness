@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "stage": "acceptance",
+  "scenario_count": 8,
+  "expected_scenario_count": 8,
+  "full_design_executed": false,
+  "all_frozen_inputs_unchanged": true,
+  "all_selection_lists_match_algorithms": true,
+  "budget_per_protected_strategy": 170,
+  "paired_none_matches_part_c": true,
+  "original_graph_unchanged": true,
+  "cases": [
+    {
+      "strategy": "none",
+      "trial": 0,
+      "q": 0.0,
+      "shared_deletion_predicate": true,
+      "protected_edges_retained": true,
+      "original_nodes_retained": true,
+      "no_added_edges": true,
+      "not_worse_than_paired_none": true,
+      "zero_failure_endpoint": true,
+      "outcomes_partition": true
+    },
+    {
+      "strategy": "random",
+      "trial": 0,
+      "q": 0.0,
+      "shared_deletion_predicate": true,
+      "protected_edges_retained": true,
+      "original_nodes_retained": true,
+      "no_added_edges": true,
+      "not_worse_than_paired_none": true,
+      "zero_failure_endpoint": true,
+      "outcomes_partition": true
+    },
+    {
+      "strategy": "degree",
+      "trial": 0,
+      "q": 0.0,
+      "shared_deletion_predicate": true,
+      "protected_edges_retained": true,
+      "original_nodes_retained": true,
+      "no_added_edges": true,
+      "not_worse_than_paired_none": true,
+      "zero_failure_endpoint": true,
+      "outcomes_partition": true
+    },
+    {
+      "strategy": "betweenness",
+      "trial": 0,
+      "q": 0.0,
+      "shared_deletion_predicate": true,
+      "protected_edges_retained": true,
+      "original_nodes_retained": true,
+      "no_added_edges": true,
+      "not_worse_than_paired_none": true,
+      "zero_failure_endpoint": true,
+      "outcomes_partition": true
+    },
+    {
+      "strategy": "none",
+      "trial": 0,
+      "q": 0.3,
+      "shared_deletion_predicate": true,
+      "protected_edges_retained": true,
+      "original_nodes_retained": true,
+      "no_added_edges": true,
+      "not_worse_than_paired_none": true,
+      "zero_failure_endpoint": true,
+      "outcomes_partition": true
+    },
+    {
+      "strategy": "random",
+      "trial": 0,
+      "q": 0.3,
+      "shared_deletion_predicate": true,
+      "protected_edges_retained": true,
+      "original_nodes_retained": true,
+      "no_added_edges": true,
+      "not_worse_than_paired_none": true,
+      "zero_failure_endpoint": true,
+      "outcomes_partition": true
+    },
+    {
+      "strategy": "degree",
+      "trial": 0,
+      "q": 0.3,
+      "shared_deletion_predicate": true,
+      "protected_edges_retained": true,
+      "original_nodes_retained": true,
+      "no_added_edges": true,
+      "not_worse_than_paired_none": true,
+      "zero_failure_endpoint": true,
+      "outcomes_partition": true
+    },
+    {
+      "strategy": "betweenness",
+      "trial": 0,
+      "q": 0.3,
+      "shared_deletion_predicate": true,
+      "protected_edges_retained": true,
+      "original_nodes_retained": true,
+      "no_added_edges": true,
+      "not_worse_than_paired_none": true,
+      "zero_failure_endpoint": true,
+      "outcomes_partition": true
+    }
+  ]
+}

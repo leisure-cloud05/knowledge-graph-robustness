@@ -10,8 +10,8 @@ from src.percolation.core import ROOT
 
 class StudyReport:
     def __init__(self, output=None):
-        self.output = Path(output or ROOT / "data/percolation")
-        self.manifest = json.loads((self.output/"manifest.json").read_text())
+        self.output = Path(output or ROOT / "results/part_c")
+        self.manifest = json.loads((self.output/"manifest.json").read_text(encoding="utf-8"))
 
     def overview(self):
         m = self.manifest
@@ -32,7 +32,7 @@ class StudyReport:
         display(HTML(frame.to_html(index=False,float_format=lambda x:f"{x:.4f}",border=0)))
 
     def query_audit(self):
-        data = json.loads((self.output/"query_audit.json").read_text())
+        data = json.loads((self.output/"query_audit.json").read_text(encoding="utf-8"))
         rows = [{"item":"Eligible distance-2 pairs","value":data["candidate_counts"]["2"]},
                 {"item":"Eligible distance-3 pairs","value":data["candidate_counts"]["3"]},
                 {"item":"Selected unique pairs","value":data["unique_pairs"]},

@@ -1,0 +1,190 @@
+{
+  "status": "completed",
+  "stage": "acceptance",
+  "full_design_executed": false,
+  "purpose": "interface acceptance only",
+  "protocol": "data/experiments/part_d/protocol.json",
+  "protocol_sha256": "396869d3d7bb5c5661c425aa9e05956c876446792bcfba91e22a97e6723bba2b",
+  "protocol_settings": {
+    "protocol_id": "pc5253-part-d-v1",
+    "adopted_on": "2026-10-31",
+    "graph": {
+      "nodes": 1000,
+      "edges": 3417,
+      "directed": false,
+      "weighted": false
+    },
+    "part_c_inputs": "data/experiments/part_c",
+    "selection_directory": "results/part_d/selection",
+    "fraction": 0.05,
+    "budget": 170,
+    "rounding": "floor(m * Decimal(str(fraction)))",
+    "protection_seed": 2026,
+    "random_allocation": "one fixed set, reused across every trial and q; no reallocation",
+    "query_seed": 5253001,
+    "failure_seed": 5253002,
+    "runs": 30,
+    "q_values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "query_count": 150,
+    "query_distance_quotas": {
+      "2": 75,
+      "3": 75
+    },
+    "edge_order": "canonical endpoints and lexicographic edge order",
+    "ranking_ties": "canonical edge ascending; all scores on original unweighted graph",
+    "failure_rule": "remove original edge iff saved_uniform[trial, edge_id] < q and edge is unprotected",
+    "metrics": {
+      "Q": "fixed queries reachable within 3 hops / 150",
+      "S": "largest component nodes / original 1000"
+    },
+    "uncertainty_scope": "30 failure trials conditional on this graph, workload and fixed protection sets",
+    "full_scenarios": 1320,
+    "input_hashes": {
+      "data/processed/nodes.csv": "a5f54f9700969335b98e9fc8566aaa03a2487a99402e06cad4e5c87f1a197e27",
+      "data/processed/edges.csv": "941b353e004522b8e7ea156b27b24878012dcd31b79911d5993e0ade3980e483",
+      "data/processed/graph_metadata.json": "5cdc263550ae7c9badfa309644542b9f8ccff251cded5504819e7e011d6e917d",
+      "data/experiments/part_c/queries.csv": "9f4bc9d5e5eb457c9f084dae95e3d7778520dc9334b0796ce72cfd2adc37efc9",
+      "data/experiments/part_c/edge_order.csv": "faed3f96e9ed5f8a501a16725f0cdfd0b4dab4f34159a8e948945c8a32475d7a",
+      "data/experiments/part_c/failure_uniforms.npy": "4326fc94cb5b8cdb8ede7f51dad1cb060649fdaf8e2de3bc4681eed632092592",
+      "data/experiments/part_c/failure_draws.csv": "6cddaa6e3eb3196d709d90cfb196d3481313489cb8ce07a20f9aa81adc5c5bca",
+      "results/part_b/edge_betweenness.csv": "acdf9ea6c028c239d24924422798585def1fa2c88fa19b777ac085872ad3f94e",
+      "results/part_c/runs.csv": "f34d0df20cc7e4e2f1af8de792945a88a16315d1c39319384bb80c2a4f8e189b",
+      "results/part_d/selection/protected_random.csv": "88cf34f02349459dda155408ab3b35b576f19c7e39436540ea8a13f391fd1828",
+      "results/part_d/selection/protected_degree.csv": "f31aad7eced61d8bddc7aeb854b732120e1d9c8863d48214e6a8807383608098",
+      "results/part_d/selection/protected_betweenness.csv": "aae0df5ce8eb20c120675014c020945c154303a1ac59f248fa9a3049313bfe95"
+    }
+  },
+  "strategies": [
+    "none",
+    "random",
+    "degree",
+    "betweenness"
+  ],
+  "trials": [
+    0
+  ],
+  "q_values": [
+    0.0,
+    0.3
+  ],
+  "scenario_count": 8,
+  "environment": {
+    "python": "3.11.16",
+    "required_python": "3.11.16",
+    "requirements": "requirements.txt",
+    "profile": "runtime",
+    "packages": {
+      "certifi": {
+        "expected": "2026.10.23",
+        "installed": "2026.10.23",
+        "matches": true
+      },
+      "charset-normalizer": {
+        "expected": "3.5.2",
+        "installed": "3.5.2",
+        "matches": true
+      },
+      "colorama": {
+        "expected": "0.4.6",
+        "installed": "0.4.6",
+        "matches": true
+      },
+      "idna": {
+        "expected": "3.20",
+        "installed": "3.20",
+        "matches": true
+      },
+      "iniconfig": {
+        "expected": "2.3.1",
+        "installed": "2.3.1",
+        "matches": true
+      },
+      "networkx": {
+        "expected": "3.6.1",
+        "installed": "3.6.1",
+        "matches": true
+      },
+      "packaging": {
+        "expected": "26.3",
+        "installed": "26.3",
+        "matches": true
+      },
+      "pluggy": {
+        "expected": "1.7.0",
+        "installed": "1.7.0",
+        "matches": true
+      },
+      "Pygments": {
+        "expected": "2.21.0",
+        "installed": "2.21.0",
+        "matches": true
+      },
+      "pytest": {
+        "expected": "9.2.0",
+        "installed": "9.2.0",
+        "matches": true
+      },
+      "requests": {
+        "expected": "2.34.2",
+        "installed": "2.34.2",
+        "matches": true
+      },
+      "urllib3": {
+        "expected": "2.8.0",
+        "installed": "2.8.0",
+        "matches": true
+      },
+      "numpy": {
+        "expected": "2.4.6",
+        "installed": "2.4.6",
+        "matches": true
+      },
+      "matplotlib": {
+        "expected": "3.11.2",
+        "installed": "3.11.2",
+        "matches": true
+      },
+      "pandas": {
+        "expected": "2.3.3",
+        "installed": "2.3.3",
+        "matches": true
+      },
+      "scipy": {
+        "expected": "1.16.3",
+        "installed": "1.16.3",
+        "matches": true
+      }
+    },
+    "passed": true,
+    "problems": []
+  },
+  "platform": "Windows-10-10.0.26200-SP0",
+  "git_head": "e9422081b8b0a0042d5d582f2afb90418c16d0e8",
+  "source_hashes": {
+    "src/protection_experiment.py": "628ea480d516a273b07777a0966a6fb21ea7fb809f1aa896c6f887e3875079f9",
+    "src/edge_protection.py": "d1ce54bb20fe84889728c3ebac9079ef344fbce3332b91610a9c6cbb6ff8f8cc",
+    "src/environment.py": "b0762b3a413a692410b55f803e6d665ba487ae7e63e8fcea4fa9edbf2fbe45fa",
+    "src/percolation/core.py": "6c42b28a47dc1e46de81798ab351f5e3a182c65343b2dd44fdb64befd65a5740",
+    "scripts/protection.py": "a5572e244ac66ee9b51216b533a33f44d4d8b705bdce5b4bb759bed8a48b778e"
+  },
+  "requirements_sha256": "b2a25b03a99256753fe7b20ca93cbebb51bac9ec55e570b01b3474ce1f7a39c4",
+  "text_hash_policy": "CRLF normalized to LF; binary files unchanged",
+  "timing_scope": "per-row damage/evaluation wall time; excludes validation control and selection audit",
+  "exact_cache_verification_seconds": 2.337310900000375,
+  "selection_timing": "see results/part_d/selection/selection_metadata.json; fixed lists reused",
+  "total_seconds": 2.8641833000001498,
+  "interpretation": "correctness checks do not establish protection effectiveness or superiority",
+  "runs_sha256": "d06c083ae9a52536b7018cd9694fec36988e1cff8f6efb1e9e5c7cf9c9b5fa9f"
+}

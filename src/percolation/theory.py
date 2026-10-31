@@ -51,5 +51,5 @@ def export_degrees(output):
     graphs = {"Greedy (frozen)": load_graph(verify=True),
               "Lexicographic (historical)": load_graph(ROOT / "data/processed/lexicographic_backup")}
     distributions = pd.concat([degree_table(g, name) for name,g in graphs.items()], ignore_index=True)
-    distributions.to_csv(output / "degree_distribution.csv", index=False)
+    distributions.to_csv(output / "degree_distribution.csv", index=False, encoding="utf-8", lineterminator="\n")
     return distributions

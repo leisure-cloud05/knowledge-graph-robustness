@@ -4,7 +4,7 @@ From the repository root:
     python scripts/percolation.py
     python -m scripts.percolation
 
-Default outputs: data/percolation/ (CSV results, PNG figures, JSON metadata).
+Default outputs: results/part_c/ (CSV results, PNG figures, JSON metadata).
 The research notebook is neither required nor executed.
 """
 from __future__ import annotations
@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--output", type=Path, default=ROOT / "data/percolation",
+    parser.add_argument("--output", type=Path, default=ROOT / "results/part_c",
         help="Output folder; relative paths are resolved from the repository root.")
     args = parser.parse_args(argv)
     output = args.output if args.output.is_absolute() else ROOT / args.output
@@ -36,7 +36,7 @@ def main(argv=None):
     except (ValueError, FileNotFoundError) as error:
         parser.exit(2, f"Percolation stopped: {error}\n")
     print(f"Results saved to: {output.resolve()}")
-    print("Main tables: summary.csv, runs.csv, queries.csv, query_outcomes.csv")
+    print("Main tables: summary.csv, runs.csv, query_outcomes.csv; inputs: data/experiments/part_c")
     return manifest
 
 

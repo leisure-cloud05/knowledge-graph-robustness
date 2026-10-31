@@ -2,6 +2,7 @@
   "python": "3.11.16",
   "required_python": "3.11.16",
   "requirements": "requirements.txt",
+  "profile": "runtime",
   "packages": {
     "certifi": {
       "expected": "2026.10.23",
@@ -81,21 +82,6 @@
     "scipy": {
       "expected": "1.16.3",
       "installed": "1.16.3",
-      "matches": true
-    },
-    "nbformat": {
-      "expected": "5.11.1",
-      "installed": "5.11.1",
-      "matches": true
-    },
-    "nbclient": {
-      "expected": "0.11.0",
-      "installed": "0.11.0",
-      "matches": true
-    },
-    "ipykernel": {
-      "expected": "7.4.0",
-      "installed": "7.4.0",
       "matches": true
     }
   },

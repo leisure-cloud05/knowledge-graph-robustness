@@ -1,0 +1,61 @@
+{
+  "protocol_id": "pc5253-part-d-v1",
+  "adopted_on": "2026-10-31",
+  "graph": {
+    "nodes": 1000,
+    "edges": 3417,
+    "directed": false,
+    "weighted": false
+  },
+  "part_c_inputs": "data/experiments/part_c",
+  "selection_directory": "results/part_d/selection",
+  "fraction": 0.05,
+  "budget": 170,
+  "rounding": "floor(m * Decimal(str(fraction)))",
+  "protection_seed": 2026,
+  "random_allocation": "one fixed set, reused across every trial and q; no reallocation",
+  "query_seed": 5253001,
+  "failure_seed": 5253002,
+  "runs": 30,
+  "q_values": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "query_count": 150,
+  "query_distance_quotas": {
+    "2": 75,
+    "3": 75
+  },
+  "edge_order": "canonical endpoints and lexicographic edge order",
+  "ranking_ties": "canonical edge ascending; all scores on original unweighted graph",
+  "failure_rule": "remove original edge iff saved_uniform[trial, edge_id] < q and edge is unprotected",
+  "metrics": {
+    "Q": "fixed queries reachable within 3 hops / 150",
+    "S": "largest component nodes / original 1000"
+  },
+  "uncertainty_scope": "30 failure trials conditional on this graph, workload and fixed protection sets",
+  "full_scenarios": 1320,
+  "input_hashes": {
+    "data/processed/nodes.csv": "a5f54f9700969335b98e9fc8566aaa03a2487a99402e06cad4e5c87f1a197e27",
+    "data/processed/edges.csv": "941b353e004522b8e7ea156b27b24878012dcd31b79911d5993e0ade3980e483",
+    "data/processed/graph_metadata.json": "5cdc263550ae7c9badfa309644542b9f8ccff251cded5504819e7e011d6e917d",
+    "data/experiments/part_c/queries.csv": "9f4bc9d5e5eb457c9f084dae95e3d7778520dc9334b0796ce72cfd2adc37efc9",
+    "data/experiments/part_c/edge_order.csv": "faed3f96e9ed5f8a501a16725f0cdfd0b4dab4f34159a8e948945c8a32475d7a",
+    "data/experiments/part_c/failure_uniforms.npy": "4326fc94cb5b8cdb8ede7f51dad1cb060649fdaf8e2de3bc4681eed632092592",
+    "data/experiments/part_c/failure_draws.csv": "6cddaa6e3eb3196d709d90cfb196d3481313489cb8ce07a20f9aa81adc5c5bca",
+    "results/part_b/edge_betweenness.csv": "acdf9ea6c028c239d24924422798585def1fa2c88fa19b777ac085872ad3f94e",
+    "results/part_c/runs.csv": "f34d0df20cc7e4e2f1af8de792945a88a16315d1c39319384bb80c2a4f8e189b",
+    "results/part_d/selection/protected_random.csv": "88cf34f02349459dda155408ab3b35b576f19c7e39436540ea8a13f391fd1828",
+    "results/part_d/selection/protected_degree.csv": "f31aad7eced61d8bddc7aeb854b732120e1d9c8863d48214e6a8807383608098",
+    "results/part_d/selection/protected_betweenness.csv": "aae0df5ce8eb20c120675014c020945c154303a1ac59f248fa9a3049313bfe95"
+  }
+}

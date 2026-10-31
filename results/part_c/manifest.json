@@ -89,24 +89,26 @@
     "pandas": "2.3.3"
   },
   "python": "3.11.16",
-  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "platform": "Windows-10-10.0.26200-SP0",
   "interval": "pointwise 95% Student-t intervals over repetitions; raw limits not clipped",
-  "pilot_seconds": 0.012346957984846085,
-  "total_seconds": 8.318388042011065,
+  "pilot_seconds": 0.017112700000325276,
+  "total_seconds": 13.338785500000085,
   "small_components_definition": "Total nodes outside one largest component / original N; equals 1-S",
   "p_reference": 0.03078849913950785,
   "q_reference": 0.9692115008604921,
   "query_outcomes_file": "query_outcomes.csv",
   "source_hashes": {
-    "src/environment.py": "b90d88388040d19c8b6acf3832ad47f5e2f926d6de3ea66f1571a41bc3b8da40",
+    "src/environment.py": "332f893197ffc03ea691ea70a7614d4492ebf484491713b68c4cb4c09b73ec01",
     "src/percolation/__init__.py": "6a821598f79524da07983899e38a68a92222009aa4d1b2b0b2517b7c2c2cac32",
-    "src/percolation/core.py": "4ef3d8c74ba8dea29ef144d90c24dac816ec645c1251d4f4188ba6f6b8bdc440",
-    "src/percolation/experiment.py": "4535741d4ce01b744b4e9ab141c5de51044e779818853e36ab04afa352abd228",
-    "src/percolation/plots.py": "aa673de8981eb81d3e5cae89aae489d8e614bd5cd1be6c5a77b8185c40f0ed77",
+    "src/percolation/core.py": "6c42b28a47dc1e46de81798ab351f5e3a182c65343b2dd44fdb64befd65a5740",
+    "src/percolation/experiment.py": "a5ac5223b0c4c99717092b8c1b61732aa05565365d22bb2875fed54c78bf2b03",
+    "src/percolation/plots.py": "43d7b327b5dd85b7d9c326201a94be83f5dfb523443076fc65a769667d2eb95c",
     "src/percolation/statistics.py": "c3d0e61befc87483a810975c098fa8c13c83e3177d622b3baab884ec7f2a0b13",
-    "src/percolation/theory.py": "224dbb9f33b9925c60dd58e4038c07bd56c0cff35c768bd8b972155ff1fa4aa5",
-    "scripts/percolation.py": "c25c9b16f855c49157ebe28c6803efb75cd7128395addd6b986aa49c7e93bde4"
+    "src/percolation/theory.py": "3e08bda1b5fa71425ef8885e8c1eddf55a7e1ef5953f19019a8eaa01a50a2708",
+    "scripts/percolation.py": "3e0cbeb5a46d7d61ce1b9cfd0d186fbb0d2f4d74043915fffa6d44e975ac9830"
   },
+  "input_directory": "data/experiments/part_c",
+  "text_hash_policy": "SHA-256 after CRLF to LF normalization; binary files hashed unchanged",
   "requirements_file": "requirements.txt",
-  "requirements_sha256": "26f225511cc9bf4d46f9c0ddce1c203d1e7984eb9259b4bf602c52f8238a9abb"
+  "requirements_sha256": "fd048d2c9fc3cef8aa768f93383aa7a3dd37f93f0d9c621be15d2c786ae7f548"
 }
