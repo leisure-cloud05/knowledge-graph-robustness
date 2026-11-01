@@ -598,7 +598,7 @@ Keep the same workload and damage scenarios across strategies and calculate diff
 
 ## 11. Network-informed Edge Protection (Part D)
 
-**Status:** Protocol, selection algorithms and the paired-run interface are complete. Eight minimal acceptance scenarios passed. The 60-scenario pilot, 1,320-scenario full study and protection-effectiveness analysis remain to be completed by teammates.
+**Status:** Completed. The fixed protocol and selection algorithms passed the eight-scenario acceptance check. The 60-scenario pilot and 1,320-scenario full experiment were completed and validated; paired statistics, computational-cost summaries, and the final figure are available.
 
 ### 11.1 Protection strategies and protocol
 
@@ -608,14 +608,17 @@ Random uses one fixed allocation with seed 2026 across all trials and q values. 
 
 ### 11.2 Execution
 
-The unified entry point is `scripts/protection.py`. Run commands from the repository root in the PC5253-KG environment. Outputs require a new directory; existing results are preserved.
+The unified entry point is `scripts/protection.py`. Run commands from the repository root in the PC5253-KG environment. Experiment outputs require a new directory; existing results are preserved. The commands below reproduce the protocol in a fresh output directory; do not overwrite frozen inputs or committed results.
 
 ```bash
-# Repeat minimal acceptance in a new directory
+# Optional: repeat minimal acceptance in a new directory
 python scripts/protection.py --stage acceptance --output results/part_d/acceptance_repeat
-# Teammate tasks: pilot and full runs
-python scripts/protection.py --stage pilot
-python scripts/protection.py --stage full
+# Re-run pilot or full only with a new output directory
+python scripts/protection.py --stage pilot --output results/part_d/pilot_repeat
+python scripts/protection.py --stage full --output results/part_d/full_repeat
+# Regenerate statistical tables and the consolidated figure from the saved full results
+python scripts/analyze_protection.py
+python scripts/plot_protection.py
 ```
 
 The pilot uses four strategies, trials 0–4 and q=0.2/0.3/0.4. The full study uses four strategies, 30 trials and q=0/0.1/…/1.0. Strategy, trial and q subsets can be selected explicitly; see the [Part D handoff](docs/part_d_handoff.md) for commands, output fields and responsibilities.
@@ -624,12 +627,22 @@ The pilot uses four strategies, trials 0–4 and q=0.2/0.3/0.4. The full study u
 
 | Location | Content and status |
 | --- | --- |
-| `results/part_d/selection/` | Three 170-edge protection lists and selection timing metadata; available |
+| `results/part_d/selection/` | Three fixed 170-edge protection lists and selection timing metadata; available |
 | `results/part_d/acceptance/` | Eight minimal acceptance scenarios and validation records; passed |
-| `results/part_d/pilot/` | 60-scenario pre-experiment; not yet run |
-| `results/part_d/full/` | 1,320-scenario formal comparison; not yet run |
+| `results/part_d/pilot/` | 60 paired pilot scenarios; completed and validated |
+| `results/part_d/full/` | 1,320 paired full-study scenarios; completed and validated |
+| `results/part_d/analysis/` | Q/S summaries, paired improvements, direct comparisons, timing and key-q tables; completed |
+| `results/part_d/analysis/figures/part_d_final_figure.png` | Consolidated four-panel results figure; available |
 
-Each experiment directory contains `runs.csv`, `validation.json` and `manifest.json`. Checks cover paired deletion samples, retained protection edges, None reproduction of Part C, original inputs unchanged and the q=0 endpoint. Acceptance validates implementation correctness; it does not establish strategy effectiveness or ranking. Statistical summaries, comparison figures and research conclusions follow the full experiment.
+Each experiment directory contains `runs.csv`, `validation.json` and `manifest.json`. Checks cover paired deletion samples, retained protection edges, None reproduction of Part C, original inputs unchanged and the q=0 endpoint. Full-study validation reports `passed=true`, `full_design_executed=true` and 1,320 scenarios. The experiment reports structural query availability, not semantic answer accuracy.
+
+### 11.4 Statistical results and interpretation
+
+For each q, Q and S were summarized over 30 paired failure trials using sample standard deviations and pointwise 95% Student's t confidence intervals. Strategy gains are calculated by first subtracting the None outcome within the same trial/q. Direct Betweenness–Degree comparisons use the same pairing.
+
+At q=0.4, mean Q was 0.5247 (None), 0.5500 (Random), 0.6153 (Degree), and 0.6200 (Betweenness). Betweenness and Degree had higher mean Q than Random; however, their direct paired Q difference at q=0.4 was 0.00467 (95% CI: −0.00483 to 0.01417), which does not establish a clear advantage for Betweenness. At q=0.9, Degree had higher mean Q (0.1076) than Betweenness (0.0811). The Q and S rankings are not identical across failure probabilities.
+
+The recorded per-scenario processing times exclude preprocessing and independent cache verification. Recorded selector execution time for Betweenness excludes computing exact edge betweenness from scratch. Confidence intervals are conditional on the fixed graph, query workload and fixed protection sets, and are not adjusted for multiple comparisons. Full results and limitations are discussed in [Part D results and discussion](docs/part_d_results.md).
 
 ## 12. Limitations
 
@@ -647,35 +660,34 @@ The following limitations should be considered when interpreting the results:
 
 6. **Structural rather than semantic evaluation:** A path within three hops indicates structural association, not necessarily semantically correct reasoning or question answering.
 
-7. **Protection effectiveness remains unevaluated:** Minimal interface acceptance passed, but formal strategy comparisons are pending. Greater baseline robustness does not guarantee that degree-based or edge-betweenness-based protection will outperform random edge protection.
+7. **Conditional protection evidence:** The formal comparison uses one graph, one fixed query workload, one protection budget and fixed protection sets. Thirty trials quantify failure-draw variability, not graph-sampling or protection-set variability. Pointwise confidence intervals are not corrected for multiple comparisons; selection timing excludes full betweenness preprocessing.
 
 The sampling comparison supports the selection of an experimental graph for the current project. It does not establish an optimal general-purpose ConceptNet sampling strategy.
 
-## 13. Next Steps
+## 13. Project Status and Follow-up
 
-The frozen Greedy graph is the common input. Parts A–C are complete; the Part D selectors and paired-run interface are implemented locally. Teammates next run the pilot/full study and compare strategies using the saved Part C workload and damage scenarios.
+The frozen Greedy graph is the common input. Parts A–D have completed their documented experiments. The remaining work is to integrate the results into the team submission and, if desired, evaluate generalization beyond the fixed graph, query workload and protection budget.
 
 **Part B — Network Structure Analysis (Completed)**
 
-The frozen Greedy graph was analyzed using NetworkX. The analysis covers degree distribution, clustering coefficient, connected components, edge betweenness centrality, and network visualization.
-
-Results are available in `results/part_b/`.
+The frozen Greedy graph was analyzed using NetworkX. The analysis covers degree distribution, clustering coefficient, connected components, edge betweenness centrality, and network visualization. Results are available in `results/part_b/`.
 
 **Part C — Random Edge Failure (Completed)**
 
 - Fixed 150-query workload, independent edge failures, Q/Q2/Q3/S and outcome breakdowns.
 - 30 trials per q, saved random draws and repeated-trial uncertainty.
 - Run `python scripts/percolation.py`; outputs are under `results/part_c/`.
-- Reusable damage/evaluation interfaces support the next member's protection work.
+- Reusable damage/evaluation interfaces provide the paired baseline for Part D.
 
-**Part D — Network-informed Edge Protection (Protocol and Interface Completed; Experiments Pending)**
+**Part D — Network-informed Edge Protection (Completed)**
 
-- Random edge protection
-- Degree-based edge protection
-- Edge-betweenness-based edge protection
-- Comparison under a fixed 5% protection budget
-- Evaluation against the unprotected baseline
+- Fixed 170-edge Random, Degree and Betweenness protection sets, with None as baseline.
+- 60 pilot and 1,320 full paired scenarios, with recorded validation and manifests.
+- Per-q Q/S summaries, paired gains, direct Degree–Betweenness comparisons and timing summaries.
+- A consolidated figure and [Part D results and discussion](docs/part_d_results.md).
 
-Part D should reuse the formal Part C graph, frozen query file, edge ordering, and failure draws to keep strategy comparisons paired.
+The frozen Part C graph, queries, edge ordering and failure draws remain unchanged. The results are specific to this graph and workload; further budget, workload and graph sensitivity studies are possible follow-up work, not part of the completed protocol.
+
+Fixed inputs (`queries.csv`, `edge_order.csv`, `failure_draws.csv`, `failure_uniforms.npy`) are stored in `data/experiments/part_c/`; all other generated Part C tables, metadata and figures are in `results/part_c/`. Text output is UTF-8/LF. Text SHA-256 checks normalize CRLF to LF; binary hashes are unchanged. Frozen queries are compared as parsed fields, not raw text. See [local integration and file moves](docs/local_integration.md).
 
 Fixed inputs (`queries.csv`, `edge_order.csv`, `failure_draws.csv`, `failure_uniforms.npy`) are stored in `data/experiments/part_c/`; all other generated Part C tables, metadata and figures are in `results/part_c/`. Text output is UTF-8/LF. Text SHA-256 checks normalize CRLF to LF; binary hashes are unchanged. Frozen queries are compared as parsed fields, not raw text. See [local integration and file moves](docs/local_integration.md).
