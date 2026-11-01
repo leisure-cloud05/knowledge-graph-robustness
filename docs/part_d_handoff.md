@@ -153,3 +153,35 @@ macOS 或其他成员电脑：激活满足要求的环境后，用 `python scrip
 ## 当前可直接转发的说明
 
 我已完成 Part D 的协议固定、三种选边算法验收及公共故障接口接入。三种保护预算均为 170 条，Random 固定使用种子 2026 的同一个保护集合。正式图、查询和失效样本沿用 Part C；已有 8 场景接入验收通过，但没有运行正式 60 场景预实验或 1,320 场景完整实验。请先按本说明运行 pilot 并核验，再运行 full，随后完成统计、图表和讨论。算法/接口若有问题由我协助修复，研究效果由后续正式结果判断。代码和新目录目前仅在本地，交接时需要包含全部新增文件。
+
+---
+
+## 后续执行完成记录（2026-11-01）
+
+以上正文保留 2026-10-31 交接时的历史状态与操作说明。下表为后续完成情况，**以本节为当前状态**；原文中的“未运行”“待完成”和“仅在本地”等描述仅反映当时的交接时间点。
+
+| 步骤 | 完成情况 | 主要产物 |
+| --- | --- | --- |
+| 4 预实验 | 已完成：4 策略 × 3 档 q × 5 trial = 60 场景；内部验证通过 | `results/part_d/pilot/` |
+| 5 完整实验 | 已完成：4 策略 × 11 档 q × 30 trial = 1,320 场景 | `results/part_d/full/` |
+| 6 验收 | 已核对场景覆盖、配对键、主要图结构约束、结果哈希和程序验证记录 | `full/validation.json`、`full/manifest.json` |
+| 7 统计 | 已完成 Q/S 均值、样本标准差、逐点 95% t 区间、相对 None 配对提升、Betweenness–Degree 直接比较及计时汇总 | `results/part_d/analysis/*.csv` |
+| 8 绘图 | 已完成一张四面板正式图（Q、S、配对 ΔQ、直接比较） | `results/part_d/analysis/figures/part_d_final_figure.png` |
+| 9 解释与报告 | 已形成结果、统计解释、计算成本、局限性和结论的英文文档 | `docs/part_d_results.md` |
+
+### 主要结果与解释边界
+
+在 q=0.4 时，None、Random、Degree、Betweenness 的平均 Q 分别为 0.5247、0.5500、0.6153、0.6200。Betweenness 相对 Degree 的配对平均差为 0.00467，逐点 95% CI 为 [−0.00483, 0.01417]，不能据此认定其明显优于 Degree。q=0.9 时 Degree 的平均 Q 为 0.1076，高于 Betweenness 的 0.0811。Q 和 S 的策略排序不总是一致。
+
+置信区间只反映固定图、查询和固定保护集合下的 30 次故障试验波动，未进行多重比较校正。q=1 时仅剩固定保护子图，结果对各 trial 是确定性的。`selection_seconds` 不包含从头计算精确边介数的成本，也不代表端到端性能基准。详见 [Part D 正式结果报告](part_d_results.md)。
+
+### 复现与提交说明
+
+在仓库根目录使用 Python 3.11.16 环境执行：
+
+```powershell
+python scripts/analyze_protection.py
+python scripts/plot_protection.py
+```
+
+上述命令从已保存的 `results/part_d/full/runs.csv` 重新生成分析 CSV 和最终图片，不改变冻结图、查询、故障矩阵、保护清单或实验协议。正式结果目录中的原始 manifest 与哈希应原样保留；计时字段属于原运行环境。建议将本节和 `docs/part_d_results.md` 随正式实验产物一并提交。
