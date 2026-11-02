@@ -71,7 +71,21 @@ def load_runs(input_path: Path) -> pd.DataFrame:
     if df[list(required)].isna().any().any():
         raise ValueError("Required experimental fields contain NaN.")
 
-    df["q"] = df["q"].round(1)
+    raw_q = df["q"].to_numpy(dtype=float)
+    rounded_q = np.round(raw_q, 1)
+
+    if not np.isfinite(raw_q).all():
+        raise ValueError("Non-finite failure probabilities.")
+
+    if not np.allclose(
+        raw_q,
+        rounded_q,
+        atol=1e-10,
+        rtol=0,
+    ):
+        raise ValueError("Unexpected failure probabilities.")
+
+    df["q"] = rounded_q
 
     expected = {
         (strategy, trial, q)
