@@ -1,6 +1,7 @@
 
 """Generate one four-panel publication-style figure for Part D."""
 
+import argparse
 from pathlib import Path
 
 import matplotlib
@@ -15,7 +16,6 @@ from matplotlib.axes import Axes
 
 ROOT = Path(__file__).resolve().parents[1]
 ANALYSIS_DIR = ROOT / "results" / "part_d" / "analysis"
-OUTPUT_DIR = ANALYSIS_DIR / "figures"
 
 STRATEGIES = ("none", "random", "degree", "betweenness")
 PROTECTED = STRATEGIES[1:]
@@ -84,9 +84,9 @@ def configure_style() -> None:
     })
 
 
-def load_table(filename: str) -> pd.DataFrame:
+def load_table(filename: str, input_dir: Path) -> pd.DataFrame:
     """Load a required statistical CSV file."""
-    path = ANALYSIS_DIR / filename
+    path = input_dir / filename
 
     if not path.is_file():
         raise FileNotFoundError(f"Missing statistical file: {path}")
@@ -445,6 +445,7 @@ def create_final_figure(
     summary: pd.DataFrame,
     improvements: pd.DataFrame,
     direct: pd.DataFrame,
+    output_dir: Path,
 ) -> None:
     """Create and save one consolidated four-panel figure."""
     fig, axes = plt.subplots(
@@ -506,12 +507,12 @@ def create_final_figure(
         wspace=0.32,
     )
 
-    OUTPUT_DIR.mkdir(
+    output_dir.mkdir(
         parents=True,
         exist_ok=True,
     )
 
-    output_path = OUTPUT_DIR / "part_d_final_figure.png"
+    output_path = output_dir / "part_d_final_figure.png"
 
     fig.savefig(
         output_path,
@@ -528,11 +529,38 @@ def create_final_figure(
 
 def main() -> None:
     """Validate inputs and generate the final Part D figure."""
+    parser = argparse.ArgumentParser(
+        description="Plot Part D statistics as one four-panel figure."
+    )
+    parser.add_argument(
+        "--input",
+        type=Path,
+        default=ANALYSIS_DIR,
+        help="Statistics directory (default: results/part_d/analysis).",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=None,
+        help="Figure directory (default: <input>/figures).",
+    )
+    args = parser.parse_args()
+
+    input_dir = args.input.resolve()
+    output_dir = (
+        args.output.resolve()
+        if args.output is not None
+        else input_dir / "figures"
+    )
+
+    print(f"Input directory: {input_dir}")
+    print(f"Output directory: {output_dir}")
+
     configure_style()
 
-    summary = load_table("summary.csv")
-    improvements = load_table("paired_improvements.csv")
-    direct = load_table("direct_comparisons.csv")
+    summary = load_table("summary.csv", input_dir)
+    improvements = load_table("paired_improvements.csv", input_dir)
+    direct = load_table("direct_comparisons.csv", input_dir)
 
     validate_statistics(
         summary,
@@ -550,6 +578,7 @@ def main() -> None:
         summary,
         improvements,
         direct,
+        output_dir,
     )
 
     print("\nStep 8 visualization completed successfully.")
