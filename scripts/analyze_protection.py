@@ -1,6 +1,7 @@
 
 """Analyze Part D edge-protection experiments and computational costs."""
 
+import argparse
 import json
 from pathlib import Path
 
@@ -48,12 +49,12 @@ def calculate_stats(values: pd.Series) -> dict[str, float]:
     }
 
 
-def load_runs() -> pd.DataFrame:
+def load_runs(input_path: Path) -> pd.DataFrame:
     """Load and validate the complete factorial experiment."""
-    if not RUNS_PATH.is_file():
-        raise FileNotFoundError(f"Missing experiment file: {RUNS_PATH}")
+    if not input_path.is_file():
+        raise FileNotFoundError(f"Missing experiment file: {input_path}")
 
-    df = pd.read_csv(RUNS_PATH)
+    df = pd.read_csv(input_path)
 
     required = {
         "strategy",
@@ -305,8 +306,33 @@ def create_key_comparisons(
 
 def main() -> None:
     """Run all statistical analyses and export CSV results."""
-    df = load_runs()
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    parser = argparse.ArgumentParser(
+        description="Analyze Part D full-experiment results."
+    )
+    parser.add_argument(
+        "--input",
+        type=Path,
+        default=RUNS_PATH,
+        help="Full-experiment runs.csv (default: results/part_d/full/runs.csv).",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=OUTPUT_DIR,
+        help="Statistics directory (default: results/part_d/analysis).",
+    )
+    args = parser.parse_args()
+
+    input_path = args.input.resolve()
+    output_dir = args.output.resolve()
+
+    if output_dir == input_path.parent or output_dir in input_path.parents:
+        raise ValueError("Output directory must not contain the input CSV.")
+
+    df = load_runs(input_path)
+
+    print(f"Input: {input_path}")
+    print(f"Output directory: {output_dir}")
 
     summary = summarize_metrics(df)
 
@@ -340,8 +366,10 @@ def main() -> None:
         "timing_summary.csv": timing,
     }
 
+    output_dir.mkdir(parents=True, exist_ok=True)
+
     for filename, table in outputs.items():
-        path = OUTPUT_DIR / filename
+        path = output_dir / filename
 
         table.to_csv(
             path,
