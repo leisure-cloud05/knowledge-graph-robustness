@@ -608,20 +608,48 @@ Random uses one fixed allocation with seed 2026 across all trials and q values. 
 
 ### 11.2 Execution
 
-The unified entry point is `scripts/protection.py`. Run commands from the repository root in the PC5253-KG environment. Experiment outputs require a new directory; existing results are preserved. The commands below reproduce the protocol in a fresh output directory; do not overwrite frozen inputs or committed results.
+Part D experiments can be executed using the existing frozen inputs and protection lists. The saved pilot and full experiment results have already been validated. Reproduction runs should use separate output directories to avoid overwriting the original results.
+
+**Re-run the experiments:**
 
 ```bash
-# Optional: repeat minimal acceptance in a new directory
+# Optional: repeat the acceptance test
 python scripts/protection.py --stage acceptance --output results/part_d/acceptance_repeat
-# Re-run pilot or full only with a new output directory
+
+# Repeat the 60-scenario pilot experiment
 python scripts/protection.py --stage pilot --output results/part_d/pilot_repeat
+
+# Repeat the 1,320-scenario full experiment
 python scripts/protection.py --stage full --output results/part_d/full_repeat
-# Regenerate statistical tables and the consolidated figure from the saved full results
+```
+
+**Analyze and visualize the saved original results:**
+
+The following commands use the default paths and regenerate the statistical summaries and final figure from the saved full-experiment data.
+
+```bash
 python scripts/analyze_protection.py
 python scripts/plot_protection.py
 ```
 
-The pilot uses four strategies, trials 0–4 and q=0.2/0.3/0.4. The full study uses four strategies, 30 trials and q=0/0.1/…/1.0. Strategy, trial and q subsets can be selected explicitly; see the [Part D handoff](docs/part_d_handoff.md) for commands, output fields and responsibilities.
+By default, the analysis script reads `results/part_d/full/runs.csv` and writes five statistical CSV files to `results/part_d/analysis/`. The plotting script reads these statistical files and saves the final four-panel figure to `results/part_d/analysis/figures/part_d_final_figure.png`.
+
+**Analyze and visualize the reproduced results:**
+
+To analyze the newly generated full-experiment data, specify the input and output paths explicitly:
+
+```bash
+python scripts/analyze_protection.py --input results/part_d/full_repeat/runs.csv --output results/part_d/analysis_repeat
+python scripts/plot_protection.py --input results/part_d/analysis_repeat
+```
+
+This workflow reads the reproduced experimental records, generates five statistical CSV files in `results/part_d/analysis_repeat/`, and saves the corresponding figure to `results/part_d/analysis_repeat/figures/part_d_final_figure.png`.
+
+Both scripts support `--input` and `--output` command-line arguments. When these arguments are omitted, the original default paths are used. The plotting script saves its figure to the `figures/` subdirectory of the selected analysis input directory unless another output directory is specified.
+
+The reproduced experiment uses the same frozen graph, query workload, protection lists, and failure draws as the original experiment. Scientific metrics such as Q and S should match when the code and inputs are unchanged, although execution-time measurements and complete CSV hashes may differ across runs.
+
+Reproduced outputs are intended for independent verification and do not need to be committed to the repository.
 
 ### 11.3 Outputs and validation
 
