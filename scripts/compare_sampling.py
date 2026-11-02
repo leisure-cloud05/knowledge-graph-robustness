@@ -21,16 +21,18 @@ MAX_NODES = 1000
 
 
 def load_frozen_graph():
-    """Load the original Part A graph."""
+    """Load the original Lexicographic graph."""
     G = nx.Graph()
 
-    with (DATA_DIR / "nodes.csv").open(
+    data_dir = DATA_DIR / "lexicographic_backup"
+
+    with (data_dir / "nodes.csv").open(
         encoding="utf-8-sig"
     ) as f:
         for row in csv.DictReader(f):
             G.add_node(row["concept"])
 
-    with (DATA_DIR / "edges.csv").open(
+    with (data_dir / "edges.csv").open(
         encoding="utf-8-sig"
     ) as f:
         for row in csv.DictReader(f):

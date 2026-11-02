@@ -171,8 +171,8 @@ def main():
 
     # Load both graphs
     lex = load_graph(
-        DATA_DIR / "nodes.csv",
-        DATA_DIR / "edges.csv",
+        DATA_DIR / "lexicographic_backup" / "nodes.csv",
+        DATA_DIR / "lexicographic_backup" / "edges.csv",
     )
 
     greedy = load_graph(
