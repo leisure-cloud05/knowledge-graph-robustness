@@ -1,4 +1,7 @@
+
 # Part D 算法与实验接口交接
+
+**当前状态（2026-11-02）：Part D 第 1～9 步均已完成。** 正式实验、结果验收、配对统计、可视化和英文结果报告均已生成。本文前半部分保留 2026 年 10 月 31 日的原始交接记录，其中“待完成”“尚未运行”和“仅在本地”等描述属于历史状态。最新完成情况见文末“后续执行完成记录”，研究结果见 [Part D 正式结果报告](part_d_results.md)。
 
 截至 2026 年 10 月 31 日，Part D 的第 1～3 步已经完成：实验协议已确定，三种保护算法及清单已验收，统一配对实验入口已接通。已在正式图上运行 8 个最小接入验收场景，全部通过正确性检查。后续第 4～9 步由接手组员执行：预实验、完整实验、验收、统计、绘图、解释与报告。
 
@@ -177,11 +180,38 @@ macOS 或其他成员电脑：激活满足要求的环境后，用 `python scrip
 
 ### 复现与提交说明
 
-在仓库根目录使用 Python 3.11.16 环境执行：
+在仓库根目录使用 Python 3.11.16 环境执行。
+
+**重新生成已保存正式实验的统计结果：**
 
 ```powershell
 python scripts/analyze_protection.py
 python scripts/plot_protection.py
 ```
 
-上述命令从已保存的 `results/part_d/full/runs.csv` 重新生成分析 CSV 和最终图片，不改变冻结图、查询、故障矩阵、保护清单或实验协议。正式结果目录中的原始 manifest 与哈希应原样保留；计时字段属于原运行环境。建议将本节和 `docs/part_d_results.md` 随正式实验产物一并提交。
+默认读取 `results/part_d/full/runs.csv`，生成五份统计 CSV 到 `results/part_d/analysis/`，并保存四面板图片至 `results/part_d/analysis/figures/part_d_final_figure.png`。默认执行会覆盖同名分析文件和图片，但不会修改原始 `full/runs.csv`。
+
+**使用独立目录重新运行完整实验：**
+
+```powershell
+python scripts/protection.py --stage full --output results/part_d/full_repeat
+```
+
+新运行目录包含 `runs.csv`、`validation.json` 和 `manifest.json`。正式复现应检查 `validation.passed=true`、`full_design_executed=true` 和 1,320 条场景记录。
+
+**对重新运行的数据进行统计和绘图：**
+
+```powershell
+python scripts/analyze_protection.py --input results/part_d/full_repeat/runs.csv --output results/part_d/analysis_repeat
+python scripts/plot_protection.py --input results/part_d/analysis_repeat
+```
+
+该流程读取 `full_repeat/runs.csv`，将五份统计 CSV 保存至 `analysis_repeat/`，并将最终图片保存至 `analysis_repeat/figures/`，不会覆盖已验收的正式实验及分析结果。
+
+两个后处理脚本均支持 `--input` 和 `--output` 参数。不传参数时使用原正式实验的默认路径；绘图脚本未指定 `--output` 时，默认保存到指定统计输入目录下的 `figures/`。
+
+已使用同一份正式 `runs.csv` 测试自定义输入、输出路径，五份统计 CSV 与原分析输出的 SHA-256 均一致，绘图成功。该测试证明路径配置与统计输出的一致性，不等同于重新执行 1,320 场景的完整实验复现。
+
+完整复现时应在相同 `(strategy, trial, q)` 下比较 Q、S 和图结构指标。运行时间和整个 CSV 的哈希可能因运行环境而变化，不应仅凭计时字段差异判断科学结果不可复现。
+
+冻结图、查询、故障矩阵、保护清单和实验协议不得修改。正式结果目录中的原始 manifest 与哈希应原样保留。`full_repeat/` 和 `analysis_repeat/` 属于本地复现输出，不需要提交到 GitHub。
